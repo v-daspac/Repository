@@ -139,8 +139,7 @@ Unterstützung für dynamische Gruppenmitgliedschaft über die öffentliche Vors
 
 |**Änderungstyp**|**Version**|**Beschreibung**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|
-  **onlineMeetingUrl**-Eigenschaft zur [Ereignis](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/event)-Ressource hinzugefügt.|
+|Ergänzungen|v1.0|**onlineMeetingUrl**-Eigenschaft zur [Ereignis](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/event)-Ressource hinzugefügt.|
 |Ergänzungen|Beta|Die [forward](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/event_forward)-Aktion wurde zur Ereignisressource hinzugefügt.|
 |Ergänzungen|Beta|Die folgenden Eigenschaften wurden zur [calendar](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/calendar)-Ressource zur Unterstützung der Freigabe von Kalendern hinzugefügt: **canEdit**, **canShare**, **canViewPrivateItems**, **isShared**, **isShareWithMe** und **Besitzer**.|
 
@@ -149,8 +148,7 @@ Unterstützung für dynamische Gruppenmitgliedschaft über die öffentliche Vors
 |**Änderungstyp**|**Version**|**Beschreibung**|
 |:--------------|:-----------|:--------------|
 |Ergänzungen|v1.0|[mailboxSettings](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/mailboxsettings) komplexer Typ, einschließlich der **automaticRepliesSetting**-, **timeZone**- und **Sprache**-Eigenschaften hinzugefügt.|
-|Ergänzungen|v1.0|
-  **mailboxSettings**-Eigenschaft zur [Benutzer](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/user)-Ressource hinzugefügt.|
+|Ergänzungen|v1.0|**mailboxSettings**-Eigenschaft zur [Benutzer](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/user)-Ressource hinzugefügt.|
 |Ergänzungen|Beta|Unterstützung für das Erstellen, Auflisten, Abrufen und Löschen einer oder mehrerer Instanzen von [Erwähnungen](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/mention) in einer Nachricht hinzugefügt. Erwähnungen unterstützen Aufrufe, um die Aufmerksamkeit anderer Benutzer in einer Nachricht zu erhalten.|
 |Ergänzungen|Beta|Unterstützung für die [getMailTips](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/user_getmailtips)-Aktion, um beliebige MailTips für bestimmte Empfänger zu erhalten hinzugefügt. Folgende Ressourcen wurden hinzugefügt: automaticRepliesMailTips, mailTips, mailTipsError.|
 
@@ -207,8 +205,7 @@ Unterstützung für dynamische Gruppenmitgliedschaft über die öffentliche Vors
 
 |**Änderungstyp**|**Version**|**Beschreibung**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|REST-APIs für Privileged Identity Management (PIM) sind jetzt im Beta-Endpunkt von Microsoft Graph verfügbar. [Privileged Identity Management](https://azure.microsoft.com/en-us/documentation/articles/active-directory-privileged-identity-management-configure/) ermöglicht eine Just-In-Time-Aktivierung für privilegierte Azure AD-Rollen wie globaler Administrator, Abrechnungsadministrator usw. Mit den veröffentlichten APIs können Sie Anwendungen schreiben, die privilegierte Rollenzuweisungen abrufen und aktualisieren und Benutzer in Rollen aktivieren. Weitere Informationen finden Sie unter [Microsoft Graph: Azure AD Privileged Identity Management Vorschau-APIs sind verfügbar in Beta](http://dev.office.com/blogs/microsoft-graph-azure-ad-privileged-identity-management-apis-beta) und [Azure AD Privileged Identity Management](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/privilegedidentitymanagement_root).
-|
+|Ergänzungen|Beta|REST-APIs für Privileged Identity Management (PIM) sind jetzt im Beta-Endpunkt von Microsoft Graph verfügbar. [Privileged Identity Management](https://azure.microsoft.com/en-us/documentation/articles/active-directory-privileged-identity-management-configure/) ermöglicht eine Just-In-Time-Aktivierung für privilegierte Azure AD-Rollen wie globaler Administrator, Abrechnungsadministrator usw. Mit den veröffentlichten APIs können Sie Anwendungen schreiben, die privilegierte Rollenzuweisungen abrufen und aktualisieren und Benutzer in Rollen aktivieren. Weitere Informationen finden Sie unter [Microsoft Graph: Azure AD Privileged Identity Management Vorschau-APIs sind verfügbar in Beta](http://dev.office.com/blogs/microsoft-graph-azure-ad-privileged-identity-management-apis-beta) und [Azure AD Privileged Identity Management](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/privilegedidentitymanagement_root).|
 
 ## <a name="july-2016"></a>Juli 2016
   
@@ -361,7 +358,7 @@ Unterstützung für dynamische Gruppenmitgliedschaft über die öffentliche Vors
 |:--------------|:-----------|:--------------|
 |Ergänzungen|v1.0 und Beta|Verbesserung von Fehlermeldungen beim Auflösen von Mandantenalias- und abgelehnten JWT-Token (AAD).|
 |Ergänzungen|v1.0 und Beta|Der Ort für den Autorisierungsdienstendpunkt wird jetzt in dem _www-authenticate_-Header zurückgegeben, wenn eine Anforderung mit einem leeren Bearertoken empfangen wird.|
-Ergänzungen|v1.0 und Beta|Die Funktion zum Filtern nach ID-Eigenschaft einer Entität wurde behoben. Beispiel: GET https://graph.microsoft.com/v1.0/users?$filter=id+eq+'x'<br/>Bisher musste bei allen POST-Anforderungen für Dienstaktionen und Funktionen der Aktion oder dem Funktionsnamen ein Präfix mithilfe von microsoft.graph vorangestellt werden. Beispiel: POST https://graph.microsoft.com/v1.0/me/Microsoft.Graph.getMemberGroups<br/>Das Präfix ist nun nicht mehr erforderlich (obwohl es immer noch angegeben werden kann). Folgendes würde jetzt daher funktionieren: POST https://graph.microsoft.com/v1.0/me/getMemberGroups|
+|Ergänzungen|v1.0 und Beta|Die Funktion zum Filtern nach ID-Eigenschaft einer Entität wurde behoben. Beispiel: GET https://graph.microsoft.com/v1.0/users?$filter=id+eq+'x'<br/>Bisher musste bei allen POST-Anforderungen für Dienstaktionen und Funktionen der Aktion oder dem Funktionsnamen ein Präfix mithilfe von microsoft.graph vorangestellt werden. Beispiel: POST https://graph.microsoft.com/v1.0/me/Microsoft.Graph.getMemberGroups<br/>Das Präfix ist nun nicht mehr erforderlich (obwohl es immer noch angegeben werden kann). Folgendes würde jetzt daher funktionieren: POST https://graph.microsoft.com/v1.0/me/getMemberGroups|
 |Ändern|Beta|Abonnement-Eigenschaftennamen bereinigt.|
 |Ergänzungen|Beta|Wir haben die Möglichkeit zum Ermitteln von (über _directorySettingTemplates_) und Außerkraftsetzen des Standardverhaltens (durch Erstellen einer _Einstellung_ aus der Vorlage) für Entitäten und die zugehörigen Funktionen hinzugefügt. Anfangs konnten die Verhaltensweisen für Office-Gruppen nur über die Vorlage gesteuert werden.|
 
