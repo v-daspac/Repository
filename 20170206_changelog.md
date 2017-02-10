@@ -8,23 +8,9 @@ Dieses Änderungsprotokoll deckt alle Änderungen in Microsoft Graph ab, einschl
 
 |**Änderungstyp**|**Version**|**Beschreibung**|
 |:-------------|:-----------|:--------------|
-|Ergänzungen|Beta|Hinzugefügte neue Entitäten: <br/>
-  [appReportingOverviewStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_appreportingoverviewstatus)<br/>
-  [deviceComplianceDeviceOverview](https://graph.microsoft.io/en-us/docs//api-reference/beta/resources/intune_deviceconfig_devicecompliancedeviceoverview)<br/>
-  [deviceConfigurationDeviceOverview](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_deviceconfigurationdeviceoverview)<br/>
-  [deviceManagementExchangeOnpremisesPolicy](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_onboarding_devicemanagementexchangeonpremisespolicy)<br/>
-  [iosDeviceFeaturesConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_iosdevicefeaturesconfiguration)<br/>
-  [iosEducationDeviceConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_ioseducationdeviceconfiguration)<br/>
-  [iosLobAppProvisioningConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_ioslobappprovisioningconfiguration)<br/>
-  [onpremisesConditionalAccessSettings](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_onboarding_onpremisesconditionalaccesssettings)<br/>
-  [sharedPCConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_sharedpcconfiguration)<br/>
-  [windows10EnterpriseModernAppManagementConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10enterprisemodernappmanagementconfiguration)<br/>
-  [windows10SecureAssessmentConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10secureassessmentconfiguration)<br/>
-  [windows10WindowsInformationProtectionConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10windowsinformationprotectionconfiguration)|
+|Ergänzungen|Beta|Hinzugefügte neue Entitäten: <br/>[appReportingOverviewStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_appreportingoverviewstatus)<br/>[deviceComplianceDeviceOverview](https://graph.microsoft.io/en-us/docs//api-reference/beta/resources/intune_deviceconfig_devicecompliancedeviceoverview)<br/>[deviceConfigurationDeviceOverview](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_deviceconfigurationdeviceoverview)<br/>[deviceManagementExchangeOnpremisesPolicy](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_onboarding_devicemanagementexchangeonpremisespolicy)<br/>[iosDeviceFeaturesConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_iosdevicefeaturesconfiguration)<br/>[iosEducationDeviceConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_ioseducationdeviceconfiguration)<br/>[iosLobAppProvisioningConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_ioslobappprovisioningconfiguration)<br/>[onpremisesConditionalAccessSettings](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_onboarding_onpremisesconditionalaccesssettings)<br/>[sharedPCConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_sharedpcconfiguration)<br/>[windows10EnterpriseModernAppManagementConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10enterprisemodernappmanagementconfiguration)<br/>[windows10SecureAssessmentConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10secureassessmentconfiguration)<br/>[windows10WindowsInformationProtectionConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10windowsinformationprotectionconfiguration)|
 |Löschung|Beta|Die folgenden komplexen Typen wurden entfernt und durch microsoft.graph.json ersetzt:<br/>managedAppDeploymentSummary <br/>managedAppSummary |
-|Ändern|Beta|Der Eigenschaftentyp „appConfigComplianceStatus“ wurde in den folgenden Entitäten durch „complianceStatus“ ersetzt: <br/>
-  [managedDeviceMobileAppConfigurationDeviceStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_manageddevicemobileappconfigurationdevicestatus)<br/>
-  [managedDeviceMobileAppConfigurationUserStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_manageddevicemobileappconfigurationuserstatus)<br/><br/>Für die Ressource [managedAppStatusRaw](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_mam_managedappstatusraw) wurde der Typ des Eigenschafteninhalts von „managedAppSummary“ in „json“ geändert.|
+|Ändern|Beta|Der Eigenschaftentyp „appConfigComplianceStatus“ wurde in den folgenden Entitäten durch „complianceStatus“ ersetzt: <br/>[managedDeviceMobileAppConfigurationDeviceStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_manageddevicemobileappconfigurationdevicestatus)<br/>[managedDeviceMobileAppConfigurationUserStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_manageddevicemobileappconfigurationuserstatus)<br/><br/>Für die Ressource [managedAppStatusRaw](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_mam_managedappstatusraw) wurde der Typ des Eigenschafteninhalts von „managedAppSummary“ in „json“ geändert.|
 
 ## <a name="january-2017"></a>Januar 2017
 
@@ -34,14 +20,7 @@ Dieses Änderungsprotokoll deckt alle Änderungen in Microsoft Graph ab, einschl
 |:-------------|:-----------|:--------------|
 |Ergänzungen|v1.0|Neue Aktion [findMeetingTimes](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/api/user_findmeetingtimes) für die [Benutzer](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/user)-Ressource.|
 |Ergänzungen|v1.0|Neuer komplexer Typ [attendeeBase](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendeebase), der  aus einer Typeigenschaft für den Teilnehmertyp besteht.|
-|Ergänzungen|v1.0|Neue komplexe Typen:<br/>
-  [attendeeAvailability](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendeeavailability)<br/>
-  [locationConstraint](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/locationconstraint) <br/>
-  [locationConstraintItem](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/locationconstraintitem)<br/>
-  [meetingTimeSuggestion](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/meetingtimesuggestion)<br/>
-  [meetingTimeSuggestionsResult](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/meetingtimesuggestionsresult)<br/>
-  [timeConstraint](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/timeconstraint)<br/>
-  [timeSlot](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/timeslot)|
+|Ergänzungen|v1.0|Neue komplexe Typen:<br/>[attendeeAvailability](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendeeavailability)<br/>[locationConstraint](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/locationconstraint) <br/>[locationConstraintItem](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/locationconstraintitem)<br/>[meetingTimeSuggestion](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/meetingtimesuggestion)<br/>[meetingTimeSuggestionsResult](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/meetingtimesuggestionsresult)<br/>[timeConstraint](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/timeconstraint)<br/>[timeSlot](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/timeslot)|
 |Änderung|v1.0|Der komplexe Typ des [Teilnehmers](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendee) wird jetzt von AttendeeBase abgeleitet, der wiederum vom [Empfänger](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/recipient) abgeleitet wird. Einschließlich die vererbten Eigenschaften besteht es aus denselben **Status**-, **Typ**- und **E-Mail-Adresse**-Eigenschaften wie zuvor.|
 |Ergänzungen|Beta|hexColor zur [Kalender](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/calendar)-Ressource hinzugefügt.|
 
@@ -51,10 +30,7 @@ Dieses Änderungsprotokoll deckt alle Änderungen in Microsoft Graph ab, einschl
 
 |**Änderungstyp**|**Version**|**Beschreibung**|
 |:-------------|:-----------|:--------------|
-|Ergänzungen|Beta|Eine neue Deltafunktion zu folgenden Elemente hinzufügen, um [Delta Abfrage](https://graph.microsoft.io/en-us/docs/concepts/delta_query_overview) auszuführen:<br/>contact<br/>contactFolder<br/>event<br/>group<br/>mailFolder<br/>message<br/>user<br/>Beispiele finden Sie unter Folgendem:<br/>
-  [Inkrementelle Änderungen an Gruppen abrufen (Vorschau)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_groups)<br/>
-  [Inkrementelle Änderungen an Nachrichten in einem Ordner abrufen (Vorschau)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_message)<br/>
-  [Inkrementelle Änderungen an Benutzern abrufen (Vorschau)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_users)|
+|Ergänzungen|Beta|Eine neue Deltafunktion zu folgenden Elemente hinzufügen, um [Delta Abfrage](https://graph.microsoft.io/en-us/docs/concepts/delta_query_overview) auszuführen:<br/>contact<br/>contactFolder<br/>event<br/>group<br/>mailFolder<br/>message<br/>user<br/>Beispiele finden Sie unter Folgendem:<br/>[Inkrementelle Änderungen an Gruppen abrufen (Vorschau)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_groups)<br/>[Inkrementelle Änderungen an Nachrichten in einem Ordner abrufen (Vorschau)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_message)<br/>[Inkrementelle Änderungen an Benutzern abrufen (Vorschau)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_users)|
 
 ### <a name="excel-apis"></a>Excel-APIs
 
@@ -115,8 +91,7 @@ Dieses Änderungsprotokoll deckt alle Änderungen in Microsoft Graph ab, einschl
 
 |**Änderungstyp**|**Version**|**Beschreibung**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|
-  [Erweiterte Eigenschaften](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/extended-properties-overview) werden jetzt von folgenden Ressourcen unterstützt: Nachricht, mailFolder, Ereignis, Kalender, Kontakt, contactFolder, Gruppenereignis, Gruppenkalender, Gruppenbeitrag.|
+|Ergänzungen|v1.0|[Erweiterte Eigenschaften](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/extended-properties-overview) werden jetzt von folgenden Ressourcen unterstützt: Nachricht, mailFolder, Ereignis, Kalender, Kontakt, contactFolder, Gruppenereignis, Gruppenkalender, Gruppenbeitrag.|
 
 ### <a name="groups"></a>Gruppen
 
@@ -173,8 +148,7 @@ Unterstützung für dynamische Gruppenmitgliedschaft über die öffentliche Vors
 
 |**Änderungstyp**|**Version**|**Beschreibung**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|
-  [mailboxSettings](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/mailboxsettings) komplexer Typ, einschließlich der **automaticRepliesSetting**-, **timeZone**- und **Sprache**-Eigenschaften hinzugefügt.|
+|Ergänzungen|v1.0|[mailboxSettings](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/mailboxsettings) komplexer Typ, einschließlich der **automaticRepliesSetting**-, **timeZone**- und **Sprache**-Eigenschaften hinzugefügt.|
 |Ergänzungen|v1.0|
   **mailboxSettings**-Eigenschaft zur [Benutzer](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/user)-Ressource hinzugefügt.|
 |Ergänzungen|Beta|Unterstützung für das Erstellen, Auflisten, Abrufen und Löschen einer oder mehrerer Instanzen von [Erwähnungen](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/mention) in einer Nachricht hinzugefügt. Erwähnungen unterstützen Aufrufe, um die Aufmerksamkeit anderer Benutzer in einer Nachricht zu erhalten.|
