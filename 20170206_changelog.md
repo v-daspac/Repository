@@ -1,496 +1,496 @@
-# <a name="changelog-for-microsoft-graph"></a>Änderungsprotokoll für Microsoft Graph
+# <a name="changelog-for-microsoft-graph"></a>Microsoft Graph の変更ログ
 
-Dieses Änderungsprotokoll deckt alle Änderungen in Microsoft Graph ab, einschließlich der Version 1.0 und des Beta-Endpunkts von Microsoft Graph-APIs.  
+この変更ログでは、Microsoft Graph と、v1.0 およびベータ版のエンドポイント Microsoft Graph API の変更内容について説明します。  
 
-## <a name="february-2017"></a>Februar 2017
+## <a name="february-2017"></a>2017 年 2 月
 
-### <a name="intune-apis"></a>Intune APIs
+### <a name="intune-apis"></a>Intune API
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:-------------|:-----------|:--------------|
-|Ergänzungen|Beta|Hinzugefügte neue Entitäten: <br/>[appReportingOverviewStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_appreportingoverviewstatus)<br/>[deviceComplianceDeviceOverview](https://graph.microsoft.io/en-us/docs//api-reference/beta/resources/intune_deviceconfig_devicecompliancedeviceoverview)<br/>[deviceConfigurationDeviceOverview](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_deviceconfigurationdeviceoverview)<br/>[deviceManagementExchangeOnpremisesPolicy](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_onboarding_devicemanagementexchangeonpremisespolicy)<br/>[iosDeviceFeaturesConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_iosdevicefeaturesconfiguration)<br/>[iosEducationDeviceConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_ioseducationdeviceconfiguration)<br/>[iosLobAppProvisioningConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_ioslobappprovisioningconfiguration)<br/>[onpremisesConditionalAccessSettings](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_onboarding_onpremisesconditionalaccesssettings)<br/>[sharedPCConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_sharedpcconfiguration)<br/>[windows10EnterpriseModernAppManagementConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10enterprisemodernappmanagementconfiguration)<br/>[windows10SecureAssessmentConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10secureassessmentconfiguration)<br/>[windows10WindowsInformationProtectionConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10windowsinformationprotectionconfiguration)|
-|Löschung|Beta|Die folgenden komplexen Typen wurden entfernt und durch microsoft.graph.json ersetzt:<br/>managedAppDeploymentSummary <br/>managedAppSummary |
-|Ändern|Beta|Der Eigenschaftentyp „appConfigComplianceStatus“ wurde in den folgenden Entitäten durch „complianceStatus“ ersetzt: <br/>[managedDeviceMobileAppConfigurationDeviceStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_manageddevicemobileappconfigurationdevicestatus)<br/>[managedDeviceMobileAppConfigurationUserStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_manageddevicemobileappconfigurationuserstatus)<br/><br/>Für die Ressource [managedAppStatusRaw](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_mam_managedappstatusraw) wurde der Typ des Eigenschafteninhalts von „managedAppSummary“ in „json“ geändert.|
+|追加|ベータ版|新しいエンティティを追加しました。 <br/>[appReportingOverviewStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_appreportingoverviewstatus)<br/>[deviceComplianceDeviceOverview](https://graph.microsoft.io/en-us/docs//api-reference/beta/resources/intune_deviceconfig_devicecompliancedeviceoverview)<br/>[deviceConfigurationDeviceOverview](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_deviceconfigurationdeviceoverview)<br/>[deviceManagementExchangeOnpremisesPolicy](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_onboarding_devicemanagementexchangeonpremisespolicy)<br/>[iosDeviceFeaturesConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_iosdevicefeaturesconfiguration)<br/>[iosEducationDeviceConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_ioseducationdeviceconfiguration)<br/>[iosLobAppProvisioningConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_ioslobappprovisioningconfiguration)<br/>[onpremisesConditionalAccessSettings](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_onboarding_onpremisesconditionalaccesssettings)<br/>[sharedPCConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_sharedpcconfiguration)<br/>[windows10EnterpriseModernAppManagementConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10enterprisemodernappmanagementconfiguration)<br/>[windows10SecureAssessmentConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10secureassessmentconfiguration)<br/>[windows10WindowsInformationProtectionConfiguration](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_deviceconfig_windows10windowsinformationprotectionconfiguration)|
+|削除|ベータ版|次の複合型を削除し、microsoft.graph.json に置き換えました。<br/>managedAppDeploymentSummary <br/>managedAppSummary |
+|変更|ベータ版|次のエンティティで、プロパティの種類 appConfigComplianceStatus を complianceStatus に置き換えました。 <br/>[managedDeviceMobileAppConfigurationDeviceStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_manageddevicemobileappconfigurationdevicestatus)<br/>[managedDeviceMobileAppConfigurationUserStatus](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_apps_manageddevicemobileappconfigurationuserstatus)<br/><br/>リソース [managedAppStatusRaw](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_mam_managedappstatusraw) について、プロパティ コンテンツの種類を managedAppSummary から json に変更しました。|
 
-## <a name="january-2017"></a>Januar 2017
+## <a name="january-2017"></a>2017 年 1 月
 
-### <a name="outlook-calendar"></a>Outlook-Kalender
+### <a name="outlook-calendar"></a>Outlook カレンダー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:-------------|:-----------|:--------------|
-|Ergänzungen|v1.0|Neue Aktion [findMeetingTimes](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/api/user_findmeetingtimes) für die [Benutzer](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/user)-Ressource.|
-|Ergänzungen|v1.0|Neuer komplexer Typ [attendeeBase](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendeebase), der  aus einer Typeigenschaft für den Teilnehmertyp besteht.|
-|Ergänzungen|v1.0|Neue komplexe Typen:<br/>[attendeeAvailability](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendeeavailability)<br/>[locationConstraint](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/locationconstraint) <br/>[locationConstraintItem](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/locationconstraintitem)<br/>[meetingTimeSuggestion](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/meetingtimesuggestion)<br/>[meetingTimeSuggestionsResult](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/meetingtimesuggestionsresult)<br/>[timeConstraint](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/timeconstraint)<br/>[timeSlot](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/timeslot)|
-|Änderung|v1.0|Der komplexe Typ des [Teilnehmers](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendee) wird jetzt von AttendeeBase abgeleitet, der wiederum vom [Empfänger](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/recipient) abgeleitet wird. Einschließlich die vererbten Eigenschaften besteht es aus denselben **Status**-, **Typ**- und **E-Mail-Adresse**-Eigenschaften wie zuvor.|
-|Ergänzungen|Beta|hexColor zur [Kalender](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/calendar)-Ressource hinzugefügt.|
+|追加|v1.0|[user](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/user) リソースの新しいアクション [findMeetingTimes](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/api/user_findmeetingtimes)。|
+|追加|v1.0|新しい複合型 [attendeeBase](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendeebase)。attendee 型の型プロパティで構成されます。|
+|追加|v1.0|新しい複合型:<br/>[attendeeAvailability](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendeeavailability)<br/>[locationConstraint](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/locationconstraint) <br/>[locationConstraintItem](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/locationconstraintitem)<br/>[meetingTimeSuggestion](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/meetingtimesuggestion)<br/>[meetingTimeSuggestionsResult](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/meetingtimesuggestionsresult)<br/>[timeConstraint](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/timeconstraint)<br/>[timeSlot](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/timeslot)|
+|変更|v1.0|[attendee](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/attendee) 複合型は、[recipient](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/recipient) から派生する attendeeBase から派生するようになりました。継承されたプロパティを含めて、以前と同じ **status**、**type**、**emailAddress** プロパティで構成されます。|
+|追加|ベータ版|hexColor が、[calendar](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/calendar) リソースに追加されました。|
 
-## <a name="december-2016"></a>Dezember 2016
+## <a name="december-2016"></a>2016 年 12 月
 
-### <a name="delta-query"></a>Delta-Abfrage
+### <a name="delta-query"></a>デルタ クエリ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:-------------|:-----------|:--------------|
-|Ergänzungen|Beta|Eine neue Deltafunktion zu folgenden Elemente hinzufügen, um [Delta Abfrage](https://graph.microsoft.io/en-us/docs/concepts/delta_query_overview) auszuführen:<br/>contact<br/>contactFolder<br/>event<br/>group<br/>mailFolder<br/>message<br/>user<br/>Beispiele finden Sie unter Folgendem:<br/>[Inkrementelle Änderungen an Gruppen abrufen (Vorschau)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_groups)<br/>[Inkrementelle Änderungen an Nachrichten in einem Ordner abrufen (Vorschau)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_message)<br/>[Inkrementelle Änderungen an Benutzern abrufen (Vorschau)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_users)|
+|追加|ベータ版|[デルタ クエリ](https://graph.microsoft.io/en-us/docs/concepts/delta_query_overview)を実行するため、以下のエンティティに新しいデルタ関数が追加されました。<br/>contact<br/>contactFolder<br/>event<br/>group<br/>mailFolder<br/>message<br/>user<br/>例については、以下をご覧ください。<br/>[グループへの増分の変更を取得する (プレビュー)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_groups)<br/>[フォルダー内のメッセージへの増分の変更を取得する (プレビュー)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_message)<br/>[ユーザーへの増分の変更を取得する (プレビュー)](https://graph.microsoft.io/en-us/docs/concepts/delta_query_users)|
 
-### <a name="excel-apis"></a>Excel-APIs
+### <a name="excel-apis"></a>Excel API
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:-------------|:-----------|:--------------|
-|Ergänzungen|v1.0|workbookPivotTable-Ressource, refresh- und refreshAll-Aktion für pivotTables, workbookRangeView-Ressource, visibleView-Aktion für den gefilterten Bereich zum Zurückgeben von workbookRangeView an den Benutzer, Abrufen der Sammlung rows und range-Ressource deaktiviert für visibleView, Funktionen columnsAfter, columnsBefore, resizedRange, rowsAbove und rowsBelow deaktiviert für range-Ressource und neue Tabelleneigenschaften hinzugefügt.|
+|追加|v1.0|workbookPivotTable リソース、pivotTables の refresh および refreshAll アクション、workbookRangeView リソース、フィルターされた範囲に対して実行して workbookRangeView をユーザーに返す visibleView アクション、visibleView からの行コレクションと範囲リソースの取得、範囲リソースからの columnsAfter、columnsBefore、resizedRange、rowsAbove、rowsBelow 関数、および新しいテーブル プロパティが追加されました。|
 
-### <a name="intune-apis"></a>Intune APIs
+### <a name="intune-apis"></a>Intune API
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:-------------|:-----------|:--------------|
-|Ergänzungen|Beta|Ressourcen und Methode-APIs für Microsoft Intune hinzugefügt. Dies ist eine große Gruppe von Ressourcen und Methoden, um die öffentliche Vorschau von Intune auf Azure-Portal zu unterstützen. Informationen über den Dienst Intune finden Sie unter der [Intune Dokumentation](https://go.microsoft.com/fwlink/?linkid=836405). Informationen zu den Intune Ressourcen und APIs finden Sie unter [Arbeiten mit Intune in Microsoft Graph](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_graph_overview).|
+|追加|ベータ版|Microsoft Intune に、リソースとメソッド API が追加されました。これには、Azure ポータルでの Intune のパブリック プレビューをサポートする多数のリソースとメソッドのセットが含まれます。Intune サービスの詳細については、[Intune のドキュメント](https://go.microsoft.com/fwlink/?linkid=836405) をご覧ください。Intune のリソースと API の詳細については、「[Microsoft Graph での Intune の使用](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/intune_graph_overview)」をご覧ください。|
 
-## <a name="october-2016"></a>Oktober 2016
+## <a name="october-2016"></a>2016 年 10 月
 
-### <a name="authorization-provider"></a>Autorisierungsanbieter
+### <a name="authorization-provider"></a>認証プロバイダー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:-------------|:-----------|:--------------|
-|Ergänzungen|v1.0 und Beta|Der v2-Authentifizierungsendpunkt unterstützt jetzt die OAuth-Clientgenehmigung „_credentials“, die für [Dämone und lange ausgeführte Prozesse in Geschäftsszenarien](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-protocols-oauth-client-creds/) verwendet werden kann.|
-|Ergänzungen|v1.0 und Beta|Der v2-Authentifizierungsendpunkt unterstützt jetzt [Berechtigungsbereiche, die die Zustimmung des Administrators erfordern](http://graph.microsoft.io/en-us/docs/authorization/permission_scopes#permission-scope-details), über den [Administratorzustimmungs-Endpunkt](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-scopes/#admin-restricted-scopes).|
-|Ergänzungen|v1.0 und Beta|Der v2-Authentifizierungsendpunkt unterstützt jetzt die Administratorzustimmung für alle Benutzer in einem Mandanten über die [Administratorzustimmungs-Endpunkt](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-scopes/#admin-restricted-scopes).|
+|追加|v1.0 およびベータ版|v2.0 認証エンドポイントでは、[ビジネス シナリオでのデーモン プロセスおよび長時間実行プロセス](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-protocols-oauth-client-creds/)で使える client_credentials OAuth 許可がサポートされるようになりました。|
+|追加|v1.0 およびベータ版|v2.0 認証エンドポイントでは、[管理者の同意エンドポイント](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-scopes/#admin-restricted-scopes)経由で、[管理者の同意を必要とするアクセス許可のスコープ](http://graph.microsoft.io/en-us/docs/authorization/permission_scopes#permission-scope-details)がサポートされるようになりました。|
+|追加|v1.0 およびベータ版|v2.0 認証エンドポイントでは、[管理者の同意エンドポイント](https://azure.microsoft.com/en-us/documentation/articles/active-directory-v2-scopes/#admin-restricted-scopes)経由で、テナント内のすべてのユーザーに対する管理者の同意がサポートされるようになりました。|
 
-### <a name="invitation-apis"></a>Einladungs-APIs
+### <a name="invitation-apis"></a>招待 API
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:-------------|:-----------|:--------------|
-|Ergänzungen|Beta|Die invitedUserType-Eigenschaft wurde dem Einladungsentitätstyp hinzugefügt, der den Typ von Benutzer definiert („Gast“ oder „Mitglied“), der eingeladen wird.|
-|Löschung|Beta|Die invitedToGroups-Eigenschaft wird am 11.11.2016 aus dem Einladungsentitätstyp entfernt. Dies bedeutet, dass Sie mithilfe dieser API keinen eingeladenen Benutzer mehr zu einer Gruppe hinzufügen können. Verwenden von [API zum Hinzufügen von Mitglieder](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/api/group_post_members) zum Hinzufügen eines Benutzers zu einer Gruppe.|
+|追加|ベータ版|招待エンティティの型に、招待するユーザー (“ゲスト” または “メンバー”) の種類を定義する invitedUserType プロパティが追加されました。|
+|削除|ベータ版|2016 年 11 月 11 日付けで、招待のエンティティ型から invitedToGroups プロパティが削除されます。このため、この API を使用して、招待したユーザーをグループに追加することができなくなります。代わりに、[メンバー追加 API](https://graph.microsoft.io/en-us/docs/api-reference/v1.0/api/group_post_members) を使ってユーザーをグループに追加することになります。|
 
-## <a name="september-2016"></a>September 2016
+## <a name="september-2016"></a>2016 年 9 月
 
-### <a name="azure-ad-application-proxy"></a>Azure AD-Anwendungsproxy
+### <a name="azure-ad-application-proxy"></a>Azure AD アプリケーション プロキシ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Azure AD-Anwendungsproxy-APIs sind jetzt im Beta-Endpunkt von Microsoft Graph verfügbar. Diese APIs ermöglichen die sichere Veröffentlichung von lokalen Anwendungen für Benutzer außerhalb des Organisationsnetzwerks unter Verwendung von Azure AD als allgemeine Zugriffssteuerebene. Mit den veröffentlichten APIs können Sie Anwendungen schreiben, die verschiedene Aspekte vom Anwendungsproxy abrufen und aktualisieren können, u. a. _Connectors_, _connectorGroups_ und _onPremisesPublishing_-Einstellungen einer Anwendung.|
+|追加|ベータ版|Azure AD アプリケーション プロキシ API が、Microsoft Graph ベータ エンドポイントで利用可能になりました。これらの API では、アクセスのための共通のコントロール プレーンとして Azure AD を使用し、企業ネットワーク外のユーザーにオンプレミス アプリケーションをセキュアに発行できます。発行された API を使用すると、アプリケーションの _connectors_、_connectorGroups_、_onPremisesPublishing_ の設定など、アプリケーション プロキシのさまざまな側面を取得、更新するアプリケーションを作成できます。|
 
-### <a name="drive"></a>Laufwerk
+### <a name="drive"></a>ドライブ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Die _freigegebene_ Sammlung wurde hinzugefügt, um Zugriff auf freigegebene driveItems über shareId oder Freigabe-URL zu ermöglichen.|
-|Ergänzungen|Beta|Die _search_-Funktion wurde zu einem Laufwerk hinzugefügt, um mehr Elemente als nur die im Stammordner des Laufwerks durchsuchen zu können.|
+|追加|ベータ版|shareId または共有 URL により共有されている driveItems にアクセスできる _shared_ コレクションが追加されました。|
+|追加|ベータ版|ドライブに _search_ 関数が追加され、ドライブのルート フォルダー内の項目だけを検索するよりも多くの項目を検索できるようになりました。|
  
 
 ### <a name="driveitem"></a>DriveItem
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Zusätzliche Unterstützung für _createUploadSession_, sodass Dateien, die größer als 4 MB sind, in OneDrive, OneDrive for Business und SharePoint-Dokumentbibliotheken hochgeladen werden können.|
-|Ergänzungen|Beta|Die_sharepointIds_-Eigenschaft für driveItem wurde hinzugefügt, mit der die herkömmlichen IDs für SharePoint API für in SharePoint gespeicherte driveItems-Elemente zurückgegeben werden.|
-|Ergänzungen|Beta|Zusätzliche Eigenschaften für _remoteItem_ hinzugefügt.|
-|Ergänzungen|Beta|_quickXorHash_-Wert für Dateien in OneDrive for Business hinzugefügt.|
-|Ergänzungen|Beta|Bereich für _createSharingLink_ hinzugefügt, mit dem Unternehmen freizugebende Links oder anonyme freizugebende Links erstellen können.|
+|追加|ベータ版|_createUploadSession_ のサポートが追加され、OneDrive、OneDrive for Business、SharePoint のドキュメント ライブラリに 4 MB を超えるファイルをアップロードできるようになりました。|
+|追加|ベータ版|SharePoint に保存されている driveItems の従来の SharePoint API 識別子を返す、driveItem に _sharepointIds_ プロパティが追加されました。|
+|追加|ベータ版|_remoteItem_ に他のプロパティが追加されました。|
+|追加|ベータ版|OneDrive for Business のファイルに対して _quickXorHash_ 値が追加されました。|
+|追加|ベータ版|_createSharingLink_ にスコープが追加され、会社の共有可能なリンクまたは匿名の共有リンクが作成できるようになりました。|
 
-### <a name="extended-properties"></a>Erweiterte Eigenschaften
+### <a name="extended-properties"></a>拡張プロパティ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|[Erweiterte Eigenschaften](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/extended-properties-overview) werden jetzt von folgenden Ressourcen unterstützt: Nachricht, mailFolder, Ereignis, Kalender, Kontakt, contactFolder, Gruppenereignis, Gruppenkalender, Gruppenbeitrag.|
+|追加|v1.0|[拡張プロパティ](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/extended-properties-overview)が、次のリソースでサポートされるようになりました: message, mailFolder, event, calendar, contact, contactFolder, group event, group calendar, group post。|
 
-### <a name="groups"></a>Gruppen
+### <a name="groups"></a>グループ
 
-Unterstützung für dynamische Gruppenmitgliedschaft über die öffentliche Vorschau-API hinzugefügt, einschließlich der aufgelisteten Zusätze in der folgenden Tabelle:
+パブリック プレビューの API により、動的グループ メンバーシップのサポートが追加されました。追加された内容の一部を、次の表に記載します。
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Hinzugefügte **membershipRule**-Eigenschaft enthält Regeln, die die Mitgliedschaften für diese Gruppe steuern, wenn es sich bei der Gruppe um eine dynamische Gruppe handelt.|
-|Ergänzungen|Beta|Die **membershipRuleProcessingState**-Eigenschaft wurde hinzugefügt, mit der gesteuert wird, ob die Verarbeitung dynamischer Mitgliedschaften für diese Gruppe aktiviert oder angehalten ist.|
-|Ergänzungen|Beta|Legen Sie die **groupTypes**-Eigenschaft so fest, dass sie **„DynamicMembership“** enthält, um die Funktionen der dynamischen Gruppen für diese Gruppe zu erweitern|
-|Ergänzungen|Beta|Die **preferredLanguage**-Eigenschaft wurde hinzugefügt, um die bevorzugte Sprache für eine Office 365-Gruppe anzugeben.|
-|Ergänzungen|Beta|Die **theme**-Eigenschaft wurde hinzugefügt, um ein Farbschema für eine Office 365-Gruppe anzugeben.|
+|追加|ベータ版|グループが動的グループの場合に、このグループのメンバーシップを制御する規則を含む、**membershipRule** プロパティが追加されました。|
+|追加|ベータ版|このグループに対する動的メンバーシップの処理が実行中または一時停止中であるかどうかを制御するための **membershipRuleProcessingState** プロパティが追加されました。|
+|追加|ベータ版|**"DynamicMembership"** を含むように **groupTypes** プロパティを設定して、このグループの動的グループ機能を強化できます。|
+|追加|ベータ版|Office 365 グループの優先言語を示すための **preferredLanguage** プロパティが追加されました。|
+|追加|ベータ版|Office 365 グループの色のテーマを指定するための **theme** プロパティが追加されました。|
 
-### <a name="hybrid-deployment-support"></a>Unterstützung für Hybridbereitstellung
+### <a name="hybrid-deployment-support"></a>ハイブリッド展開のサポート
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|Apps können Version 1.0 von Outlook-Mail, -Kalender und Kontakte-APIs für den Zugriff auf lokale Postfächer in einer Hybridbereitstellung mit Exchange 2016 mit kumulativem Update 3 (KU3) verwenden. Erfahren Sie mehr über die REST-API-Unterstützung in [Hybridbereitstellungen](https://graph.microsoft.io/en-us/docs/overview/hybrid_rest_support). **Hinweis:** Wenn Sie diese API-Sets in Version 1.0 verwenden, können Sie jetzt Ihre Apps, einschließlich Produktions-Apps für lokale Postfächer verwenden, die den spezifischen Anforderungen für Hybridbereitstellung entsprechen. Diese Funktion ist derzeit in der Vorschau.|
+|追加|v1.0|アプリで v1.0 Outlook メール、カレンダー、連絡先の API を使用して、Exchange 2016 累積的な更新プログラム 3 (CU3) を使用したハイブリッド展開のオンプレミスのメールボックスにアクセスできます。REST API サポートの詳細については、特定の[ハイブリッド展開](https://graph.microsoft.io/en-us/docs/overview/hybrid_rest_support)をご覧ください。**注:**v1.0 のこれらの API セットを使用している場合、特定のハイブリッド展開の要件を満たすオンプレミスのメールボックスで機能する、運用アプリを含むアプリを検出できるようになりました。この機能はプレビューでのみ使用できます。|
 
 ### <a name="identityriskevents"></a>IdentityRiskEvents
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Änderung|Beta|Im Rahmen der Schemaänderungen, bei denen der Typ der zwei location-Eigenschaften durch einen neuen komplexen Typ in dem identityRiskEvents-Endpunkt ersetzt wird, werden die folgenden Eigenschaften für den identityRiskEvents-Endpunkt geändert/hinzugefügt:</br>**location** – geändert von Edm.String zu ComplexType signInLocation.<br/>**previousLocation** – geändert von Edm.String zu ComplexType signInLocation.<br/>**signInLocation** – neuer ComplexType, der Ort, Bundesland, countryOrRegion und geoCoordinates-Eigenschaften enthält.<br/>**geoCoordinates** – neuer ComplexType, der Breiten- und Längengradeigenschaften enthält.|
+|変更|ベータ版|2 つの場所のプロパティの型が identityRiskEvents エンドポイントの新しい複合型で置き換えられるスキーマ変更の一環として、次のプロパティが identityRiskEvents エンドポイントで変更/追加されました。</br>**location** – Edm.String から ComplexType signInLocation に変更されました。<br/>**previousLocation** – Edm.String から ComplexType signInLocation に変更されました。<br/>**signInLocation** – city、state、countryOrRegion、geoCoordinates プロパティを含む新しい ComplexType です。<br/>**geoCoordinates** – latitude と longitude プロパティを含む新しい ComplexType です。|
 
-### <a name="invitation-manager"></a>Einladungs-Manager
+### <a name="invitation-manager"></a>招待マネージャー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Einladungs-Manager-APIs sind jetzt im Beta-Endpunkt von Microsoft Graph verfügbar. Verwenden Sie Einladungs-Manager-APIs, um eine Einladung zum Hinzufügen eines externen Benutzers zu der Organisation zu erstellen. Im Rahmen der Einladung können Sie auch angeben, ob der eingeladene Benutzer zu einer Office 365-Gruppe hinzugefügt werden soll. Weitere Informationen finden Sie im [Einladungs-Manager](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/invitation).|
+|追加|ベータ版|招待マネージャー API が、Microsoft Graph ベータ エンドポイントで利用可能になりました。招待マネージャー API を使用して、組織に外部ユーザーを追加するための招待状を作成します。招待の一環として、招待されたユーザーを Office 365 グループに追加することも選択できます。詳細については、[招待マネージャー](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/invitation)をご覧ください。|
 
 ### <a name="onedrive"></a>OneDrive
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|**CreateUploadSession**-Methode für **driveItem** hinzugefügt, die Uploads von großen Dateien und wiederaufnehmbare Uploads ermöglicht.|
-|Ergänzungen|v1.0|Eigenschaften für das Nachverfolgen von SharePoint-IDs für Elemente aus SharePoint (**sharepointIds**) und eine Eigenschaft zum Identifizieren von Stammordnern (**root**) hinzugefügt.|
-|Ergänzungen|v1.0|**Shares**-Stammsammlung hinzugefügt, die mit shareIds oder Freigabelinks für den Zugriff auf freigegebene Elemente in OneDrive und SharePoint verwendet werden kann. Gibt den neuen Typ sharedDriveItem zurück.|
-|Ergänzungen|v1.0|**Invite**-Methode für driveItem zum Hinzufügen von Berechtigungen für Elemente hinzugefügt. |
-|Ergänzungen|v1.0|**Search**-Methode für das Laufwerk, mit der Elemente im Laufwerk und freigegebene Elemente durchsucht werden können hinzugefügt. |
-|Ergänzungen|v1.0|**processingMetadata**-Eigenschaft für quickXorHash-Eigenschaft mit komplexem Dateityp für Hashes mit komplexem Typ hinzugefügt. |
-|Ergänzungen|v1.0|**quickXorHash**-Eigenschaft für Hashes mit komplexem Typ hinzugefügt |
+|追加|v1.0|**driveItem** の **CreateUploadSession** メソッドが追加され、サイズの大きなファイルの再開可能なアップロードができるようになります。|
+|追加|v1.0|SharePoint から項目の SharePoint ID を追跡する複数のプロパティ (**sharepointIds**) と、ルート フォルダーを識別する 1 つのプロパティ (**root**) が追加されました。|
+|追加|v1.0|**Shares** ルート コレクションが追加されました。shareIds または共有リンクとともに使用して、OneDrive と SharePoint の共有項目にアクセスできます。新しい型 sharedDriveItem を返します。|
+|追加|v1.0|driveItem の **Invite** メソッドが追加されました。項目へのアクセス許可を追加できます。 |
+|追加|v1.0|ドライブの **Search** メソッドが追加されました。ドライブ内の項目と共有された項目を対象とした検索が可能です。 |
+|追加|v1.0|ファイル複合型の **processingMetadata** プロパティ、ハッシュ複合型の quickXorHash プロパティが追加されました。 |
+|追加|v1.0|ハッシュ複合型の **quickXorHash** プロパティが追加されました。 |
 
-### <a name="outlook-calendar"></a>Outlook-Kalender
+### <a name="outlook-calendar"></a>Outlook カレンダー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|**onlineMeetingUrl**-Eigenschaft zur [Ereignis](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/event)-Ressource hinzugefügt.|
-|Ergänzungen|Beta|Die [forward](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/event_forward)-Aktion wurde zur Ereignisressource hinzugefügt.|
-|Ergänzungen|Beta|Die folgenden Eigenschaften wurden zur [calendar](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/calendar)-Ressource zur Unterstützung der Freigabe von Kalendern hinzugefügt: **canEdit**, **canShare**, **canViewPrivateItems**, **isShared**, **isShareWithMe** und **Besitzer**.|
+|追加|v1.0|**onlineMeetingUrl** プロパティが、[event](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/event) リソースに追加されました。|
+|追加|ベータ版|event リソースに [forward](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/event_forward) アクションが追加されました。|
+|追加|ベータ版|カレンダーの共有をサポートする次のプロパティが、[calendar](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/calendar) リソースに追加されました: **canEdit**、**canShare**、**canViewPrivateItems**、**isShared**、**isShareWithMe**、**owner**。|
 
-### <a name="outlook-mail"></a>Outlook-Mail
+### <a name="outlook-mail"></a>Outlook メール
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|[mailboxSettings](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/mailboxsettings) komplexer Typ, einschließlich der **automaticRepliesSetting**-, **timeZone**- und **Sprache**-Eigenschaften hinzugefügt.|
-|Ergänzungen|v1.0|**mailboxSettings**-Eigenschaft zur [Benutzer](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/user)-Ressource hinzugefügt.|
-|Ergänzungen|Beta|Unterstützung für das Erstellen, Auflisten, Abrufen und Löschen einer oder mehrerer Instanzen von [Erwähnungen](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/mention) in einer Nachricht hinzugefügt. Erwähnungen unterstützen Aufrufe, um die Aufmerksamkeit anderer Benutzer in einer Nachricht zu erhalten.|
-|Ergänzungen|Beta|Unterstützung für die [getMailTips](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/user_getmailtips)-Aktion, um beliebige MailTips für bestimmte Empfänger zu erhalten hinzugefügt. Folgende Ressourcen wurden hinzugefügt: automaticRepliesMailTips, mailTips, mailTipsError.|
+|追加|v1.0|[mailboxSettings](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/mailboxsettings) 複合型が追加されました。これには **automaticRepliesSetting**、**timeZone**、**language** プロパティが含まれています。|
+|追加|v1.0|**mailboxSettings** プロパティが [user](http://graph.microsoft.io/en-us/docs/api-reference/v1.0/resources/user) リソースに追加されました。|
+|追加|ベータ版|メッセージに含まれる[参照投稿](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/mention)の 1 つ以上のインスタンスを作成、一覧表示、取得、削除する機能のサポートが追加されました。参照投稿は、他のユーザーの注意を引きつけるためのメッセージ内のコールアウトをサポートしています。|
+|追加|ベータ版|[getMailTips](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/user_getmailtips) アクションのサポートが追加され、特定の受信者のすべてのメール ヒントを取得できるようになりました。次のリソースが追加されました: automaticRepliesMailTips、mailTips、mailTipsError。|
 
-### <a name="query-parameters"></a>Abfrageparameter
+### <a name="query-parameters"></a>クエリ パラメーター
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Änderung|Beta|Abfrageparameter ohne '$' Präfixe sind ab dem 26.09.2016 unterstützt. Das Präfix '$' in der Abfrageparameter ist optional. Beispiele finden Sie unter [Abfrageparameter ohne $ Präfixe in Microsoft Graph unterstützen](http://dev.office.com/queryparametersinMicrosoftGraph).|
+|変更|ベータ版|2016 年 9 月 26 日現在、'$' プレフィックスなしのクエリ パラメーターがサポートされています。クエリ パラメーターの '$' プレフィックスは、オプションです。詳細については、ブログ投稿「[Microsoft Graph における $ プレフィックスのないクエリ パラメーターのサポート](http://dev.office.com/queryparametersinMicrosoftGraph)」をご覧ください。|
 
 ### <a name="sharepoint"></a>SharePoint
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Zugriff auf SharePoint-Websites und [-listen nach ID](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/list_get) oder [Pfad/URL](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/baseitem_getbyurl).|
-|Ergänzungen|Beta|Unterstützung für das [Auflisten, Erstellen, Abrufen und Löschen von Instanzen des listItem-Elements](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/listitem).|
+|追加|ベータ版|SharePoint サイトへのアクセスと、[ID ごとの一覧表示](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/list_get) または [パス/URL](http://graph.microsoft.io/en-us/docs/api-reference/beta/api/baseitem_getbyurl) ごとの一覧表示が可能になりました。|
+|追加|ベータ版|[listItem のインスタンスを一覧表示、作成、取得、削除](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/listitem)できるようになりました。|
 
-### <a name="users"></a>Benutzer
+### <a name="users"></a>ユーザー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Schreibgeschützte **refreshTokensValidFromDateTime**-Eigenschaft wurde hinzugefügt, um anzugeben, ab wann die Aktualisierungs- oder Sitzungstoken gültig sind. Alle Token, die vor diesem Zeitpunkt ausgestellt wurden, sind ungültig. Bei jedem Versuch, diese Token zu verwenden, werden Benutzer dazu aufgefordert, sich erneut anzumelden.|
-|Ergänzungen|Beta|Die **showInAddressList**-Eigenschaft wurde hinzugefügt, mit der gesteuert wird, ob die globale Adressliste von Outlook diesen Benutzer enthalten soll.|
-|Ergänzungen|Beta|Die **invalidateAllRefreshTokens**-Dienstaktion wurde hinzugefügt, mit der alle Aktualisierungs- und Sitzungstoken des Benutzers, die für Anwendungen ausgestellt wurden, ungültig werden, indem die **refreshTokensValidFromDateTime**-Benutzereigenschaft auf aktuelles Datum und aktuelle Uhrzeit zurückgesetzt wird.|
+|追加|ベータ版|更新トークンまたはセッション トークンの有効期間の開始時期を示す、読み取り専用の **refreshTokensValidFromDateTime** プロパティが追加されました。この日時より前に発行されたすべてのトークンは無効になります。また、これらのトークンを使用しようとすると、ユーザーは新たにサインインを強制されます。|
+|追加|ベータ版|Outlook のグローバル アドレス一覧にこのユーザーを含める必要があるかどうかを制御するための **showInAddressList** プロパティが追加されました。|
+|追加|ベータ版|**invalidateAllRefreshTokens** サービス アクションが追加されました。これを使って **refreshTokensValidFromDateTime** ユーザー プロパティを現在の日時にリセットすることで、アプリケーションに発行されたすべての更新トークンとセッション トークンが無効になります。|
 
 
 ### <a name="webhooks"></a>Webhooks
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Laufwerkstammelemente zu Webhooks als Ressource hinzugefügt, die abonniert werden kann.|
+|追加|ベータ版|購読可能なリソースとしてドライブのルート項目が Webhooks に追加されました。|
 
-## <a name="august-2016"></a>August 2016
+## <a name="august-2016"></a>2016 年 8 月
 
-### <a name="contacts"></a>Kontakte
+### <a name="contacts"></a>連絡先
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Im Rahmen der Schemaänderungen, bei denen einige Eigenschaften entfernt und entsprechende Sammlungen zu Kontaktendpunkten hinzugefügt wurden, wurden die folgenden Eigenschaften zu Kontaktendpunkten hinzugefügt: _Websites – Collection(ComplexType: Website)_,_Phones – Collection (ComplexType: Phone)_, _PostalAddress – Collection(ComplexType: PhysicalAddress)_. Weitere Informationen finden Sie unter dem Blogeintrag: [Upcoming changes to Contacts and People APIs](https://blogs.msdn.microsoft.com/exchangedev/2016/06/09/upcoming-changes-to-contacts-and-people-apis/).|
-|Löschung|Beta|Im Rahmen der Schemaänderungen, bei denen einige Eigenschaften entfernt und entsprechende Sammlungen zu Kontaktendpunkten hinzugefügt wurden, wurden die folgenden Eigenschaften von Kontaktendpunkten entfernt: _BusinessHomePage_,_HomePhones_, _MobilePhone1_, _BusinessPhones_, _HomeAddress_, _BusinessAddress_, _OtherAddress_. Weitere Informationen finden Sie unter dem Blogeintrag: [Upcoming changes to Contacts and People APIs](https://blogs.msdn.microsoft.com/exchangedev/2016/06/09/upcoming-changes-to-contacts-and-people-apis/).|
+|追加|ベータ版|いくつかのプロパティが削除され、対応するコレクションが連絡先エンドポイントに追加されたスキーマ変更の一環として、次のプロパティが連絡先エンドポイントに追加されました。_Websites – Collection(ComplexType:Website)_、_Phones – Collection (ComplexType:Phone)_、_PostalAddress – Collection(ComplexType:PhysicalAddress)_。詳細については、ブログ投稿「[連絡先および People API で今後予定されている変更](https://blogs.msdn.microsoft.com/exchangedev/2016/06/09/upcoming-changes-to-contacts-and-people-apis/)」をご覧ください。|
+|削除|ベータ版|いくつかのプロパティが削除され、対応するコレクションが連絡先エンドポイントに追加されたスキーマ変更の一環として、次のプロパティが連絡先エンドポイントから削除されました。_BusinessHomePage_、_HomePhones_、_MobilePhone1_、_BusinessPhones_、_HomeAddress_、_BusinessAddress_、_OtherAddress_。詳細については、ブログ投稿「[連絡先および People API で今後予定されている変更](https://blogs.msdn.microsoft.com/exchangedev/2016/06/09/upcoming-changes-to-contacts-and-people-apis/)」をご覧ください。|
 
-### <a name="excel-apis"></a>Excel-APIs
+### <a name="excel-apis"></a>Excel API
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|Excel REST-API für Microsoft Graph ist nun allgemein verfügbar. Sie können jetzt umfassende und genaue Integrationen mit Excel-Arbeitsmappen in Office 365 erstellen. Weitere Informationen finden Sie unter dem Blogeintrag [Power your apps with the new Excel REST API on the Microsoft Graph](http://dev.office.com/blogs/power-your-apps-with-the-new-excel-rest-api).|
+|追加|v1.0|Microsoft Graph の Excel REST API は一般公開されています。Office 365 の Excel ブックとの充実した高度な統合を構築できるようになりました。詳細については、ブログ投稿「[Microsoft Graph の新しい Excel REST API を使ってアプリをパワーアップする](http://dev.office.com/blogs/power-your-apps-with-the-new-excel-rest-api)」をご覧ください。|
 
-### <a name="people"></a>Kontakte
+### <a name="people"></a>複数のユーザー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Änderung|Beta|_WebSite_-Eigenschaft wurde in _Websites_ umbenannt. Weitere Informationen finden Sie unter [Upcoming changes to Contacts and People APIs](https://blogs.msdn.microsoft.com/exchangedev/2016/06/09/upcoming-changes-to-contacts-and-people-apis/).|
+|変更|ベータ版|_WebSite_ プロパティの名前が _Websites_ に変更されました。詳細については、「[連絡先および People API で今後予定されている変更](https://blogs.msdn.microsoft.com/exchangedev/2016/06/09/upcoming-changes-to-contacts-and-people-apis/)」をご覧ください。|
 
 ### <a name="privileged-identity-management"></a>Privileged Identity Management
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|REST-APIs für Privileged Identity Management (PIM) sind jetzt im Beta-Endpunkt von Microsoft Graph verfügbar. [Privileged Identity Management](https://azure.microsoft.com/en-us/documentation/articles/active-directory-privileged-identity-management-configure/) ermöglicht eine Just-In-Time-Aktivierung für privilegierte Azure AD-Rollen wie globaler Administrator, Abrechnungsadministrator usw. Mit den veröffentlichten APIs können Sie Anwendungen schreiben, die privilegierte Rollenzuweisungen abrufen und aktualisieren und Benutzer in Rollen aktivieren. Weitere Informationen finden Sie unter [Microsoft Graph: Azure AD Privileged Identity Management Vorschau-APIs sind verfügbar in Beta](http://dev.office.com/blogs/microsoft-graph-azure-ad-privileged-identity-management-apis-beta) und [Azure AD Privileged Identity Management](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/privilegedidentitymanagement_root).|
+|追加|ベータ版|Privileged Identity Management (PIM) REST API が Microsoft Graph ベータ エンドポイントで利用可能になりました。[Privileged Identity Management](https://azure.microsoft.com/en-us/documentation/articles/active-directory-privileged-identity-management-configure/) では、グローバル管理者、課金管理者など、Azure AD の組織内でのロールの「ジャスト イン タイム」アクティベーションが提供されます。発行された API を使用すると、特権ロールの割り当てを取得、更新して、ユーザーをロールにアクティブ化するアプリケーションを作成できます。詳細については、「[Microsoft Graph:ベータ版で利用可能な Azure AD Privileged Identity Management Preview API](http://dev.office.com/blogs/microsoft-graph-azure-ad-privileged-identity-management-apis-beta)」と「[Azure AD Privileged Identity Management](https://graph.microsoft.io/en-us/docs/api-reference/beta/resources/privilegedidentitymanagement_root)」をご覧ください。|
 
-## <a name="july-2016"></a>Juli 2016
+## <a name="july-2016"></a>2016 年 7 月
   
-### <a name="administrative-units"></a>Administrative Einheiten
+### <a name="administrative-units"></a>管理単位
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Die neue Administrative Unites preview API wurde eingeführt. Mit administrativen Einheiten können Organisationen ihre Azure Active Directory-Umgebung aufteilen und administrative Aufgaben auf diese Unterteilungen weitergeben. Unterteilungen können Regionen, Abteilungen, Kostenstellen usw. darstellen. Dies kann jetzt über die Microsoft Graph-API verwaltet werden.|
+|追加|ベータ版|新しい管理単位のプレビュー API が導入されました。管理単位を使用すると、組織は Azure Active Directory を分割して、サブ部門に管理職務を委任できます。サブ部門は、地域、部署、コスト センターなどを表すことができます。これを Microsoft Graph API から管理できるようになりました。|
 
-## <a name="june-2016"></a>Juni 2016
+## <a name="june-2016"></a>2016 年 6 月
 
 ### <a name="identityriskevents"></a>IdentityRiskEvents
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Die neue  IdentityRiskEvents Vorschau-API wurde eingeführt. Diese API funktioniert in Verbindung mit Azure Active Directory Identity Protection. Sie können Abfrage-Risiko-Ereignissen abfragen, die durch Identity Protection generiert wurden. Weitere Informationen finden Sie unter [Einführung einer neuen Vorschau-API für Microsoft Graph: IdentityRiskEvents](http://dev.office.com/blogs/identityriskevents-api-preview)-Blogeintrag.
+|追加|ベータ版|新しい IdentityRiskEvents プレビュー API が導入されました。この API は、Azure Active Directory Identity Protection と連携して動作します。この API を使うと、Identity Protection によって生成されたリスク イベントに対してクエリを実行できます。詳細については、ブログ投稿「[Microsoft Graph の新しいプレビュー API の紹介:IdentityRiskEvents](http://dev.office.com/blogs/identityriskevents-api-preview)」をご覧ください。
 
-### <a name="subscriptions"></a>Abonnements
+### <a name="subscriptions"></a>サブスクリプション
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Nur App-Bereiche werden jetzt für _Mail_- und _Kontakte_-Abonnements unterstützt.|
+|追加|ベータ版|_メール_と_連絡先_のサブスクリプションに対して、アプリ専用スコープがサポートされるようになりました。|
 
-## <a name="may-2016"></a>Mai 2016
+## <a name="may-2016"></a>2016 年 5 月
 
-### <a name="calendar"></a>Kalender
+### <a name="calendar"></a>カレンダー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Änderungen|Beta|Ändert sich zur findmeetingtimes-API. Weitere Informationen finden Sie unter dem Blogeintrag [Microsoft Graph findMeetingTimes API update](http://dev.office.com/microsoft-graph-findmeetingtimes-api-update) Blogbeitrag. Diese Änderung ist seit dem 19. Mai 2016 wirksam.
+|重大な変更|ベータ版|findMeetingTimes API に対する変更です。詳細については、ブログ投稿「[Microsoft Graph findMeetingTimes API の更新](http://dev.office.com/microsoft-graph-findmeetingtimes-api-update)」をご覧ください。この変更は、2016 年 5 月 19 日に有効になりました。
 
-### <a name="contact"></a>Kontakt
+### <a name="contact"></a>連絡先
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|_Erweiterungen_ hinzugefügt, die einen abstrakten Typ für die Unterstützung des offenen Typs openTypeExtension von OData v4 darstellen.|
+|追加|v1.0|_extensions_ が追加されました。これは OData v4 のオープン型 openTypeExtension をサポートする抽象型です。|
 
-### <a name="directory"></a>Verzeichnis
+### <a name="directory"></a>ディレクトリ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Änderungen|Beta|_settingTemplateId_ in _templateId_ umbenannt. Diese Änderung wird ab dem 19. Mai 2016 wirksam.|
+|重大な変更|ベータ版|_settingTemplateId_ は _templateId_ に名前が変更されます。この変更は、2016 年 5 月 19 日に有効になります。|
 
-### <a name="event"></a>Ereignis
+### <a name="event"></a>イベント
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|_Erweiterungen_ hinzugefügt, die einen abstrakten Typ für die Unterstützung des offenen Typs openTypeExtension von OData v4 darstellen.|
+|追加|v1.0|_extensions_ が追加されました。これは OData v4 のオープン型 openTypeExtension をサポートする抽象型です。|
 
 ### <a name="eventmessages"></a>EventMessages
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|_inferenceClassification_ und _Erweiterungen_ zu _eventMessages_ hinzugefügt.|
-|Ergänzungen|Beta|_responseRequested_ zu _eventMessageRequest_ hinzugefügt.|
+|追加|v1.0|_inferenceClassification_ と _extensions_ が _eventMessages_ に追加されました。|
+|追加|ベータ版|_responseRequested_ が _eventMessageRequest_ に追加されました。|
 
-### <a name="messages"></a>Nachrichten
+### <a name="messages"></a>メッセージ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|_inferenceClassification_ und _extensions_ zu _Nachrichten_ hinzugefügt.|
-|Ergänzungen|Beta|_wellknownname_ zu _contactFolder_ hinzugefügt.|Ändert sich zu _findmeetingtimes_-API. Weitere Informationen finden Sie unter dem Blogeintrag [Microsoft Graph findMeetingTimes API update](http://dev.office.com/microsoft-graph-findmeetingtimes-api-update) Blogbeitrag. Diese Änderung wird ab dem 19. Mai 2016 wirksam.|
+|追加|v1.0|_inferenceClassification_ と _extensions_ が _messages_ に追加されました。|
+|追加|ベータ版|_wellknownname_ が _contactFolder_ に追加されました。|_findMeetingTimes_ API に対する変更です。詳細については、ブログ投稿「[Microsoft Graph findMeetingTimes API の更新](http://dev.office.com/microsoft-graph-findmeetingtimes-api-update)」をご覧ください。この変更は、2016 年 5 月 19 日に有効になります。|
 
-### <a name="post"></a>Beitrag
+### <a name="post"></a>投稿
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|_Erweiterungen_ hinzugefügt, die einen abstrakten Typ für die Unterstützung des offenen Typs openTypeExtension von OData v4 darstellen.|
+|追加|v1.0|_extensions_ が追加されました。これは OData v4 のオープン型 openTypeExtension をサポートする抽象型です。|
 
-### <a name="user"></a>Benutzer
+### <a name="user"></a>ユーザー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|_inferenceClassification_-Ressourcentyp hinzugefügt.|
-|Ergänzungen|Beta|_timeZone_ zu _mailboxsettings_ hinzugefügt.|
-|Ergänzungen|Beta|API _findMeetingTimesOLD _ zu _Benutzer_ hinzugefügt.|
+|追加|v1.0|_inferenceClassification_ リソースの種類が追加されました。|
+|追加|ベータ版|_timeZone_ が _mailboxsettings_ に追加されました。|
+|追加|ベータ版|API _findMeetingTimesOLD _ が _user_ に追加されました。|
 
-## <a name="april-2016"></a>April 2016
+## <a name="april-2016"></a>2016 年 4 月
 
-### <a name="general"></a>Allgemein
+### <a name="general"></a>全般
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0 und Beta|Unterstützung für Berücksichtigung von _Accept-Encoding:gzip_ hinzugefügt.|
-|Ergänzungen|v1.0|Unterstützung für Castsegment im erweiterten Pfad hinzugefügt. Beispiel: https://graph.microsoft.com/v1.0/me/messages?$expand=microsoft.graph.eventMessage/event|
-|Ergänzungen|Beta|Unterstützung für PATCH-Anforderung anhand struktureller Eigenschaften hinzugefügt. Beispiel: 'PATCH /me/mailboxSettings'.|
-|Ergänzungen|Beta|Azure Active Directory dient nun als Alternative für /beta/users/id/photo-Anforderungen, wenn Outlook die Anforderung nicht verarbeiten kann, beispielsweise wenn der Benutzer über keine Postfachlizenz oder der Mandant über kein Exchange Online-Abonnement verfügt. HINWEIS: Diese Alternative steht für GET und PATCH zur Verfügung.|
-|Ergänzungen|Beta|Unterstützung für Castsegment im erweiterten Pfad hinzugefügt. Beispiel: https://graph.microsoft.com/v1.0/me/messages?$expand=microsoft.graph.eventMessage/event|
+|追加|v1.0 およびベータ版|_Accept-Encoding:gzip_ の使用のサポートが追加されました。|
+|追加|v1.0|拡張パスのキャスト セグメントのサポートが追加されました。例: 'https://graph.microsoft.com/v1.0/me/messages?$expand=microsoft.graph.eventMessage/event'。|
+|追加|ベータ版|構造プロパティに対する PATCH 要求のサポートが追加されました。例:'PATCH /me/mailboxSettings'。|
+|追加|ベータ版|たとえば、ユーザーがメールボックスのライセンスを持っていない場合、またはテナントに Exchange Online のサブスクリプションがない場合など、Outlook が要求を処理できないときに、Azure Active Directory が /beta/users/id/photo 要求のフォールバックとして使用されるようになりました。注: このフォールバックは GET と PATCH の両方に使用できます。|
+|追加|ベータ版|拡張パスのキャスト セグメントのサポートが追加されました。例: 'https://graph.microsoft.com/v1.0/me/messages?$expand=microsoft.graph.eventMessage/event'。|
 
 ### <a name="onedrive"></a>OneDrive
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Behebung|v1.0|Behebung eines Problems, aufgrund dessen bei createLink-Anforderungen OneDrive den 500-Fehler mit der Meldung „Nicht unterstützter Erweiterungseigenschaftentyp.“ zurückgab.|
+|修正|v1.0|500 エラーと「拡張プロパティの型がサポートされていません」というエラーで OneDrive の createLink 要求が失敗する問題が修正されました。|
 
-## <a name="march-2016"></a>März 2016
+## <a name="march-2016"></a>2016 年 3 月
 
-### <a name="calendar"></a>Kalender
+### <a name="calendar"></a>カレンダー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|_singleValueExtendedProperties_ und _multiValueExtendedProperties_-Eigenschaften hinzugefügt.|
-|Ergänzungen|Beta|_suggestionHint_-Eigenschaft zu _meetingTimeCandidate _ hinzugefügt.|
-|Ergänzungen|Beta|_locationUri_-Eigenschaft zu _location_ hinzugefügt.|
-|Ergänzungen|Beta|_type_ und _postOfficeBox_ zu _physicalAddress _ hinzugefügt.|
-|Änderung|Beta|_findMeetingTimes_ verwendet jetzt den neuen _ReturnSuggestionHints_-Parameter.|
-|Änderung|Beta|_findMeetingTimes_ gibt jetzt eine Sammlung von _meetingTimeCandidate_ zurück.|
+|追加|ベータ版|_singleValueExtendedProperties_ プロパティと _multiValueExtendedProperties_ プロパティが追加されました。|
+|追加|ベータ版|_suggestionHint_ プロパティが _meetingTimeCandidate_ に追加されました。|
+|追加|ベータ版|_locationUri_ プロパティが _location_ に追加されました。|
+|追加|ベータ版|_type_ と _postOfficeBox_ が _physicalAddress_ に追加されました。|
+|変更|ベータ版|_findMeetingTimes_ で新しいパラメーター _ReturnSuggestionHints_ を使用するようになりました。|
+|変更|ベータ版|_findMeetingTimes_ が _meetingTimeCandidate_ のコレクションを返すようになりました。|
 
-### <a name="drive"></a>Laufwerk
+### <a name="drive"></a>ドライブ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0 und Beta|_recent_-Funktion zum Auflisten eines Satzes von Elementen hinzugefügt, die zuletzt von dem angemeldeten Benutzer verwendet wurden. Diese Liste enthält Elemente, die sich in dem Laufwerk des Benutzers befinden sowie Elemente in anderen Laufwerken, auf die dieser Zugriff hat. Beispiel: GET /me/drive/recent.|
-|Ergänzungen|v1.0 und Beta|_sharedWithMe_-Funktion zum Auflisten des Satzes von Elementen hinzugefügt, die für den aktuellen Benutzer freigegeben sind. Beispiel: GET /me/drive/sharedWithMe.|
+|追加|v1.0 およびベータ版|サインインしたユーザーによって最近使用された項目のセットを一覧表示する _recent_ 関数が追加されました。この一覧には、ユーザーのドライブにある項目と、他のドライブとの間でアクセス可能な項目が含まれています。例: GET /me/drive/recent。|
+|追加|v1.0 およびベータ版|現在のユーザーと共有されている項目のセットを一覧表示する _sharedWithMe_ 関数が追加されました。例: GET /me/drive/sharedWithMe。|
 
 ### <a name="driveitem"></a>DriveItem
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0 und Beta|_remoteItem_-Typ zum Bereitstellen eines Links zu einem Element in einem anderen Laufwerk hinzugefügt.|
-|Ergänzungen|v1.0 und Beta|_sharingInvitation_-Typ hinzugefügt, um Details zu verknüpften Einladungen zur Freigabe für diese Berechtigung bereitzustellen.|
-|Ergänzungen|v1.0 und Beta|_delta_-Funktion zum Nachverfolgen von Änderungen an Elementen in einem Laufwerk hinzugefügt. Beispiel: GET /me/drive/items/{item-id}/delta|
-|Ergänzungen|v1.0 und Beta|_copy_-Funktion zum Erstellen einer Kopie eines _driveItem_-Elements (einschließlich untergeordneter Elemente) unter einem neuen übergeordneten Element oder unter einem neuen Namen hinzugefügt. Beispiel: POST /me/drive/items/{item-id}/copy|
-|Ergänzungen|v1.0 und Beta|_conflictBehavior_-Instanzattribute sind nun auf _driveItem_ anwendbar.|
-|Ergänzungen|Beta|_invite_-Funktion zum Senden einer Einladung zur Freigabe für ein vorhandenes Element hinzugefügt. Mit einer Einladung zur Freigabe werden ein Freigabelink erstellt und eine E-Mail-Nachricht an den Empfänger die Einladung mit dem Freigabelink gesendet. Beispiel: POST /drive/items/{item-id}/invite
+|追加|v1.0 およびベータ版|別のドライブ内の項目へのリンクを提供する _remoteItem_ 型が追加されました。|
+|追加|v1.0 およびベータ版|このアクセス許可に関連付けられた共有の招待に関する詳細情報を提供する _sharingInvitation_ 型が追加されました。|
+|追加|v1.0 およびベータ版|ドライブ内の項目に対する変更を追跡する _delta_ 関数が追加されました。例: GET /me/drive/items/{item-id}/delta|
+|追加|v1.0 およびベータ版|新しい親の下に、または新しい名前を指定して、_driveItem_ (すべての子を含む) のコピーを作成する _copy_ が追加されました。例: POST /me/drive/items/{item-id}/copy。|
+|追加|v1.0 およびベータ版|_conflictBehavior_ インスタンス属性が _driveItem_ に適用されるようになりました。|
+|追加|ベータ版|既存の項目に共有の招待を送信する _invite_ 関数が追加されました。共有の招待では、一意の共有リンクが作成され、共有リンクを記載した電子メールが招待状の受信者に送信されます。例: POST /drive/items/{item-id}/invite。
 
-### <a name="event"></a>Ereignis
+### <a name="event"></a>イベント
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Neue _onlineMeetingUrl_-Eigenschaft und neue _cancel_-Methode hinzugefügt.|
+|追加|ベータ版|新しいプロパティ _onlineMeetingUrl_ と、新しいメソッド _cancel_ が追加されました。|
 
-### <a name="event-messages"></a>Ereignismeldungen
+### <a name="event-messages"></a>イベント メッセージ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|_startDateTime_, _endDateTime_, _location_, _type_, _recurrence_, _isOutOfDate_, _conversationIndex_, _unsubscribe_, _unsubscribeData_, _unsubscribeEnabled_ und _flag_-Eigenschaften zum _eventmessage_-Objekt hinzugefügt.|
-|Ergänzungen|Beta|_singleValueExtendedProperties_ und _multiValueExtendedProperties_-Eigenschaften hinzugefügt.|
-|Ergänzungen|Beta|Neue _unsubscribe_-Methode hinzugefügt.|
+|追加|ベータ版|_startDateTime_、_endDateTime_、_location_、_type_、_recurrence_、_isOutOfDate_、_conversationIndex_、_unsubscribe_、_unsubscribeData_、_unsubscribeEnabled_、_flag_ プロパティが、_eventmessage_ オブジェクトに追加されました。|
+|追加|ベータ版|_singleValueExtendedProperties_ プロパティと _multiValueExtendedProperties_ プロパティが追加されました。|
+|追加|ベータ版|新しいメソッド _unsubscribe_ が追加されました。|
 
 ### <a name="excel"></a>Excel
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Es wurden neue REST-APIs für Excel hinzugefügt, mit denen Sie Daten in einer Excel-Arbeitsmappe lesen und ändern können. Sie können nun intelligente Apps erstellen, mit denen Benutzer die in Excel-Arbeitsmappen gespeicherten Inhalte nutzen können, indem Einblicke in die Daten bereitgestellt werden. Profitieren Sie von den Vorteilen der Analysefunktionen von Excel, erstellen Sie Tabellen und Diagramme und extrahieren Sie optisch ansprechende Diagramme, und das alles von Ihrer App aus. Weitere Informationen finden Sie unter [Arbeiten mit Excel in Microsoft Graph](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/excel).|
+|追加|ベータ版|現在、Excel ブックのデータの読み取りと変更が可能な新しい Excel REST API を追加しているところです。データへのインサイトを提供することで、ユーザーが Excel ブックに保存されているコンテンツから価値を取得できるスマート アプリを構築できるようになりました。Excel の分析機能の活用、表とグラフの作成、および視覚に訴えるグラフ イメージの抽出などを、アプリ内からすべて実行できます。詳細については、「[Microsoft Graph での Excel の操作](http://graph.microsoft.io/en-us/docs/api-reference/beta/resources/excel)」をご覧ください。|
 
-### <a name="general"></a>Allgemein
+### <a name="general"></a>全般
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0 und Beta|Verbesserung von Fehlermeldungen beim Auflösen von Mandantenalias- und abgelehnten JWT-Token (AAD).|
-|Ergänzungen|v1.0 und Beta|Der Ort für den Autorisierungsdienstendpunkt wird jetzt in dem _www-authenticate_-Header zurückgegeben, wenn eine Anforderung mit einem leeren Bearertoken empfangen wird.|
-|Ergänzungen|v1.0 und Beta|Die Funktion zum Filtern nach ID-Eigenschaft einer Entität wurde behoben. Beispiel: GET https://graph.microsoft.com/v1.0/users?$filter=id+eq+'x'<br/>Bisher musste bei allen POST-Anforderungen für Dienstaktionen und Funktionen der Aktion oder dem Funktionsnamen ein Präfix mithilfe von microsoft.graph vorangestellt werden. Beispiel: POST https://graph.microsoft.com/v1.0/me/Microsoft.Graph.getMemberGroups<br/>Das Präfix ist nun nicht mehr erforderlich (obwohl es immer noch angegeben werden kann). Folgendes würde jetzt daher funktionieren: POST https://graph.microsoft.com/v1.0/me/getMemberGroups|
-|Ändern|Beta|Abonnement-Eigenschaftennamen bereinigt.|
-|Ergänzungen|Beta|Wir haben die Möglichkeit zum Ermitteln von (über _directorySettingTemplates_) und Außerkraftsetzen des Standardverhaltens (durch Erstellen einer _Einstellung_ aus der Vorlage) für Entitäten und die zugehörigen Funktionen hinzugefügt. Anfangs konnten die Verhaltensweisen für Office-Gruppen nur über die Vorlage gesteuert werden.|
+|追加|v1.0 およびベータ版|テナント エイリアスと拒否された JWT (AAD) トークンを解決するときのエラー メッセージを改善しました。|
+|追加|v1.0 およびベータ版|空のベアラー トークンで要求を受信した場合に、承認サービス エンドポイントの場所が _www-authenticate_ ヘッダー内に返されるようになりました。|
+追加|v1.0 およびベータ版|エンティティの ID プロパティでのフィルター機能が修正されました。例: GET https://graph.microsoft.com/v1.0/users?$filter=id+eq+'x'<br/>以前は、サービスのアクションと関数に対する POST 要求で、アクション名または関数名に microsoft.graph のプレフィックスを付ける必要がありました。例:POST https://graph.microsoft.com/v1.0/me/Microsoft.Graph.getMemberGroups。<br/>プレフィックスは不要になりました (ただし、引き続き指定できます)。そのため、次のような指定でも機能するようになりました。POST https://graph.microsoft.com/v1.0/me/getMemberGroups。|
+|変更|ベータ版|サブスクリプションのプロパティ名がクリーンアップされました。|
+|追加|ベータ版|エンティティとその関連機能の既定の動作を (_directorySettingTemplates_ 経由で) 検出し、(テンプレートから _setting_ を作成することにより) 上書きする機能が追加されました。最初に提供されたこの唯一のテンプレートは、Office グループ上での動作を制御するためのものです。|
 
-### <a name="mail-folder"></a>Mail-Ordner
+### <a name="mail-folder"></a>メール フォルダー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|_wellKnownName_- und _userConfigurations_-Eigenschaften hinzugefügt.|
-|Ergänzungen|Beta|_singleValueExtendedProperties_- und _multiValueExtendedProperties_-Eigenschaften hinzugefügt|
+|追加|ベータ版|_wellKnownName_ プロパティと _userConfigurations_ プロパティが追加されました。|
+|追加|ベータ版|_singleValueExtendedProperties_ プロパティと _multiValueExtendedProperties_ プロパティが追加されました|
 
-### <a name="messages"></a>Nachrichten
+### <a name="messages"></a>メッセージ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|_mobilePhone_-Eigenschaft hinzugefügt.|
-|Ergänzungen|v1.0 und Beta|_internetMessageId_-Eigenschaft hinzugefügt. Die Nachrichten-ID im von [RFC2822](http://www.ietf.org/rfc/rfc2822.txt) angegebenen Format.|
-|Ändern|Beta|_mobilePhone1_-Eigenschaft in _mobilePhone_ umgenannt.|
-|Änderung|Beta|_createReply_ und _createReplyAll _ verwenden neue _Message_- und _comment_-Parameter.|
-|Änderung|Beta|_createForward _verwendet neue _Message _, _ToRecipients_ und _comment_-Parameter.|
-|Änderung|Beta|_reply_, _replyAll_und _forward_ verwenden neue _Message_-Paramater.|
+|追加|v1.0|_mobilePhone_ プロパティが追加されました。|
+|追加|v1.0 およびベータ版|_internetMessageId_ プロパティが追加されました。メッセージ ID は、[RFC2822](http://www.ietf.org/rfc/rfc2822.txt) によって指定された形式です。|
+|変更|ベータ版|_mobilePhone1_ プロパティは _mobilePhone_ に名前が変更されました。|
+|変更|ベータ版|_createReply_ と _createReplyAll_ は、新しいパラメーター _Message_ および _comment_ を使用します。|
+|変更|ベータ版|_createForward_ は、新しいパラメーター _Message_、_ToRecipients_、_comment_ を使用します。|
+|変更|ベータ版|_reply_、_replyAll_、_forward_ は、新しいパラメーター _Message_ を使用します。|
 
-### <a name="permission"></a>Berechtigung
+### <a name="permission"></a>アクセス許可
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0 und Beta|_sharingInvitation_-Eigenschaft hinzugefügt, um Details zu verknüpften Einladungen zur Freigabe für diese Berechtigung bereitzustellen.|
+|追加|v1.0 およびベータ版|このアクセス許可に関連付けられた共有の招待の詳細情報を提供する _sharingInvitation_ プロパティが追加されました。|
 
-### <a name="person"></a>Person
+### <a name="person"></a>人物
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|- Neue _birthday_-, _personNotes_-, _isFavorite_-, _phones_-, _permission_-, _postalAddresses_-,_websites_-,_yomiCompany_-, _department_-, _profession_-, _mailboxType_- und _personType_-Eigenschaften hinzugefügt.|
-|Ergänzungen|Beta|Neue Enumerationstypen hinzugefügt: _physicalAddressType_, _webSite _, _phone_ und _webSiteType_.|
+|追加|ベータ版|新しいプロパティ _birthday_、_personNotes_、_isFavorite_、_phones_、_permission_、_postalAddresses_、_websites_、_yomiCompany_、_department_、_profession_、_mailboxType_、_personType_ が追加されました。|
+|追加|ベータ版|新しい列挙型 _physicalAddressType_、_webSite_、_phone_、_webSiteType_ が追加されました。|
 
-### <a name="reference-attachment"></a>Verweisanlage
+### <a name="reference-attachment"></a>参照添付ファイル
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|Neue Eigenschaften hinzugefügt: _sourceUrl_, _providerType_, _thumbnailUrl_, _previewUrl_, _permission_ und _isFolder_.|
-|Ergänzungen|Beta|_singleValueExtendedProperties_ und _multiValueExtendedProperties_-Eigenschaften hinzugefügt.|
-|Ergänzungen|Beta|Neue enum types _referenceAttachmentProvider _und _referenceAttachmentPermission_ hinzugefügt.|
+|追加|ベータ版|新しいプロパティ _sourceUrl_、_providerType_、_thumbnailUrl_、_previewUrl_、_permission_、_isFolder_ が追加されました。|
+|追加|ベータ版|_singleValueExtendedProperties_ プロパティと _multiValueExtendedProperties_ プロパティが追加されました。|
+|追加|ベータ版|新しい列挙型 _referenceAttachmentProvider_ と _referenceAttachmentPermission_ が追加されました。|
 
-### <a name="subscriptions"></a>Abonnements
+### <a name="subscriptions"></a>サブスクリプション
 
-|**Änderungstyp**|**Endpunkt**|**Beschreibung**|
+|**変更の種類**|**エンドポイント**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|Webhooks sind jetzt allgemein für Version 1.0 von Endpunkt über die _/Subscriptions_-Ressource verfügbar. Erstellen, Lesen, Aktualisieren und Löschen Sie Abonnements, um Benachrichtigungen zu Daten aus Outlook und Office 365-Gruppenunterhaltungen zu erhalten.|
+|追加|v1.0|Webhooks が、_/Subscriptions_ リソースから V1.0 エンドポイントで一般公開されるようになりました。Outlook と Office 365 のグループ会話からデータに関する通知を受信するためのサブスクリプションを作成、読み取り、更新、削除します。|
 
-### <a name="user"></a>Benutzer
+### <a name="user"></a>ユーザー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|_mailboxSettings_-Eigenschaft sowie die entsprechenden Typen hinzugefügt.|
+|追加|ベータ版|_mailboxSettings_ プロパティおよび対応する型が追加されました。|
 
-## <a name="february-2016"></a>Februar 2016
+## <a name="february-2016"></a>2016 年 2 月
 
 ### <a name="driveitem"></a>DriveItem
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0 und Beta|Neue _remoteItem_-Eigenschaft für driveItem für Microsoft-Konten.|
+|追加|v1.0 およびベータ版|Microsoft アカウントに対する driveItem の新しい _remoteItem_ プロパティ。|
 
-### <a name="general"></a>Allgemein
+### <a name="general"></a>全般
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Änderung|v1.0 und Beta|-_/me/drive_ funktioniert nun für Microsoft-Konten und Geschäfts-, Schul- und Uni-Konten.|
-|Änderung|v1.0 und Beta|Laufwerkanforderungen für Konten, deren OneDrive-Speicher bei Bedarf bereitgestellt wurde, funktionieren zuverlässig und können in mehr Szenarien verwendet werden, in denen die SharePoint-Standardwebsites des Mandanten nicht standardmäßige Namen verwenden.|
-|Löschung|Beta|Verschiedene nicht implementierte Typen aus dem Betaschema zur Anpassung an 1.0 Schema entfernt.|
+|変更|v1.0 およびベータ版|-_/me/drive_ が、Microsoft アカウントおよび職場と学校のアカウントの両方で機能するようになりました。|
+|変更|v1.0 およびベータ版|OneDrive ストレージがオンデマンドでプロビジョニングされたアカウントの Drive 要求は、動作の信頼性がより高くなり、テナントの既定の SharePoint サイトで非標準の名前が使用されるような、より多くのシナリオで動作します。|
+|削除|ベータ版|1.0 スキーマにより厳密に一致するように、実装されていないさまざまな型がベータ スキーマから削除されました。|
 
-### <a name="subscriptions"></a>Abonnements
+### <a name="subscriptions"></a>サブスクリプション
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|notificationUrl-Validierung bei Abonnement-Erstellung. Weitere Informationen finden Sie unter [Microsoft Graph WebHooks Update - January 2016](http://dev.office.com/blogs/Microsoft-Graph-WebHooks-Update-January-2016).|
-|Ergänzungen|Beta|Abonnemententitäten können jetzt gelöscht werden: LÖSCHEN https://graph.microsoft.com/beta/subscriptions/|
+|追加|ベータ版|サブスクリプション作成時の notificationUrl 検証。詳細については、「[Microsoft Graph の WebHooks の更新 - 2016 年 1 月](http://dev.office.com/blogs/Microsoft-Graph-WebHooks-Update-January-2016)」をご覧ください。|
+|追加|ベータ版|サブスクリプション エンティティを削除できるようになりました。DELETE https://graph.microsoft.com/beta/subscriptions/|
 
-### <a name="users"></a>Benutzer
+### <a name="users"></a>ユーザー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Änderung|v1.0 und Beta|_displayName_ wird jetzt für Microsoft-Konten zurückgegeben.|
+|変更|v1.0 およびベータ版|Microsoft アカウントに対して _displayName_ が返されるようになりました。|
 
-## <a name="january-2016"></a>Januar 2016
+## <a name="january-2016"></a>2016 年 1 月
 
-### <a name="contacts"></a>Kontakte
+### <a name="contacts"></a>連絡先
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|v1.0|mobilePhone-Eigenschaft zum Entitätssatz für persönliche Kontakte hinzugefügt.|
+|追加|v1.0|mobilePhone プロパティが個人用連絡先エンティティ セットに追加されました。|
 
 ### <a name="directoryobjects"></a>directoryObjects
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Behebung|v1.0 und Beta|Behebung eines Problems mit Aufrufaktionen, die mit directoryObjects verknüpft sind und zu dem folgenden Fehler führten: „Der Rückgabetyp des Vorgangs ist mit dem vorgegebenen Entitätssatz nicht möglich“. Dies gilt für die folgenden Aktionen: _microsoft.graph.checkMemberObjects_, _microsoft.graph.getMemberObjects_, _microsoft.graph.checkMemberGroups_, _microsoft.graph.assignLicense_, _microsoft.graph.changePassword_.|
+|修正|v1.0 およびベータ版|directoryObjects にバインドされている呼び出しアクションが修正されました。このアクションは次のエラーで失敗していました。「操作からの戻り値の型は、指定したエンティティ セットで使用できません。」これは、次のアクションに適用されます: _microsoft.graph.checkMemberObjects_、_microsoft.graph.getMemberObjects_、_microsoft.graph.checkMemberGroups_、_microsoft.graph.assignLicense_、_microsoft.graph.changePassword_。|
 
-## <a name="december-2015"></a>Dezember 2015
+## <a name="december-2015"></a>2015 年 12 月
 
-### <a name="contacts"></a>Kontakte
+### <a name="contacts"></a>連絡先
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|mobilePhone-Eigenschaft zum Entitätssatz für persönliche Kontakte hinzugefügt.|
+|追加|ベータ版|mobilePhone プロパティが個人用連絡先エンティティ セットに追加されました。|
 
-### <a name="general"></a>Allgemein
+### <a name="general"></a>全般
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Behebung|v1.0 und Beta|Behebung eines Problems mit Anforderungen mit $filter-Ausdrücken, die mehrmals die gleiche Eigenschaft angegebenen haben, was zu dem folgenden 500-Fehler führte: „Ein Element mit diesem Schlüssel wurde bereits hinzugefügt“.|
-|Behebung|v1.0 und Beta|Behebung eines Problems mit der Groß-/Kleinschreibung für Aktionsparameternamen und -werte.|
-|Behebung|v1.0 und Beta|Behebung eines Problems mit der Verarbeitung von Anforderungen für Nutzlasten mit Nullwerten für einige eingebettete komplexe Eigenschaften, aufgrund dessen ein Fehler mit einer Nullverweisausnahme auftrat.|
-|Ergänzungen|v1.0 und Beta|Unterstützung für das Sortieren und Filtern von komplexen Type-Eigenschaften.|
-|Ergänzungen|v1.0 und Beta|authorization_uri-Eigenschaft in dem www-authenticate-Header einer 401-Antwort hinzugefügt. Dieser URI kann verwendet werden, um den Tokenerwerbfluss zu starten.|
-|Ergänzungen|v1.0 und Beta|Verbesserte Fehlermeldungen für Benutzer und Gruppen.|
+|修正|v1.0 およびベータ版|同じプロパティを複数回指定した $filter 式を使用する要求が修正されました。この要求は次の 500 エラーで失敗していました。「同じキーを持つ項目が既に追加されています。」|
+|修正プログラム|v1.0 およびベータ版|アクション パラメーターの名前と値で大文字と小文字が区別されない問題を修正しました。|
+|修正|v1.0 およびベータ版|一部の埋め込み複合プロパティに null 値を含むペイロードの要求処理を修正しました。この要求は null 参照の例外で失敗していました。|
+|追加|v1.0 およびベータ版|複合型プロパティの並べ替えとフィルター処理のサポートが追加されました。|
+|追加|v1.0 およびベータ版|401 応答の www-authenticate ヘッダーに authorization_uri プロパティが追加されました。この URI は、トークンの取得フローを開始するために使用できます。|
+|追加|v1.0 およびベータ版|ユーザーとグループ全体でエラー メッセージが改善されました。|
 
-### <a name="groups"></a>Gruppen
+### <a name="groups"></a>グループ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Behebung|v1.0 und Beta|Behebung eines Problems mit dem Aufruf folgender Gruppenaktionen: _microsoft.graph.addFavorite_, _microsoft.graph.removeFavorite_ and _microsoft.graph.resetUnseenCount_.|
+|修正|v1.0 およびベータ版|次のグループ アクションの呼び出しを修正しました: _microsoft.graph.addFavorite_、_microsoft.graph.removeFavorite_、_microsoft.graph.resetUnseenCount_。|
 
-### <a name="messages"></a>Nachrichten
+### <a name="messages"></a>メッセージ
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Ergänzungen|Beta|eventMessageRequest-Untertyp der eventMessage- und startDateTime-, endDateTime-, location-, type-, recurrence- und IsOutOfDate-Eigenschaften zum eventMessag-Typ hinzugefügt.|
+|追加|ベータ版|eventMessage の eventMessageRequest サブタイプと、startDateTime、endDateTime、location、type、recurrence、isOutOfDate プロパティが、eventMessage 型に追加されました。|
 
-### <a name="users"></a>Benutzer
+### <a name="users"></a>ユーザー
 
-|**Änderungstyp**|**Version**|**Beschreibung**|
+|**変更の種類**|**バージョン**|**説明**|
 |:--------------|:-----------|:--------------|
-|Behebung|v1.0 und Beta|Behebung eines Problems, aufgrund dessen bestimmte Benutzereigenschaften von anderen Benutzern nicht ausgewählt werden konnten, wenn auf den Benutzer mithilfe des Benutzerprinzipalnamens (UPN) verwiesen wurde. Beispiel: https://graph.microsoft.com/v1.0/users/anotherUser@contoso.com?$select=aboutMe|
-|Behebung|v1.0 und Beta|Behebung eines Problems mit dem Aufruf der benutzergebundenen _microsoft.graph.reminderView_-Funktion, aufgrund dessen der folgende Fehler auftrat: „Eine Eigenschaft mit dem Namen 'BusinessPhones' vom Typ 'Microsoft.OutlookServices.Reminder' konnte nicht gefunden werden.“|
-|Behebung|v1.0 und Beta|Behebung eines Problems mit der Erstellung und Aktualisierung von Benutzern (POST/PATCH /v1.0/users), aufgrund dessen der 400-Fehler auftrat.|
+|修正|v1.0 およびベータ版|ユーザー プリンシパル名 (UPN) でユーザーを参照する場合に、他のユーザーで特定のユーザー プロパティを選択できてしまう問題を修正しました。例: https://graph.microsoft.com/v1.0/users/anotherUser@contoso.com?$select=aboutMe|
+|修正プログラム|v1.0 およびベータ版|ユーザーにバインドされた _microsoft.graph.reminderView_ 関数の呼び出しを修正しました。この呼び出しは次のエラーで失敗していました。「‘Microsoft.OutlookServices.Reminder’ 型で ‘businessPhones’ という名前のプロパティは見つかりませんでした。」|
+|修正プログラム|v1.0 およびベータ版|400 エラーで失敗していた、ユーザーの作成と更新 (POST/PATCH /v1.0/users) を修正しました。|
