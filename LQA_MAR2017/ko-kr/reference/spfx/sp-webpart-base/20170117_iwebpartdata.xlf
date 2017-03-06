@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="20170117_iwebpartdata.md" source-language="en-US" target-language="ko-KR" build-num="237848529">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-188fee3" tool-company="Microsoft" />
+      <skl>
+        <internal-file form="base64"><![CDATA[eyJub2RlcyI6W3sicG9zIjpbMiwyNF0sImNvbnRlbnQiOiJJV2ViUGFydERhdGEgaW50ZXJmYWNlIiwibGlua2lmeSI6IklXZWJQYXJ0RGF0YSBpbnRlcmZhY2UiLCJub2RlcyI6W3siY29udGVudCI6IklXZWJQYXJ0RGF0YSBpbnRlcmZhY2UiLCJwb3MiOlswLDIyXX1dfSx7ImNvbnRlbnQiOiJUaGlzIHN0cnVjdHVyZSByZXByZXNlbnRzIHRoZSBzZXJpYWxpemVkIHN0YXRlIG9mIGEgd2ViIHBhcnQuIFdoZW4gdGhlIHNlcmlhbGl6ZSgpIEFQSSBpcyBjYWxsZWQgb24gYSB3ZWIgcGFydCwgdGhlIG91dHB1dCBzaG91bGQgYmUgdGhpcyBzdHJ1Y3R1cmUuIFRoZSBzdHJ1Y3R1cmUgb2YgdGhlICdwcm9wZXJ0aWVzJyBmaWVsZCBpcyBvd25lZCBieSB0aGUgd2ViIHBhcnQgYW5kIGlzIHNwZWNpZmljIHRvIHRoZSB3ZWIgcGFydC4gRWFjaCB3ZWIgcGFydCBjYW4gZGVjaWRlIHRoZSBzZXQgb2YgcHJvcGVydGllcyBpdCB3YW50cyB0byBzZXJpYWxpYWxpemUuIiwicG9zIjpbMzIsMzUxXSwibm9kZXMiOlt7ImNvbnRlbnQiOiJUaGlzIHN0cnVjdHVyZSByZXByZXNlbnRzIHRoZSBzZXJpYWxpemVkIHN0YXRlIG9mIGEgd2ViIHBhcnQuIiwicG9zIjpbMCw2MV19LHsiY29udGVudCI6IldoZW4gdGhlIHNlcmlhbGl6ZSgpIEFQSSBpcyBjYWxsZWQgb24gYSB3ZWIgcGFydCwgdGhlIG91dHB1dCBzaG91bGQgYmUgdGhpcyBzdHJ1Y3R1cmUuIiwicG9zIjpbNjIsMTQ4XX0seyJjb250ZW50IjoiVGhlIHN0cnVjdHVyZSBvZiB0aGUgJ3Byb3BlcnRpZXMnIGZpZWxkIGlzIG93bmVkIGJ5IHRoZSB3ZWIgcGFydCBhbmQgaXMgc3BlY2lmaWMgdG8gdGhlIHdlYiBwYXJ0LiIsInBvcyI6WzE0OSwyNDZdfSx7ImNvbnRlbnQiOiJFYWNoIHdlYiBwYXJ0IGNhbiBkZWNpZGUgdGhlIHNldCBvZiBwcm9wZXJ0aWVzIGl0IHdhbnRzIHRvIHNlcmlhbGlhbGl6ZS4iLCJwb3MiOlsyNDcsMzE5XX1dLCJpc1BhcmFncmFwaCI6dHJ1ZX0seyJwb3MiOlszNTksMzY5XSwiY29udGVudCI6IlByb3BlcnRpZXMiLCJsaW5raWZ5IjoiUHJvcGVydGllcyIsIm5vZGVzIjpbeyJjb250ZW50IjoiUHJvcGVydGllcyIsInBvcyI6WzAsMTBdfV19LHsiY29udGVudCI6IlByb3BlcnR5IiwicG9zIjpbMzczLDM4MV19LHsiY29udGVudCI6IlR5cGUiLCJwb3MiOlszODgsMzkyXX0seyJjb250ZW50IjoiRGVzY3JpcHRpb24iLCJwb3MiOlszOTcsNDA4XX0seyJjb250ZW50IjoiRGVmaW5pdGlvbjogd2ViIHBhcnQgZGVzY3JpcHRpb24uIFVzYWdlOiBkaXNwbGF5IHRoZSBkZXNjcmlwdGlvbiBvZiB0aGUgd2ViIHBhcnQuIFJlcXVpcmVkOiBubyBUeXBlOiBzdHJpbmcgU3VwcG9ydGVkIHZhbHVlczogc3RyaW5nIHdpdGggdGhlIGRlc2NyaXB0aW9uLiBFeGFtcGxlOiBcIlRleHRcIiIsInBvcyI6WzQ4Miw2NTJdLCJub2RlcyI6W3siY29udGVudCI6IkRlZmluaXRpb246IHdlYiBwYXJ0IGRlc2NyaXB0aW9uLiIsInBvcyI6WzAsMzNdfSx7ImNvbnRlbnQiOiJVc2FnZTogZGlzcGxheSB0aGUgZGVzY3JpcHRpb24gb2YgdGhlIHdlYiBwYXJ0LiIsInBvcyI6WzM0LDgxXX0seyJjb250ZW50IjoiUmVxdWlyZWQ6IG5vIFR5cGU6IHN0cmluZyBTdXBwb3J0ZWQgdmFsdWVzOiBzdHJpbmcgd2l0aCB0aGUgZGVzY3JpcHRpb24uIiwicG9zIjpbODIsMTU0XX0seyJjb250ZW50IjoiRXhhbXBsZTogXCJUZXh0XCIiLCJwb3MiOlsxNTUsMTcwXX1dLCJpc1BhcmFncmFwaCI6dHJ1ZX0seyJjb250ZW50IjoiRGVmaW5pdGlvbjogdW5pdmVyc2FsbHkgdW5pcXVlIHdlYiBwYXJ0IFR5cGUgaWQuIFVzYWdlOiB1bmlxdWVseSBpZGVudGlmeSBhIHdlYiBwYXJ0LiBSZXF1aXJlZDogeWVzIFR5cGU6IEdVSUQgU3VwcG9ydGVkIHZhbHVlczogYW55IEdVSUQgRXhhbXBsZTogXCJkYmVmNjA4ZC0zYWQ1LTRmOGYtYjEzOS1kOTE2ZjJmMGEyOTRcIiIsInBvcyI6WzY3OSw4NjRdLCJub2RlcyI6W3siY29udGVudCI6IkRlZmluaXRpb246IHVuaXZlcnNhbGx5IHVuaXF1ZSB3ZWIgcGFydCBUeXBlIGlkLiIsInBvcyI6WzAsNDhdfSx7ImNvbnRlbnQiOiJVc2FnZTogdW5pcXVlbHkgaWRlbnRpZnkgYSB3ZWIgcGFydC4iLCJwb3MiOls0OSw4NV19LHsiY29udGVudCI6IlJlcXVpcmVkOiB5ZXMgVHlwZTogR1VJRCBTdXBwb3J0ZWQgdmFsdWVzOiBhbnkgR1VJRCBFeGFtcGxlOiBcImRiZWY2MDhkLTNhZDUtNGY4Zi1iMTM5LWQ5MTZmMmYwYTI5NFwiIiwicG9zIjpbODYsMTg1XX1dLCJpc1BhcmFncmFwaCI6dHJ1ZX0seyJjb250ZW50IjoiRGVmaW5pdGlvbjogdW5pdmVyc2FsbHkgdW5pcXVlIGluc3RhbmNlIGlkIG9mIHRoZSB3ZWIgcGFydC4gQSB3ZWIgcGFydCBjYW4gaGF2ZSBtdWx0aXBsZSBpbnN0YW5jZXMgb24gYSBwYWdlLiBUaGlzIGlkIGlzIGV4cGVjdGVkIHRvIGJlIHVuaXZlcnNhbGx5IHVuaXF1ZSBhY2Nyb3NzIHRpbWUgYW5kIHBhZ2UgYm91bmRhcmllcy4gaG93IHVzZWQ6IHVzZWQgYnkgdGhlIGZyYW1ld29yayB0byB1bmlxdWVseSBpZGVudGlmeSBhbiBpbnN0YW5jZSBvZiBhIHdlYiBwYXJ0LiBtYW5kYXRvcnk6IHllcyB0eXBlOiBzdHJpbmcgc3VwcG9ydGVkIHZhbHVlczogYSB1bmlxdWUgc3RyaW5nLiBDb3VsZCBiZSBHVUlEIG9yIG90aGVyIHVuaXF1ZWx5IGlkZW50aWZpYWJsZSBmb3JtYXRzLiBleGFtcGxlOiBbXCJkYmVmNjA4ZC0zYWQ1LTRmOGYtYjEzOS1kOTE2ZjJmMGEyOTRcIl0gZXhwZXJpbWVudGFsOiB5ZXMiLCJwb3MiOls4OTksMTM1Ml0sIm5vZGVzIjpbeyJjb250ZW50IjoiRGVmaW5pdGlvbjogdW5pdmVyc2FsbHkgdW5pcXVlIGluc3RhbmNlIGlkIG9mIHRoZSB3ZWIgcGFydC4iLCJwb3MiOlswLDU5XX0seyJjb250ZW50IjoiQSB3ZWIgcGFydCBjYW4gaGF2ZSBtdWx0aXBsZSBpbnN0YW5jZXMgb24gYSBwYWdlLiIsInBvcyI6WzYwLDEwOV19LHsiY29udGVudCI6IlRoaXMgaWQgaXMgZXhwZWN0ZWQgdG8gYmUgdW5pdmVyc2FsbHkgdW5pcXVlIGFjY3Jvc3MgdGltZSBhbmQgcGFnZSBib3VuZGFyaWVzLiIsInBvcyI6WzExMCwxODhdfSx7ImNvbnRlbnQiOiJob3cgdXNlZDogdXNlZCBieSB0aGUgZnJhbWV3b3JrIHRvIHVuaXF1ZWx5IGlkZW50aWZ5IGFuIGluc3RhbmNlIG9mIGEgd2ViIHBhcnQuIiwicG9zIjpbMTg5LDI2OF19LHsiY29udGVudCI6Im1hbmRhdG9yeTogeWVzIHR5cGU6IHN0cmluZyBzdXBwb3J0ZWQgdmFsdWVzOiBhIHVuaXF1ZSBzdHJpbmcuIiwicG9zIjpbMjY5LDMzMV19LHsiY29udGVudCI6IkNvdWxkIGJlIEdVSUQgb3Igb3RoZXIgdW5pcXVlbHkgaWRlbnRpZmlhYmxlIGZvcm1hdHMuIiwicG9zIjpbMzMyLDM4NV19LHsiY29udGVudCI6ImV4YW1wbGU6IFtcImRiZWY2MDhkLTNhZDUtNGY4Zi1iMTM5LWQ5MTZmMmYwYTI5NFwiXSBleHBlcmltZW50YWw6IHllcyIsInBvcyI6WzM4Niw0NTNdfV0sImlzUGFyYWdyYXBoIjp0cnVlfSx7ImNvbnRlbnQiOiJEZWZpbml0aW9uOiB3ZWIgcGFydCB0aXRsZS4gVXNhZ2U6IGRpc3BsYXkgdGhlIG5hbWUgb2YgdGhlIHdlYiBwYXJ0IGluIHRoZSB0b29sYm94LCB3ZWIgcGFydCBnYWxsZXJ5IGFuZCB0aGUgcGFnZS4gUmVxdWlyZWQ6IHllcyBUeXBlOiBzdHJpbmcgU3VwcG9ydGVkIHZhbHVlczogc3RyaW5nIGxlc3MgdGhhbiAxMDAgY2hhcmFjdGVycyBFeGFtcGxlOiBcIlRleHRcIiIsInBvcyI6WzEzODIsMTU4OV0sIm5vZGVzIjpbeyJjb250ZW50IjoiRGVmaW5pdGlvbjogd2ViIHBhcnQgdGl0bGUuIiwicG9zIjpbMCwyN119LHsiY29udGVudCI6IlVzYWdlOiBkaXNwbGF5IHRoZSBuYW1lIG9mIHRoZSB3ZWIgcGFydCBpbiB0aGUgdG9vbGJveCwgd2ViIHBhcnQgZ2FsbGVyeSBhbmQgdGhlIHBhZ2UuIiwicG9zIjpbMjgsMTE0XX0seyJjb250ZW50IjoiUmVxdWlyZWQ6IHllcyBUeXBlOiBzdHJpbmcgU3VwcG9ydGVkIHZhbHVlczogc3RyaW5nIGxlc3MgdGhhbiAxMDAgY2hhcmFjdGVycyBFeGFtcGxlOiBcIlRleHRcIiIsInBvcyI6WzExNSwyMDddfV0sImlzUGFyYWdyYXBoIjp0cnVlfV0sImNvbnRlbnQiOiIjIElXZWJQYXJ0RGF0YSBpbnRlcmZhY2VcblxuXG5cblxuXG5cblxuVGhpcyBzdHJ1Y3R1cmUgcmVwcmVzZW50cyB0aGUgc2VyaWFsaXplZCBzdGF0ZSBvZiBhIHdlYiBwYXJ0LiBXaGVuIHRoZSBzZXJpYWxpemUoKSBBUEkgaXMgY2FsbGVkIG9uIGEgd2ViIHBhcnQsIHRoZSBvdXRwdXQgc2hvdWxkIGJlIHRoaXMgc3RydWN0dXJlLiBUaGUgc3RydWN0dXJlIG9mIHRoZSAncHJvcGVydGllcycgZmllbGQgaXMgb3duZWQgYnkgdGhlIHdlYiBwYXJ0IGFuZCBpcyBzcGVjaWZpYyB0byB0aGUgd2ViIHBhcnQuIEVhY2ggd2ViIHBhcnQgY2FuIGRlY2lkZSB0aGUgc2V0IG9mIHByb3BlcnRpZXMgaXQgd2FudHMgdG8gc2VyaWFsaWFsaXplLlxuXG5cblxuXG4jIyBQcm9wZXJ0aWVzXG5cbnwgUHJvcGVydHkgICAgIHwgVHlwZSAgIHwgRGVzY3JpcHRpb258XG58Oi0tLS0tLS0tLS0tLS18Oi0tLS0tLS18Oi0tLS0tLS0tLS0tfFxufGBkZXNjcmlwdGlvbmAgICAgICB8IGBzdHJpbmdgIHwgRGVmaW5pdGlvbjogd2ViIHBhcnQgZGVzY3JpcHRpb24uIFVzYWdlOiBkaXNwbGF5IHRoZSBkZXNjcmlwdGlvbiBvZiB0aGUgd2ViIHBhcnQuIFJlcXVpcmVkOiBubyBUeXBlOiBzdHJpbmcgU3VwcG9ydGVkIHZhbHVlczogc3RyaW5nIHdpdGggdGhlIGRlc2NyaXB0aW9uLiBFeGFtcGxlOiBcIlRleHRcIiB8XG58YGlkYCAgICAgIHwgYHN0cmluZ2AgfCBEZWZpbml0aW9uOiB1bml2ZXJzYWxseSB1bmlxdWUgd2ViIHBhcnQgVHlwZSBpZC4gVXNhZ2U6IHVuaXF1ZWx5IGlkZW50aWZ5IGEgd2ViIHBhcnQuIFJlcXVpcmVkOiB5ZXMgVHlwZTogR1VJRCBTdXBwb3J0ZWQgdmFsdWVzOiBhbnkgR1VJRCBFeGFtcGxlOiBcImRiZWY2MDhkLTNhZDUtNGY4Zi1iMTM5LWQ5MTZmMmYwYTI5NFwiIHxcbnxgaW5zdGFuY2VJZGAgICAgICB8IGBzdHJpbmdgIHwgRGVmaW5pdGlvbjogdW5pdmVyc2FsbHkgdW5pcXVlIGluc3RhbmNlIGlkIG9mIHRoZSB3ZWIgcGFydC4gQSB3ZWIgcGFydCBjYW4gaGF2ZSBtdWx0aXBsZSBpbnN0YW5jZXMgb24gYSBwYWdlLiBUaGlzIGlkIGlzIGV4cGVjdGVkIHRvIGJlIHVuaXZlcnNhbGx5IHVuaXF1ZSBhY2Nyb3NzIHRpbWUgYW5kIHBhZ2UgYm91bmRhcmllcy4gaG93IHVzZWQ6IHVzZWQgYnkgdGhlIGZyYW1ld29yayB0byB1bmlxdWVseSBpZGVudGlmeSBhbiBpbnN0YW5jZSBvZiBhIHdlYiBwYXJ0LiBtYW5kYXRvcnk6IHllcyB0eXBlOiBzdHJpbmcgc3VwcG9ydGVkIHZhbHVlczogYSB1bmlxdWUgc3RyaW5nLiBDb3VsZCBiZSBHVUlEIG9yIG90aGVyIHVuaXF1ZWx5IGlkZW50aWZpYWJsZSBmb3JtYXRzLiBleGFtcGxlOiBbXCJkYmVmNjA4ZC0zYWQ1LTRmOGYtYjEzOS1kOTE2ZjJmMGEyOTRcIl0gZXhwZXJpbWVudGFsOiB5ZXMgfFxufGB0aXRsZWAgICAgICB8IGBzdHJpbmdgIHwgRGVmaW5pdGlvbjogd2ViIHBhcnQgdGl0bGUuIFVzYWdlOiBkaXNwbGF5IHRoZSBuYW1lIG9mIHRoZSB3ZWIgcGFydCBpbiB0aGUgdG9vbGJveCwgd2ViIHBhcnQgZ2FsbGVyeSBhbmQgdGhlIHBhZ2UuIFJlcXVpcmVkOiB5ZXMgVHlwZTogc3RyaW5nIFN1cHBvcnRlZCB2YWx1ZXM6IHN0cmluZyBsZXNzIHRoYW4gMTAwIGNoYXJhY3RlcnMgRXhhbXBsZTogXCJUZXh0XCIgfFxuXG5cblxuXG5cblxuIn0=]]></internal-file>
+      </skl>
+      <count-group name="BlackBox wordcount">
+        <count count-type="x-wordCount">213</count>
+        <count count-type="x-adjWordCount">210</count>
+        <count count-type="x-curAdjWordCount">210</count>
+        <count count-type="x-repeatAdjWordCount">0</count>
+        <count count-type="x-termWordCount">0</count>
+      </count-group>
+      <count-group name="BlackBox wordcount analysis">
+        <count count-type="x-match102%">0</count>
+        <count count-type="x-match101%">0</count>
+        <count count-type="x-match100%">4</count>
+        <count count-type="x-match99-90%">0</count>
+        <count count-type="x-match89-75%">0</count>
+        <count count-type="repetition">0</count>
+      </count-group>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>IWebPartData interface</source>
+          <target state="final">IWebPartData 인터페이스</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+        <group id="paragraph-101" merged-trans="yes">
+          <trans-unit id="p101" translate="yes" xml:space="preserve">
+            <source>This structure represents the serialized state of a web part. When the serialize() API is called on a web part, the output should be this structure. The structure of the 'properties' field is owned by the web part and is specific to the web part. Each web part can decide the set of properties it wants to serialialize.</source>
+            <target state="final">이 구조는 웹 파트의 직렬화 상태를 나타냅니다. 웹 파트에서 serialize() API가 호출되면 이 구조가 출력됩니다. 'properties' 필드의 구조는 웹 파트에 의해 소유되며 해당 웹 파트에 국한됩니다. 각 웹 파트는 직렬화하려는 속성 집합을 결정할 수 있습니다.</target>
+          <note from="bb-metadata"> wordcount="58" adjWordcount="58" curWordcount="58"</note></trans-unit>
+          <group id="sentence-101">
+            <trans-unit id="102" translate="no" xml:space="preserve">
+              <source>This structure represents the serialized state of a web part.</source>
+              <target state="final">This structure represents the serialized state of a web part.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="10" adjWordcount="10" curWordcount="10"</note></trans-unit>
+            <trans-unit id="103" translate="no" xml:space="preserve">
+              <source>When the serialize() API is called on a web part, the output should be this structure.</source>
+              <target state="final">When the serialize() API is called on a web part, the output should be this structure.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="16" adjWordcount="16" curWordcount="16"</note></trans-unit>
+            <trans-unit id="104" translate="no" xml:space="preserve">
+              <source>The structure of the 'properties' field is owned by the web part and is specific to the web part.</source>
+              <target state="final">The structure of the 'properties' field is owned by the web part and is specific to the web part.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="19" adjWordcount="19" curWordcount="19"</note></trans-unit>
+            <trans-unit id="105" translate="no" xml:space="preserve">
+              <source>Each web part can decide the set of properties it wants to serialialize.</source>
+              <target state="final">Each web part can decide the set of properties it wants to serialialize.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="13" adjWordcount="13" curWordcount="13"</note></trans-unit>
+          </group>
+        </group>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="final">속성</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">속성</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="final">속성</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">속성</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="final">형식</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">형식</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="109" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="final">설명</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">설명</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <group id="paragraph-102" merged-trans="yes">
+          <trans-unit id="p102" translate="yes" xml:space="preserve">
+            <source>Definition: web part description. Usage: display the description of the web part. Required: no Type: string Supported values: string with the description. Example: "Text"</source>
+            <target state="final">정의: 웹 파트 설명입니다. 사용법: 웹 파트에 대한 설명을 표시합니다. 필수 여부: 아니요 형식: string 지원되는 값: 설명이 있는 문자열 예제: "Text"</target>
+          <note from="bb-metadata"> wordcount="24" adjWordcount="24" curWordcount="24"</note></trans-unit>
+          <group id="sentence-102">
+            <trans-unit id="110" translate="no" xml:space="preserve">
+              <source>Definition: web part description.</source>
+              <target state="final">Definition: web part description.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="4" adjWordcount="4" curWordcount="4"</note></trans-unit>
+            <trans-unit id="111" translate="no" xml:space="preserve">
+              <source>Usage: display the description of the web part.</source>
+              <target state="final">Usage: display the description of the web part.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="8" adjWordcount="8" curWordcount="8"</note></trans-unit>
+            <trans-unit id="112" translate="no" xml:space="preserve">
+              <source>Required: no Type: string Supported values: string with the description.</source>
+              <target state="final">Required: no Type: string Supported values: string with the description.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="10" adjWordcount="10" curWordcount="10"</note></trans-unit>
+            <trans-unit id="113" translate="no" xml:space="preserve">
+              <source>Example: "Text"</source>
+              <target state="final">Example: "Text"</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+          </group>
+        </group>
+        <group id="paragraph-103" merged-trans="yes">
+          <trans-unit id="p103" translate="yes" xml:space="preserve">
+            <source>Definition: universally unique web part Type id. Usage: uniquely identify a web part. Required: yes Type: GUID Supported values: any GUID Example: "dbef608d-3ad5-4f8f-b139-d916f2f0a294"</source>
+            <target state="final">정의: 전체적으로 고유한 웹 파트 형식 ID입니다. 사용법: 웹 파트를 고유하게 식별합니다. 필수 여부: 아니요 형식: GUID 지원되는 값: 임의 GUID 예제: "dbef608d-3ad5-4f8f-b139-d916f2f0a294"</target>
+          <note from="bb-metadata"> wordcount="23" adjWordcount="23" curWordcount="23"</note></trans-unit>
+          <group id="sentence-103">
+            <trans-unit id="114" translate="no" xml:space="preserve">
+              <source>Definition: universally unique web part Type id.</source>
+              <target state="final">Definition: universally unique web part Type id.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="7" adjWordcount="7" curWordcount="7"</note></trans-unit>
+            <trans-unit id="115" translate="no" xml:space="preserve">
+              <source>Usage: uniquely identify a web part.</source>
+              <target state="final">Usage: uniquely identify a web part.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="6" adjWordcount="6" curWordcount="6"</note></trans-unit>
+            <trans-unit id="116" translate="no" xml:space="preserve">
+              <source>Required: yes Type: GUID Supported values: any GUID Example: "dbef608d-3ad5-4f8f-b139-d916f2f0a294"</source>
+              <target state="final">Required: yes Type: GUID Supported values: any GUID Example: "dbef608d-3ad5-4f8f-b139-d916f2f0a294"</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="10" adjWordcount="10" curWordcount="10"</note></trans-unit>
+          </group>
+        </group>
+        <group id="paragraph-104" merged-trans="yes">
+          <trans-unit id="p104" translate="yes" xml:space="preserve">
+            <source>Definition: universally unique instance id of the web part. A web part can have multiple instances on a page. This id is expected to be universally unique accross time and page boundaries. how used: used by the framework to uniquely identify an instance of a web part. mandatory: yes type: string supported values: a unique string. Could be GUID or other uniquely identifiable formats. example: ["dbef608d-3ad5-4f8f-b139-d916f2f0a294"] experimental: yes</source>
+            <target state="final">정의: 웹 파트의 전체적으로 고유한 인스턴스 ID입니다. 웹 파트는 한 페이지에 여러 인스턴스가 있을 수 있습니다. 이 ID는 시간 및 페이지 경계와 관계 없이 전체적으로 고유해야 합니다. 사용법: 웹 파트의 인스턴스를 고유하게 식별하기 위해 프레임워크에서 사용됩니다. 필수 여부: 예 형식: string 지원되는 값: 고유한 문자열입니다. GUID 또는 고유하게 식별 가능한 기타 형식일 수 있습니다. 예제: ["dbef608d-3ad5-4f8f-b139-d916f2f0a294"] 실험 여부: 예</target>
+          <note from="bb-metadata"> wordcount="68" adjWordcount="68" curWordcount="68"</note></trans-unit>
+          <group id="sentence-104">
+            <trans-unit id="117" translate="no" xml:space="preserve">
+              <source>Definition: universally unique instance id of the web part.</source>
+              <target state="final">Definition: universally unique instance id of the web part.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="9" adjWordcount="9" curWordcount="9"</note></trans-unit>
+            <trans-unit id="118" translate="no" xml:space="preserve">
+              <source>A web part can have multiple instances on a page.</source>
+              <target state="final">A web part can have multiple instances on a page.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="10" adjWordcount="10" curWordcount="10"</note></trans-unit>
+            <trans-unit id="119" translate="no" xml:space="preserve">
+              <source>This id is expected to be universally unique accross time and page boundaries.</source>
+              <target state="final">This id is expected to be universally unique accross time and page boundaries.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="13" adjWordcount="13" curWordcount="13"</note></trans-unit>
+            <trans-unit id="120" translate="no" xml:space="preserve">
+              <source>how used: used by the framework to uniquely identify an instance of a web part.</source>
+              <target state="final">how used: used by the framework to uniquely identify an instance of a web part.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="15" adjWordcount="15" curWordcount="15"</note></trans-unit>
+            <trans-unit id="121" translate="no" xml:space="preserve">
+              <source>mandatory: yes type: string supported values: a unique string.</source>
+              <target state="final">mandatory: yes type: string supported values: a unique string.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="9" adjWordcount="9" curWordcount="9"</note></trans-unit>
+            <trans-unit id="122" translate="no" xml:space="preserve">
+              <source>Could be GUID or other uniquely identifiable formats.</source>
+              <target state="final">Could be GUID or other uniquely identifiable formats.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="8" adjWordcount="8" curWordcount="8"</note></trans-unit>
+            <trans-unit id="123" translate="no" xml:space="preserve">
+              <source>example: ["dbef608d-3ad5-4f8f-b139-d916f2f0a294"] experimental: yes</source>
+              <target state="final">example: ["dbef608d-3ad5-4f8f-b139-d916f2f0a294"] experimental: yes</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="4" adjWordcount="4" curWordcount="4"</note></trans-unit>
+          </group>
+        </group>
+        <group id="paragraph-105" merged-trans="yes">
+          <trans-unit id="p105" translate="yes" xml:space="preserve">
+            <source>Definition: web part title. Usage: display the name of the web part in the toolbox, web part gallery and the page. Required: yes Type: string Supported values: string less than 100 characters Example: "Text"</source>
+            <target state="final">정의: 웹 파트 제목입니다. 사용법: 도구 상자, 웹 파트 갤러리 및 페이지에 웹 파트의 이름을 표시합니다. 필수 여부: 예 형식: string 지원되는 값: 100자 미만의 문자열 예제: "Text"</target>
+          <note from="bb-metadata"> wordcount="34" adjWordcount="34" curWordcount="34"</note></trans-unit>
+          <group id="sentence-105">
+            <trans-unit id="124" translate="no" xml:space="preserve">
+              <source>Definition: web part title.</source>
+              <target state="final">Definition: web part title.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="4" adjWordcount="4" curWordcount="4"</note></trans-unit>
+            <trans-unit id="125" translate="no" xml:space="preserve">
+              <source>Usage: display the name of the web part in the toolbox, web part gallery and the page.</source>
+              <target state="final">Usage: display the name of the web part in the toolbox, web part gallery and the page.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="17" adjWordcount="17" curWordcount="17"</note></trans-unit>
+            <trans-unit id="126" translate="no" xml:space="preserve">
+              <source>Required: yes Type: string Supported values: string less than 100 characters Example: "Text"</source>
+              <target state="final">Required: yes Type: string Supported values: string less than 100 characters Example: "Text"</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="13" adjWordcount="13" curWordcount="13"</note></trans-unit>
+          </group>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

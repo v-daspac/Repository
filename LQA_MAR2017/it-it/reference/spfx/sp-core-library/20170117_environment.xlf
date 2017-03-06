@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="20170117_environment.md" source-language="en-US" target-language="it-IT" build-num="1549782171">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-188fee3" tool-company="Microsoft" />
+      <skl>
+        <internal-file form="base64"><![CDATA[eyJub2RlcyI6W3sicG9zIjpbMiwxOV0sImNvbnRlbnQiOiJFbnZpcm9ubWVudCBjbGFzcyIsImxpbmtpZnkiOiJFbnZpcm9ubWVudCBjbGFzcyIsIm5vZGVzIjpbeyJjb250ZW50IjoiRW52aXJvbm1lbnQgY2xhc3MiLCJwb3MiOlswLDE3XX1dfSx7ImNvbnRlbnQiOiJUaGlzIGNsYXNzIGNvbnRhaW5zIGNvbnRleHR1YWwgaW5mb3JtYXRpb24gYWJvdXQgdGhlIGVudmlyb21lbnQgdGhhdCBpcyBob3N0aW5nIHRoZSBmcmFtZXdvcmsgYW5kIGl0cyBjb21wb25lbnRzLiIsInBvcyI6WzI3LDE0MF19LHsicG9zIjpbMTQ3LDE1N10sImNvbnRlbnQiOiJQcm9wZXJ0aWVzIiwibGlua2lmeSI6IlByb3BlcnRpZXMiLCJub2RlcyI6W3siY29udGVudCI6IlByb3BlcnRpZXMiLCJwb3MiOlswLDEwXX1dfSx7ImNvbnRlbnQiOiJQcm9wZXJ0eSIsInBvcyI6WzE2MSwxNjldfSx7ImNvbnRlbnQiOiJBY2Nlc3MgTW9kaWZpZXIiLCJwb3MiOlsxNzYsMTkxXX0seyJjb250ZW50IjoiVHlwZSIsInBvcyI6WzE5NCwxOThdfSx7ImNvbnRlbnQiOiJEZXNjcmlwdGlvbiIsInBvcyI6WzIwMSwyMTJdfSx7InBvcyI6WzMzOSw4MTZdLCJjb250ZW50IjoiPGJwdCBpZD1cInAxXCI+XzwvYnB0PlJlYWQtb25seS48ZXB0IGlkPVwicDFcIj5fPC9lcHQ+IEEgdW5pcXVlIGlkZW50aWZpZXIgdXNlZCB0byBjb3JyZWxhdGUgbG9nZ2luZyBhbmQgb3RoZXIgZGlhZ25vc3RpYyBpbmZvcm1hdGlvbi4gSXRzIGxpZmV0aW1lIHBlcnNpc3RzIGZvciB0aGUgZHVyYXRpb24gb2YgdGhlIGNsaWVudC1zaWRlIGFwcGxpY2F0aW9uIGluc3RhbmNlLCBpLmUuIGl0IGJlZ2lucyB3aXRoIHRoZSBzZXJ2ZXIgcmVxdWVzdCB0aGF0IHJlbmRlcnMgdGhlIHBhZ2UsIGFuZCBlbmRzIGUuZy4gd2hlbiB0aGUgYnJvd3NlciB0YWIgaXMgY2xvc2VkIG9yIEY1IGlzIHByZXNzZWQgdG8gcmVsb2FkIHRoZSBwYWdlLiBOb3RlIHRoYXQgaWYgdGhlIGFwcGxpY2F0aW9uJ3Mgcm91dGVyIHN1cHBvcnRzIGluLXBsYWNlIG5hdmlnYXRpb24gKHZpYSB0aGUgaGlzdG9yeS5wdXNoU3RhdGUoKSBBUEkpLCB0aGUgYXBwbGljYXRpb24gc2Vzc2lvbiBwZXJzaXN0cyBhY3Jvc3MgdGhlc2UgdHJhbnNpdGlvbnMuIiwibm9kZXMiOlt7ImNvbnRlbnQiOiI8YnB0IGlkPVwicDFcIj5fPC9icHQ+UmVhZC1vbmx5LjxlcHQgaWQ9XCJwMVwiPl88L2VwdD4iLCJwb3MiOlswLDEyXSwic291cmNlIjoiX1JlYWQtb25seS5fIn0seyJjb250ZW50IjoiQSB1bmlxdWUgaWRlbnRpZmllciB1c2VkIHRvIGNvcnJlbGF0ZSBsb2dnaW5nIGFuZCBvdGhlciBkaWFnbm9zdGljIGluZm9ybWF0aW9uLiIsInBvcyI6WzEzLDkyXX0seyJjb250ZW50IjoiSXRzIGxpZmV0aW1lIHBlcnNpc3RzIGZvciB0aGUgZHVyYXRpb24gb2YgdGhlIGNsaWVudC1zaWRlIGFwcGxpY2F0aW9uIGluc3RhbmNlLCBpLmUuIGl0IGJlZ2lucyB3aXRoIHRoZSBzZXJ2ZXIgcmVxdWVzdCB0aGF0IHJlbmRlcnMgdGhlIHBhZ2UsIGFuZCBlbmRzIGUuZy4gd2hlbiB0aGUgYnJvd3NlciB0YWIgaXMgY2xvc2VkIG9yIEY1IGlzIHByZXNzZWQgdG8gcmVsb2FkIHRoZSBwYWdlLiIsInBvcyI6WzkzLDMxNl19LHsiY29udGVudCI6Ik5vdGUgdGhhdCBpZiB0aGUgYXBwbGljYXRpb24ncyByb3V0ZXIgc3VwcG9ydHMgaW4tcGxhY2UgbmF2aWdhdGlvbiAodmlhIHRoZSBoaXN0b3J5LnB1c2hTdGF0ZSgpIEFQSSksIHRoZSBhcHBsaWNhdGlvbiBzZXNzaW9uIHBlcnNpc3RzIGFjcm9zcyB0aGVzZSB0cmFuc2l0aW9ucy4iLCJwb3MiOlszMTcsNDc3XX1dLCJpc1BhcmFncmFwaCI6dHJ1ZSwic291cmNlIjoiX1JlYWQtb25seS5fIEEgdW5pcXVlIGlkZW50aWZpZXIgdXNlZCB0byBjb3JyZWxhdGUgbG9nZ2luZyBhbmQgb3RoZXIgZGlhZ25vc3RpYyBpbmZvcm1hdGlvbi4gSXRzIGxpZmV0aW1lIHBlcnNpc3RzIGZvciB0aGUgZHVyYXRpb24gb2YgdGhlIGNsaWVudC1zaWRlIGFwcGxpY2F0aW9uIGluc3RhbmNlLCBpLmUuIGl0IGJlZ2lucyB3aXRoIHRoZSBzZXJ2ZXIgcmVxdWVzdCB0aGF0IHJlbmRlcnMgdGhlIHBhZ2UsIGFuZCBlbmRzIGUuZy4gd2hlbiB0aGUgYnJvd3NlciB0YWIgaXMgY2xvc2VkIG9yIEY1IGlzIHByZXNzZWQgdG8gcmVsb2FkIHRoZSBwYWdlLiBOb3RlIHRoYXQgaWYgdGhlIGFwcGxpY2F0aW9uJ3Mgcm91dGVyIHN1cHBvcnRzIGluLXBsYWNlIG5hdmlnYXRpb24gKHZpYSB0aGUgaGlzdG9yeS5wdXNoU3RhdGUoKSBBUEkpLCB0aGUgYXBwbGljYXRpb24gc2Vzc2lvbiBwZXJzaXN0cyBhY3Jvc3MgdGhlc2UgdHJhbnNpdGlvbnMuIn0seyJwb3MiOls4OTIsMTY4Ml0sImNvbnRlbnQiOiI8YnB0IGlkPVwicDFcIj5fPC9icHQ+UmVhZC1vbmx5LjxlcHQgaWQ9XCJwMVwiPl88L2VwdD4gQSB1bmlxdWUgaWRlbnRpZmllciB1c2VkIHRvIGNvcnJlbGF0ZSBsb2dnaW5nIGFuZCBvdGhlciBkaWFnbm9zdGljIGluZm9ybWF0aW9uLiBXaGVyZWFzIHRoZSBhcHBsaWNhdGlvblNlc3Npb25JZCB0cmFja3MgdGhlIGVudGlyZSBsaWZldGltZSBvZiB0aGUgY2xpZW50LXNpZGUgYXBwbGljYXRpb24gaW5zdGFuY2UsIHRoZSBwYWdlU2Vzc2lvbklkIHRyYWNrcyBhbiBpbmRpdmlkdWFsIFwicGFnZVwiIHRoYXQgaXMgcmVuZGVyZWQuIEZvciBleGFtcGxlLCBzdXBwb3NlIHRoYXQgdGhlIGFwcGxpY2F0aW9uIGluaXRpYWxseSBsb2FkcyBQYWdlQSwgdGhlbiB0aGUgdXNlciBkb2VzIGluLXBsYWNlIG5hdmlnYXRpb24gKHZpYSB0aGUgaGlzdG9yeS5wdXNoU3RhdGUoKSBBUEkpIHRvIFBhZ2VCLCB0aGVuIG5hdmlnYXRlcyBiYWNrIHRvIFBhZ2VBLCBhbmQgZmluYWxseSB0aGV5IGNsb3NlIHRoZSBicm93c2VyIHRhYi4gRHVyaW5nIHRoaXMgc2VxdWVuY2UsIHRoZSBhcHBsaWNhdGlvblNlc3Npb25JZCB3aWxsIHJlbWFpbiB0aGUgc2FtZSwgaG93ZXZlciB0aGUgcGFnZVNlc3Npb25JZCB3aWxsIGNoYW5nZSBvbiBlYWNoIG5hdmlnYXRpb24uIFRoZSAzIGRpZmZlcmVudCBwYWdlU2Vzc2lvbklkIHZhbHVlcyBhcmUgdXNlZCBieSB0aGUgZGlhZ25vc3RpY3MgZS5nLiB0byB0cmFjayBzdWNjZXNzL2ZhaWx1cmUgc3RhdGlzdGljcyBmb3IgUGFnZUEgaW5kZXBlbmRlbnRseSBvZiBQYWdlQi4gVGhlIGNvbmNlcHQgb2YgYSBcInBhZ2VcIiBpcyBhcHBsaWNhdGlvbi1kZWZpbmVkLiIsIm5vZGVzIjpbeyJjb250ZW50IjoiPGJwdCBpZD1cInAxXCI+XzwvYnB0PlJlYWQtb25seS48ZXB0IGlkPVwicDFcIj5fPC9lcHQ+IiwicG9zIjpbMCwxMl0sInNvdXJjZSI6Il9SZWFkLW9ubHkuXyJ9LHsiY29udGVudCI6IkEgdW5pcXVlIGlkZW50aWZpZXIgdXNlZCB0byBjb3JyZWxhdGUgbG9nZ2luZyBhbmQgb3RoZXIgZGlhZ25vc3RpYyBpbmZvcm1hdGlvbi4iLCJwb3MiOlsxMyw5Ml19LHsiY29udGVudCI6IldoZXJlYXMgdGhlIGFwcGxpY2F0aW9uU2Vzc2lvbklkIHRyYWNrcyB0aGUgZW50aXJlIGxpZmV0aW1lIG9mIHRoZSBjbGllbnQtc2lkZSBhcHBsaWNhdGlvbiBpbnN0YW5jZSwgdGhlIHBhZ2VTZXNzaW9uSWQgdHJhY2tzIGFuIGluZGl2aWR1YWwgXCJwYWdlXCIgdGhhdCBpcyByZW5kZXJlZC4iLCJwb3MiOls5MywyNTddfSx7ImNvbnRlbnQiOiJGb3IgZXhhbXBsZSwgc3VwcG9zZSB0aGF0IHRoZSBhcHBsaWNhdGlvbiBpbml0aWFsbHkgbG9hZHMgUGFnZUEsIHRoZW4gdGhlIHVzZXIgZG9lcyBpbi1wbGFjZSBuYXZpZ2F0aW9uICh2aWEgdGhlIGhpc3RvcnkucHVzaFN0YXRlKCkgQVBJKSB0byBQYWdlQiwgdGhlbiBuYXZpZ2F0ZXMgYmFjayB0byBQYWdlQSwgYW5kIGZpbmFsbHkgdGhleSBjbG9zZSB0aGUgYnJvd3NlciB0YWIuIiwicG9zIjpbMjU4LDQ3NV19LHsiY29udGVudCI6IkR1cmluZyB0aGlzIHNlcXVlbmNlLCB0aGUgYXBwbGljYXRpb25TZXNzaW9uSWQgd2lsbCByZW1haW4gdGhlIHNhbWUsIGhvd2V2ZXIgdGhlIHBhZ2VTZXNzaW9uSWQgd2lsbCBjaGFuZ2Ugb24gZWFjaCBuYXZpZ2F0aW9uLiIsInBvcyI6WzQ3Niw2MDJdfSx7ImNvbnRlbnQiOiJUaGUgMyBkaWZmZXJlbnQgcGFnZVNlc3Npb25JZCB2YWx1ZXMgYXJlIHVzZWQgYnkgdGhlIGRpYWdub3N0aWNzIGUuZy4gdG8gdHJhY2sgc3VjY2Vzcy9mYWlsdXJlIHN0YXRpc3RpY3MgZm9yIFBhZ2VBIGluZGVwZW5kZW50bHkgb2YgUGFnZUIuIiwicG9zIjpbNjAzLDc0Ml19LHsiY29udGVudCI6IlRoZSBjb25jZXB0IG9mIGEgXCJwYWdlXCIgaXMgYXBwbGljYXRpb24tZGVmaW5lZC4iLCJwb3MiOls3NDMsNzkwXX1dLCJpc1BhcmFncmFwaCI6dHJ1ZSwic291cmNlIjoiX1JlYWQtb25seS5fIEEgdW5pcXVlIGlkZW50aWZpZXIgdXNlZCB0byBjb3JyZWxhdGUgbG9nZ2luZyBhbmQgb3RoZXIgZGlhZ25vc3RpYyBpbmZvcm1hdGlvbi4gV2hlcmVhcyB0aGUgYXBwbGljYXRpb25TZXNzaW9uSWQgdHJhY2tzIHRoZSBlbnRpcmUgbGlmZXRpbWUgb2YgdGhlIGNsaWVudC1zaWRlIGFwcGxpY2F0aW9uIGluc3RhbmNlLCB0aGUgcGFnZVNlc3Npb25JZCB0cmFja3MgYW4gaW5kaXZpZHVhbCBcInBhZ2VcIiB0aGF0IGlzIHJlbmRlcmVkLiBGb3IgZXhhbXBsZSwgc3VwcG9zZSB0aGF0IHRoZSBhcHBsaWNhdGlvbiBpbml0aWFsbHkgbG9hZHMgUGFnZUEsIHRoZW4gdGhlIHVzZXIgZG9lcyBpbi1wbGFjZSBuYXZpZ2F0aW9uICh2aWEgdGhlIGhpc3RvcnkucHVzaFN0YXRlKCkgQVBJKSB0byBQYWdlQiwgdGhlbiBuYXZpZ2F0ZXMgYmFjayB0byBQYWdlQSwgYW5kIGZpbmFsbHkgdGhleSBjbG9zZSB0aGUgYnJvd3NlciB0YWIuIER1cmluZyB0aGlzIHNlcXVlbmNlLCB0aGUgYXBwbGljYXRpb25TZXNzaW9uSWQgd2lsbCByZW1haW4gdGhlIHNhbWUsIGhvd2V2ZXIgdGhlIHBhZ2VTZXNzaW9uSWQgd2lsbCBjaGFuZ2Ugb24gZWFjaCBuYXZpZ2F0aW9uLiBUaGUgMyBkaWZmZXJlbnQgcGFnZVNlc3Npb25JZCB2YWx1ZXMgYXJlIHVzZWQgYnkgdGhlIGRpYWdub3N0aWNzIGUuZy4gdG8gdHJhY2sgc3VjY2Vzcy9mYWlsdXJlIHN0YXRpc3RpY3MgZm9yIFBhZ2VBIGluZGVwZW5kZW50bHkgb2YgUGFnZUIuIFRoZSBjb25jZXB0IG9mIGEgXCJwYWdlXCIgaXMgYXBwbGljYXRpb24tZGVmaW5lZC4ifSx7InBvcyI6WzE3NzEsMTg2MF0sImNvbnRlbnQiOiI8YnB0IGlkPVwicDFcIj5fPC9icHQ+UmVhZC1vbmx5LjxlcHQgaWQ9XCJwMVwiPl88L2VwdD4gQW4gZW51bSB0aGF0IGRlc2NyaWJlcyB3aGljaCB0eXBlIG9mIGVudmlyb21lbnQgdGhlIGZyYW1ld29yayBpcyBydW5uaW5nIGluLiIsIm5vZGVzIjpbeyJjb250ZW50IjoiPGJwdCBpZD1cInAxXCI+XzwvYnB0PlJlYWQtb25seS48ZXB0IGlkPVwicDFcIj5fPC9lcHQ+IiwicG9zIjpbMCwxMl0sInNvdXJjZSI6Il9SZWFkLW9ubHkuXyJ9LHsiY29udGVudCI6IkFuIGVudW0gdGhhdCBkZXNjcmliZXMgd2hpY2ggdHlwZSBvZiBlbnZpcm9tZW50IHRoZSBmcmFtZXdvcmsgaXMgcnVubmluZyBpbi4iLCJwb3MiOlsxMyw4OV19XSwiaXNQYXJhZ3JhcGgiOnRydWUsInNvdXJjZSI6Il9SZWFkLW9ubHkuXyBBbiBlbnVtIHRoYXQgZGVzY3JpYmVzIHdoaWNoIHR5cGUgb2YgZW52aXJvbWVudCB0aGUgZnJhbWV3b3JrIGlzIHJ1bm5pbmcgaW4uIn1dLCJjb250ZW50IjoiIyBFbnZpcm9ubWVudCBjbGFzc1xuXG5cblxuXG5cblxuXG5UaGlzIGNsYXNzIGNvbnRhaW5zIGNvbnRleHR1YWwgaW5mb3JtYXRpb24gYWJvdXQgdGhlIGVudmlyb21lbnQgdGhhdCBpcyBob3N0aW5nIHRoZSBmcmFtZXdvcmsgYW5kIGl0cyBjb21wb25lbnRzLlxuXG5cblxuIyMgUHJvcGVydGllc1xuXG58IFByb3BlcnR5ICAgICB8IEFjY2VzcyBNb2RpZmllciB8IFR5cGUgfCBEZXNjcmlwdGlvbnxcbnw6LS0tLS0tLS0tLS0tLXw6LS0tLXw6LS0tLS0tLXw6LS0tLS0tLS0tLS18XG58YGFwcGxpY2F0aW9uU2Vzc2lvbklkYCAgICAgfCBgcHVibGljYCB8IFtgR3VpZGBdKC4uL3NwLWNvcmUtbGlicmFyeS9ndWlkLm1kKSB8IF9SZWFkLW9ubHkuXyBBIHVuaXF1ZSBpZGVudGlmaWVyIHVzZWQgdG8gY29ycmVsYXRlIGxvZ2dpbmcgYW5kIG90aGVyIGRpYWdub3N0aWMgaW5mb3JtYXRpb24uIEl0cyBsaWZldGltZSBwZXJzaXN0cyBmb3IgdGhlIGR1cmF0aW9uIG9mIHRoZSBjbGllbnQtc2lkZSBhcHBsaWNhdGlvbiBpbnN0YW5jZSwgaS5lLiBpdCBiZWdpbnMgd2l0aCB0aGUgc2VydmVyIHJlcXVlc3QgdGhhdCByZW5kZXJzIHRoZSBwYWdlLCBhbmQgZW5kcyBlLmcuIHdoZW4gdGhlIGJyb3dzZXIgdGFiIGlzIGNsb3NlZCBvciBGNSBpcyBwcmVzc2VkIHRvIHJlbG9hZCB0aGUgcGFnZS4gTm90ZSB0aGF0IGlmIHRoZSBhcHBsaWNhdGlvbidzIHJvdXRlciBzdXBwb3J0cyBpbi1wbGFjZSBuYXZpZ2F0aW9uICh2aWEgdGhlIGhpc3RvcnkucHVzaFN0YXRlKCkgQVBJKSwgdGhlIGFwcGxpY2F0aW9uIHNlc3Npb24gcGVyc2lzdHMgYWNyb3NzIHRoZXNlIHRyYW5zaXRpb25zLiB8XG58YHBhZ2VTZXNzaW9uSWRgICAgICB8IGBwdWJsaWNgIHwgW2BHdWlkYF0oLi4vc3AtY29yZS1saWJyYXJ5L2d1aWQubWQpIHwgX1JlYWQtb25seS5fIEEgdW5pcXVlIGlkZW50aWZpZXIgdXNlZCB0byBjb3JyZWxhdGUgbG9nZ2luZyBhbmQgb3RoZXIgZGlhZ25vc3RpYyBpbmZvcm1hdGlvbi4gV2hlcmVhcyB0aGUgYXBwbGljYXRpb25TZXNzaW9uSWQgdHJhY2tzIHRoZSBlbnRpcmUgbGlmZXRpbWUgb2YgdGhlIGNsaWVudC1zaWRlIGFwcGxpY2F0aW9uIGluc3RhbmNlLCB0aGUgcGFnZVNlc3Npb25JZCB0cmFja3MgYW4gaW5kaXZpZHVhbCBcInBhZ2VcIiB0aGF0IGlzIHJlbmRlcmVkLiBGb3IgZXhhbXBsZSwgc3VwcG9zZSB0aGF0IHRoZSBhcHBsaWNhdGlvbiBpbml0aWFsbHkgbG9hZHMgUGFnZUEsIHRoZW4gdGhlIHVzZXIgZG9lcyBpbi1wbGFjZSBuYXZpZ2F0aW9uICh2aWEgdGhlIGhpc3RvcnkucHVzaFN0YXRlKCkgQVBJKSB0byBQYWdlQiwgdGhlbiBuYXZpZ2F0ZXMgYmFjayB0byBQYWdlQSwgYW5kIGZpbmFsbHkgdGhleSBjbG9zZSB0aGUgYnJvd3NlciB0YWIuIER1cmluZyB0aGlzIHNlcXVlbmNlLCB0aGUgYXBwbGljYXRpb25TZXNzaW9uSWQgd2lsbCByZW1haW4gdGhlIHNhbWUsIGhvd2V2ZXIgdGhlIHBhZ2VTZXNzaW9uSWQgd2lsbCBjaGFuZ2Ugb24gZWFjaCBuYXZpZ2F0aW9uLiBUaGUgMyBkaWZmZXJlbnQgcGFnZVNlc3Npb25JZCB2YWx1ZXMgYXJlIHVzZWQgYnkgdGhlIGRpYWdub3N0aWNzIGUuZy4gdG8gdHJhY2sgc3VjY2Vzcy9mYWlsdXJlIHN0YXRpc3RpY3MgZm9yIFBhZ2VBIGluZGVwZW5kZW50bHkgb2YgUGFnZUIuIFRoZSBjb25jZXB0IG9mIGEgXCJwYWdlXCIgaXMgYXBwbGljYXRpb24tZGVmaW5lZC4gfFxufGB0eXBlYCAgICAgfCBgcHVibGljYCB8IFtgRW52aXJvbm1lbnRUeXBlYF0oLi4vc3AtY29yZS1saWJyYXJ5L2Vudmlyb25tZW50dHlwZS5tZCkgfCBfUmVhZC1vbmx5Ll8gQW4gZW51bSB0aGF0IGRlc2NyaWJlcyB3aGljaCB0eXBlIG9mIGVudmlyb21lbnQgdGhlIGZyYW1ld29yayBpcyBydW5uaW5nIGluLiB8XG5cblxuXG5cblxuXG5cbiJ9]]></internal-file>
+      </skl>
+      <count-group name="BlackBox wordcount">
+        <count count-type="x-wordCount">219</count>
+        <count count-type="x-adjWordCount">216</count>
+        <count count-type="x-curAdjWordCount">216</count>
+        <count count-type="x-repeatAdjWordCount">0</count>
+        <count count-type="x-termWordCount">0</count>
+      </count-group>
+      <count-group name="BlackBox wordcount analysis">
+        <count count-type="x-match102%">0</count>
+        <count count-type="x-match101%">0</count>
+        <count count-type="x-match100%">4</count>
+        <count count-type="x-match99-90%">0</count>
+        <count count-type="x-match89-75%">0</count>
+        <count count-type="repetition">0</count>
+      </count-group>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Environment class</source>
+          <target state="final">Classe Environment</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>This class contains contextual information about the enviroment that is hosting the framework and its components.</source>
+          <target state="final">Questa classe contiene informazioni di contesto sull'ambiente che ospita il framework e i suoi componenti.</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="16" adjWordcount="16" curWordcount="16"</note></trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Properties</source>
+          <target state="final">Proprietà</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">Proprietà</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Property</source>
+          <target state="final">Proprietà</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">Proprietà</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>Access Modifier</source>
+          <target state="final">Modificatore di accesso</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="final">Tipo</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">Tipo</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <target state="final">Descrizione</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">Descrizione</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <group id="paragraph-101" merged-trans="yes">
+          <trans-unit id="p101" translate="yes" xml:space="preserve">
+            <source><bpt id="p1">_</bpt>Read-only.<ept id="p1">_</ept> A unique identifier used to correlate logging and other diagnostic information. Its lifetime persists for the duration of the client-side application instance, i.e. it begins with the server request that renders the page, and ends e.g. when the browser tab is closed or F5 is pressed to reload the page. Note that if the application's router supports in-place navigation (via the history.pushState() API), the application session persists across these transitions.</source>
+            <target state="final"><bpt id="p1">_</bpt>Sola lettura.<ept id="p1">_</ept> Un identificatore univoco utilizzato per correlare la registrazione e altre informazioni di diagnostica. Dura quanto l'istanza dell'applicazione sul lato client, ovvero inizia con la richiesta del server che esegue il rendering della pagina e termina, ad esempio, quando la scheda del browser viene chiusa oppure quando viene premuto F5 per ricaricare la pagina. Si noti che se il router dell'applicazione supporta la navigazione sul posto (tramite l'API history.pushState()), la sessione dell'applicazione viene mantenuta in queste transizioni.</target>
+          <note from="bb-metadata"> wordcount="71" adjWordcount="71" curWordcount="71"</note></trans-unit>
+          <group id="sentence-101">
+            <trans-unit id="108" translate="no" xml:space="preserve">
+              <source><bpt id="p1">_</bpt>Read-only.<ept id="p1">_</ept></source>
+              <target state="final"><bpt id="p1">_</bpt>Read-only.<ept id="p1">_</ept></target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="1" adjWordcount="1" curWordcount="1"</note></trans-unit>
+            <trans-unit id="109" translate="no" xml:space="preserve">
+              <source>A unique identifier used to correlate logging and other diagnostic information.</source>
+              <target state="final">A unique identifier used to correlate logging and other diagnostic information.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="11" adjWordcount="11" curWordcount="11"</note></trans-unit>
+            <trans-unit id="110" translate="no" xml:space="preserve">
+              <source>Its lifetime persists for the duration of the client-side application instance, i.e. it begins with the server request that renders the page, and ends e.g. when the browser tab is closed or F5 is pressed to reload the page.</source>
+              <target state="final">Its lifetime persists for the duration of the client-side application instance, i.e. it begins with the server request that renders the page, and ends e.g. when the browser tab is closed or F5 is pressed to reload the page.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="39" adjWordcount="39" curWordcount="39"</note></trans-unit>
+            <trans-unit id="111" translate="no" xml:space="preserve">
+              <source>Note that if the application's router supports in-place navigation (via the history.pushState() API), the application session persists across these transitions.</source>
+              <target state="final">Note that if the application's router supports in-place navigation (via the history.pushState() API), the application session persists across these transitions.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="20" adjWordcount="20" curWordcount="20"</note></trans-unit>
+          </group>
+        </group>
+        <group id="paragraph-102" merged-trans="yes">
+          <trans-unit id="p102" translate="yes" xml:space="preserve">
+            <source><bpt id="p1">_</bpt>Read-only.<ept id="p1">_</ept> A unique identifier used to correlate logging and other diagnostic information. Whereas the applicationSessionId tracks the entire lifetime of the client-side application instance, the pageSessionId tracks an individual "page" that is rendered. For example, suppose that the application initially loads PageA, then the user does in-place navigation (via the history.pushState() API) to PageB, then navigates back to PageA, and finally they close the browser tab. During this sequence, the applicationSessionId will remain the same, however the pageSessionId will change on each navigation. The 3 different pageSessionId values are used by the diagnostics e.g. to track success/failure statistics for PageA independently of PageB. The concept of a "page" is application-defined.</source>
+            <target state="final"><bpt id="p1">_</bpt>Sola lettura.<ept id="p1">_</ept> Un identificatore univoco utilizzato per correlare la registrazione e altre informazioni di diagnostica. Mentre applicationSessionId tiene traccia dell'intera durata dell'istanza dell'applicazione sul lato client, pageSessionId tiene traccia di una singola "pagina" di cui viene eseguito il rendering. Si supponga, ad esempio, che l'applicazione inizialmente carichi PageA, che l'utente esegua una navigazione sul posto (mediante l'API history.pushState()) per PageB, che quindi torni a PageA per chiudere, infine, la scheda del browser. Durante questa sequenza, applicationSessionId rimarrà lo stesso, anche se pageSessionId cambierà per ogni navigazione. I 3 valori di pageSessionId vengono utilizzati dalla diagnostica, ad esempio, per tenere traccia delle statistiche delle operazioni con esito positivo/negativo per PageA indipendentemente da PageB. Il concetto di "pagina" è definito dall'applicazione.</target>
+          <note from="bb-metadata"> wordcount="110" adjWordcount="110" curWordcount="110"</note></trans-unit>
+          <group id="sentence-102">
+            <trans-unit id="112" translate="no" xml:space="preserve">
+              <source><bpt id="p1">_</bpt>Read-only.<ept id="p1">_</ept></source>
+              <target state="final"><bpt id="p1">_</bpt>Read-only.<ept id="p1">_</ept></target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="1" adjWordcount="1" curWordcount="1"</note></trans-unit>
+            <trans-unit id="113" translate="no" xml:space="preserve">
+              <source>A unique identifier used to correlate logging and other diagnostic information.</source>
+              <target state="final">A unique identifier used to correlate logging and other diagnostic information.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="11" adjWordcount="11" curWordcount="11"</note></trans-unit>
+            <trans-unit id="114" translate="no" xml:space="preserve">
+              <source>Whereas the applicationSessionId tracks the entire lifetime of the client-side application instance, the pageSessionId tracks an individual "page" that is rendered.</source>
+              <target state="final">Whereas the applicationSessionId tracks the entire lifetime of the client-side application instance, the pageSessionId tracks an individual "page" that is rendered.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="21" adjWordcount="21" curWordcount="21"</note></trans-unit>
+            <trans-unit id="115" translate="no" xml:space="preserve">
+              <source>For example, suppose that the application initially loads PageA, then the user does in-place navigation (via the history.pushState() API) to PageB, then navigates back to PageA, and finally they close the browser tab.</source>
+              <target state="final">For example, suppose that the application initially loads PageA, then the user does in-place navigation (via the history.pushState() API) to PageB, then navigates back to PageA, and finally they close the browser tab.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="33" adjWordcount="33" curWordcount="33"</note></trans-unit>
+            <trans-unit id="116" translate="no" xml:space="preserve">
+              <source>During this sequence, the applicationSessionId will remain the same, however the pageSessionId will change on each navigation.</source>
+              <target state="final">During this sequence, the applicationSessionId will remain the same, however the pageSessionId will change on each navigation.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="17" adjWordcount="17" curWordcount="17"</note></trans-unit>
+            <trans-unit id="117" translate="no" xml:space="preserve">
+              <source>The 3 different pageSessionId values are used by the diagnostics e.g. to track success/failure statistics for PageA independently of PageB.</source>
+              <target state="final">The 3 different pageSessionId values are used by the diagnostics e.g. to track success/failure statistics for PageA independently of PageB.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="20" adjWordcount="20" curWordcount="20"</note></trans-unit>
+            <trans-unit id="118" translate="no" xml:space="preserve">
+              <source>The concept of a "page" is application-defined.</source>
+              <target state="final">The concept of a "page" is application-defined.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="7" adjWordcount="7" curWordcount="7"</note></trans-unit>
+          </group>
+        </group>
+        <group id="paragraph-103" merged-trans="yes">
+          <trans-unit id="p103" translate="yes" xml:space="preserve">
+            <source><bpt id="p1">_</bpt>Read-only.<ept id="p1">_</ept> An enum that describes which type of enviroment the framework is running in.</source>
+            <target state="final"><bpt id="p1">_</bpt>Sola lettura.<ept id="p1">_</ept> Un'enumerazione che descrive in quale tipo di ambiente viene eseguito il framework.</target>
+          <note from="bb-metadata"> wordcount="14" adjWordcount="14" curWordcount="14"</note></trans-unit>
+          <group id="sentence-103">
+            <trans-unit id="119" translate="no" xml:space="preserve">
+              <source><bpt id="p1">_</bpt>Read-only.<ept id="p1">_</ept></source>
+              <target state="final"><bpt id="p1">_</bpt>Read-only.<ept id="p1">_</ept></target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="1" adjWordcount="1" curWordcount="1"</note></trans-unit>
+            <trans-unit id="120" translate="no" xml:space="preserve">
+              <source>An enum that describes which type of enviroment the framework is running in.</source>
+              <target state="final">An enum that describes which type of enviroment the framework is running in.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="13" adjWordcount="13" curWordcount="13"</note></trans-unit>
+          </group>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>

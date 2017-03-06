@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" original="README.md" source-language="en-US" target-language="zh-TW" build-num="-839747429">
+    <header>
+      <tool tool-id="mdxliff" tool-name="mdxliff" tool-version="1.0-71050dc" tool-company="Microsoft" />
+      <skl>
+        <internal-file form="base64"><![CDATA[eyJub2RlcyI6W3sicG9zIjpbMiwzNV0sImNvbnRlbnQiOiJFeGNlbCBBZGQtaW4gVHlwZVNjcmlwdCBNYWlsTWVyZ2UiLCJsaW5raWZ5IjoiRXhjZWwgQWRkLWluIFR5cGVTY3JpcHQgTWFpbE1lcmdlIiwibm9kZXMiOlt7ImNvbnRlbnQiOiJFeGNlbCBBZGQtaW4gVHlwZVNjcmlwdCBNYWlsTWVyZ2UiLCJwb3MiOlswLDMzXX1dfSx7ImNvbnRlbnQiOiJUaGUgRXhjZWwgTWFpbCBNZXJnZSBBZGQtaW4gZm9yIFR5cGVTY3JpcHQgY29ubmVjdHMgdG8gTWljcm9zb2Z0IEdyYXBoLCBnZXRzIGVtYWlsIHRlbXBsYXRlcyBmcm9tIGEgdGVtcGxhdGUgZm9sZGVyIGluIE91dGxvb2ssIGFuZCBzZW5kcyBtYWlsIGZyb20gYSBsaXN0IG9mIHJlY2lwaWVudHMgaW4gYW4gRXhjZWwgdGFibGUuIiwicG9zIjpbMzcsMjI0XX0seyJjb250ZW50IjoiU3RhcnQgcGFnZSIsInBvcyI6WzIyOCwyMzhdfSx7InBvcyI6WzI3MywyODZdLCJjb250ZW50IjoiUHJlcmVxdWlzaXRlcyIsImxpbmtpZnkiOiJQcmVyZXF1aXNpdGVzIiwibm9kZXMiOlt7ImNvbnRlbnQiOiJQcmVyZXF1aXNpdGVzIiwicG9zIjpbMCwxM119XX0seyJjb250ZW50IjoiVG8gcnVuIHRoZSBzYW1wbGUsIHlvdSB3aWxsIG5lZWQ6IiwicG9zIjpbMjg4LDMyMV19LHsiY29udGVudCI6IlZpc3VhbCBTdHVkaW8gMjAxNSIsInBvcyI6WzMyNSwzNDNdfSx7ImNvbnRlbnQiOiJUeXBlU2NyaXB0IGZvciBNaWNyb3NvZnQgVmlzdWFsIFN0dWRpbyBtaW4gdmVyc2lvbiAyLjAuNi4wIiwicG9zIjpbMzQ2LDQwNF19LHsicG9zIjpbNDA3LDQzN10sImNvbnRlbnQiOiI8YnB0IGlkPVwicDFcIj5bPC9icHQ+Tm9kZS5qczxlcHQgaWQ9XCJwMVwiPl0oaHR0cHM6Ly9ub2RlanMub3JnLyk8L2VwdD4iLCJzb3VyY2UiOiJbTm9kZS5qc10oaHR0cHM6Ly9ub2RlanMub3JnLykifSx7InBvcyI6WzQ0MCw2MThdLCJjb250ZW50IjoiQW4gT2ZmaWNlIDM2NSBkZXZlbG9wZXIgYWNjb3VudC4gSWYgeW91IGRvbid0IGhhdmUgb25lLCA8YnB0IGlkPVwicDFcIj5bPC9icHQ+am9pbiB0aGUgT2ZmaWNlIDM2NSBEZXZlbG9wZXIgUHJvZ3JhbSBhbmQgZ2V0IGEgZnJlZSAxIHllYXIgc3Vic2NyaXB0aW9uIHRvIE9mZmljZSAzNjU8ZXB0IGlkPVwicDFcIj5dKGh0dHBzOi8vYWthLm1zL2RldnByb2dyYW1zaWdudXApPC9lcHQ+LiIsIm5vZGVzIjpbeyJjb250ZW50IjoiQW4gT2ZmaWNlIDM2NSBkZXZlbG9wZXIgYWNjb3VudC4iLCJwb3MiOlswLDMyXX0seyJjb250ZW50IjoiSWYgeW91IGRvbid0IGhhdmUgb25lLCA8YnB0IGlkPVwicDFcIj5bPC9icHQ+am9pbiB0aGUgT2ZmaWNlIDM2NSBEZXZlbG9wZXIgUHJvZ3JhbSBhbmQgZ2V0IGEgZnJlZSAxIHllYXIgc3Vic2NyaXB0aW9uIHRvIE9mZmljZSAzNjU8ZXB0IGlkPVwicDFcIj5dKGh0dHBzOi8vYWthLm1zL2RldnByb2dyYW1zaWdudXApPC9lcHQ+LiIsInBvcyI6WzMzLDE3OF0sInNvdXJjZSI6IiBJZiB5b3UgZG9uJ3QgaGF2ZSBvbmUsIFtqb2luIHRoZSBPZmZpY2UgMzY1IERldmVsb3BlciBQcm9ncmFtIGFuZCBnZXQgYSBmcmVlIDEgeWVhciBzdWJzY3JpcHRpb24gdG8gT2ZmaWNlIDM2NV0oaHR0cHM6Ly9ha2EubXMvZGV2cHJvZ3JhbXNpZ251cCkuIn1dLCJpc1BhcmFncmFwaCI6dHJ1ZSwic291cmNlIjoiQW4gT2ZmaWNlIDM2NSBkZXZlbG9wZXIgYWNjb3VudC4gSWYgeW91IGRvbid0IGhhdmUgb25lLCBbam9pbiB0aGUgT2ZmaWNlIDM2NSBEZXZlbG9wZXIgUHJvZ3JhbSBhbmQgZ2V0IGEgZnJlZSAxIHllYXIgc3Vic2NyaXB0aW9uIHRvIE9mZmljZSAzNjVdKGh0dHBzOi8vYWthLm1zL2RldnByb2dyYW1zaWdudXApLiJ9LHsicG9zIjpbNjIzLDYzN10sImNvbnRlbnQiOiJSdW4gdGhlIGFkZC1pbiIsImxpbmtpZnkiOiJSdW4gdGhlIGFkZC1pbiIsIm5vZGVzIjpbeyJjb250ZW50IjoiUnVuIHRoZSBhZGQtaW4iLCJwb3MiOlswLDE0XX1dfSx7InBvcyI6WzY0Myw2NzldLCJjb250ZW50IjoiUmVnaXN0ZXIgeW91ciBhcHAgaW4gTWljcm9zb2Z0IEF6dXJlIiwibGlua2lmeSI6IlJlZ2lzdGVyIHlvdXIgYXBwIGluIE1pY3Jvc29mdCBBenVyZSIsIm5vZGVzIjpbeyJjb250ZW50IjoiUmVnaXN0ZXIgeW91ciBhcHAgaW4gTWljcm9zb2Z0IEF6dXJlIiwicG9zIjpbMCwzNl19XX0seyJwb3MiOls2ODEsODA2XSwiY29udGVudCI6IlJlZ2lzdGVyIGEgd2ViIGFwcGxpY2F0aW9uIGluIHRoZSA8YnB0IGlkPVwicDFcIj5bPC9icHQ+YXBwIHJlZ2lzdHJhdGlvbiBwb3J0YWw8ZXB0IGlkPVwicDFcIj5dKGh0dHBzOi8vYXBwcy5kZXYubWljcm9zb2Z0LmNvbSk8L2VwdD4gd2l0aCB0aGUgZm9sbG93aW5nIGNvbmZpZ3VyYXRpb246Iiwic291cmNlIjoiUmVnaXN0ZXIgYSB3ZWIgYXBwbGljYXRpb24gaW4gdGhlIFthcHAgcmVnaXN0cmF0aW9uIHBvcnRhbF0oaHR0cHM6Ly9hcHBzLmRldi5taWNyb3NvZnQuY29tKSB3aXRoIHRoZSBmb2xsb3dpbmcgY29uZmlndXJhdGlvbjoifSx7ImNvbnRlbnQiOiJQYXJhbWV0ZXIiLCJwb3MiOls4MDgsODE3XX0seyJjb250ZW50IjoiVmFsdWUiLCJwb3MiOls4MjAsODI1XX0seyJjb250ZW50IjoiTmFtZSIsInBvcyI6Wzg0NSw4NDldfSx7ImNvbnRlbnQiOiJFeGNlbC1BZGQtaW4tTWljcm9zb2Z0LUdyYXBoLU1haWxNZXJnZSIsInBvcyI6Wzg1Miw4OTBdfSx7ImNvbnRlbnQiOiJUeXBlIiwicG9zIjpbODkxLDg5NV19LHsiY29udGVudCI6IldlYiBhcHBsaWNhdGlvbiBhbmQvb3Igd2ViIEFQSSIsInBvcyI6Wzg5OCw5MjhdfSx7ImNvbnRlbnQiOiJTaWduLW9uIFVSTCIsInBvcyI6WzkyOSw5NDBdfSx7ImNvbnRlbnQiOiJodHRwczovL2xvY2FsaG9zdDo0NDM5MC9pbmRleC5odG1sIiwicG9zIjpbOTQzLDk3N119LHsiY29udGVudCI6IkFwcCBJRCBVUkkiLCJwb3MiOls5NzgsOTg4XX0seyJjb250ZW50IjoiaHR0cHM6Ly9beW91ciBhenVyZSBhZCB0ZW5hbnQgbmFtZV0ub25taWNyb3NvZnQuY29tL0V4Y2VsLUFkZC1pbi1NaWNyb3NvZnQtR3JhcGgtTWFpbE1lcmdlIiwicG9zIjpbOTkxLDEwODFdfSx7ImNvbnRlbnQiOiJSZXBseSBVUkwiLCJwb3MiOlsxMDgyLDEwOTFdfSx7ImNvbnRlbnQiOiJodHRwczovL2xvY2FsaG9zdDo0NDM5MC9pbmRleC5odG1sIiwicG9zIjpbMTA5NCwxMTI4XX0seyJjb250ZW50IjoiQWRkIHRoZSBmb2xsb3dpbmcgcGVybWlzc2lvbnM6IiwicG9zIjpbMTEzMCwxMTYwXX0seyJjb250ZW50IjoiQXBwbGljYXRpb24iLCJwb3MiOlsxMTYyLDExNzNdfSx7ImNvbnRlbnQiOiJEZWxlZ2F0ZWQgUGVybWlzc2lvbnMiLCJwb3MiOlsxMTc2LDExOTddfSx7ImNvbnRlbnQiOiJNaWNyb3NvZnQgR3JhcGgiLCJwb3MiOlsxMjE3LDEyMzJdfSx7ImNvbnRlbnQiOiJSZWFkL1dyaXRlIE1haWwiLCJwb3MiOlsxMjM1LDEyNTBdfSx7ImNvbnRlbnQiOiJNaWNyb3NvZnQgQXp1cmUgQWN0aXZlIERpcmVjdG9yeSIsInBvcyI6WzEyNTEsMTI4M119LHsiY29udGVudCI6IlNpZ24gaW4gYW5kIHJlYWQgdXNlciBwcm9maWxlIiwicG9zIjpbMTI4NiwxMzE1XX0seyJwb3MiOlsxMzE3LDEzNzFdLCJjb250ZW50IjoiU2F2ZSB0aGUgYXBwbGljYXRpb24gYW5kIG1ha2Ugbm90ZSBvZiB0aGUgPGJwdCBpZD1cInAxXCI+KjwvYnB0PmNsaWVudCBJRDxlcHQgaWQ9XCJwMVwiPio8L2VwdD4uIiwic291cmNlIjoiU2F2ZSB0aGUgYXBwbGljYXRpb24gYW5kIG1ha2Ugbm90ZSBvZiB0aGUgKmNsaWVudCBJRCouIn0seyJwb3MiOlsxMzc3LDE0MDBdLCJjb250ZW50IjoiU2V0IHVwIHlvdXIgZW52aXJvbm1lbnQiLCJsaW5raWZ5IjoiU2V0IHVwIHlvdXIgZW52aXJvbm1lbnQiLCJub2RlcyI6W3siY29udGVudCI6IlNldCB1cCB5b3VyIGVudmlyb25tZW50IiwicG9zIjpbMCwyM119XX0seyJjb250ZW50IjoiQ2xvbmUgdGhlIEdpdEh1YiByZXBvc2l0b3J5LiIsInBvcyI6WzE0MDUsMTQzM119LHsiY29udGVudCI6IkluIFZpc3VhbCBTdHVkaW8sIG9wZW4gdGhlIHNvbHV0aW9uIGZpbGUgRXhjZWwtQWRkLWluLU1pY3Jvc29mdC1HcmFwaC1NYWlsTWVyZ2Uuc2xuLiIsInBvcyI6WzE0MzcsMTUyMV19LHsicG9zIjpbMTUyNywxNTQ3XSwiY29udGVudCI6IlVwZGF0ZSB0aGUgY2xpZW50IGlkIiwibGlua2lmeSI6IlVwZGF0ZSB0aGUgY2xpZW50IGlkIiwibm9kZXMiOlt7ImNvbnRlbnQiOiJVcGRhdGUgdGhlIGNsaWVudCBpZCIsInBvcyI6WzAsMjBdfV19LHsiY29udGVudCI6IkluIHlvdXIgVmlzdWFsIFN0dWRpbyBwcm9qZWN0LCBvcGVuIEV4Y2VsLUFkZC1pbi1NaWNyb3NvZnQtR3JhcGgtTWFpbE1lcmdlV2ViL3NyYy9ob21lL2hvbWUudHMuIiwicG9zIjpbMTU1MSwxNjQ2XX0seyJjb250ZW50IjoiVXBkYXRlICdbRW50ZXIgeW91ciBjbGllbnRJZCBoZXJlXSdgIHdpdGggdGhlIHZhbHVlIGZyb20geW91ciBBenVyZSBBRCBhcHBsaWNhdGlvbi4iLCJwb3MiOlsxNjQ5LDE3MzJdfSx7ImNvbnRlbnQiOiJVcGRhdGUgdGhlICdbcmVkaXJlY3QgVXJsXScgd2l0aCB5b3VyIHJlZGlyZWN0IFVybC4iLCJwb3MiOlsxNzM1LDE3ODZdfSx7InBvcyI6WzE3OTIsMTgwNl0sImNvbnRlbnQiOiJSdW4gdGhlIGFkZC1pbiIsImxpbmtpZnkiOiJSdW4gdGhlIGFkZC1pbiIsIm5vZGVzIjpbeyJjb250ZW50IjoiUnVuIHRoZSBhZGQtaW4iLCJwb3MiOlswLDE0XX1dfSx7InBvcyI6WzE4MTEsMTk2NF0sImNvbnRlbnQiOiJPcGVuIGEgY29tbWFuZCBwcm9tcHQgdG8gPHBoIGlkPVwicGgxXCI+XFwmbHQ7PC9waD5zYW1wbGUgZGlyZWN0b3J5PHBoIGlkPVwicGgyXCI+XFwmZ3Q7PC9waD5cXEV4Y2VsLUFkZC1pbi1NaWNyb3NvZnQtR3JhcGgtTWFpbE1lcmdlV2ViIGFuZCBydW4gPHBoIGlkPVwicGgzXCI+YG5wbSBpbnN0YWxsYDwvcGg+IGFuZCB3aGVuIHRoYXQgaXMgZmluaXNoZWQsIHJ1biA8cGggaWQ9XCJwaDRcIj5gbnBtIHN0YXJ0YDwvcGg+LiIsInNvdXJjZSI6Ik9wZW4gYSBjb21tYW5kIHByb21wdCB0byBcXDxzYW1wbGUgZGlyZWN0b3J5XFw+XFxFeGNlbC1BZGQtaW4tTWljcm9zb2Z0LUdyYXBoLU1haWxNZXJnZVdlYiBhbmQgcnVuIGBucG0gaW5zdGFsbGAgYW5kIHdoZW4gdGhhdCBpcyBmaW5pc2hlZCwgcnVuIGBucG0gc3RhcnRgLiJ9LHsiY29udGVudCI6IkluIFZpc3VhbCBTdHVkaW8sIHByZXNzIEY1IHRvIHJ1biB0aGUgc2FtcGxlLiIsInBvcyI6WzE5NjgsMjAxM119LHsicG9zIjpbMjAxNywyMDk0XSwiY29udGVudCI6IldoZW4gRXhjZWwgb3BlbnMsIHNlbGVjdCB0aGUgPGJwdCBpZD1cInAxXCI+Kio8L2JwdD5NYWlsIE1lcmdlPGVwdCBpZD1cInAxXCI+Kio8L2VwdD4gY29tbWFuZCBidXR0b24gZnJvbSB0aGUgSG9tZSB0YWIuIiwic291cmNlIjoiV2hlbiBFeGNlbCBvcGVucywgc2VsZWN0IHRoZSAqKk1haWwgTWVyZ2UqKiBjb21tYW5kIGJ1dHRvbiBmcm9tIHRoZSBIb21lIHRhYi4ifSx7ImNvbnRlbnQiOiJDb21tYW5kIGJ1dHRvbiIsInBvcyI6WzIwOTgsMjExMl19LHsicG9zIjpbMjE1MiwyMjgzXSwiY29udGVudCI6IlRoZSB0YXNrIHBhbmUgd2lsbCBvcGVuIGFuZCB5b3Ugd2lsbCBiZSBhYmxlIHRvIGF1dGhlbnRpY2F0ZSB3aXRoIE9mZmljZSAzNjUgY3JlZGVudGlhbHMgb25jZSB5b3UgY2xpY2sgPGJwdCBpZD1cInAxXCI+Kio8L2JwdD5TaWduIGluIHdpdGggTWljcm9zb2Z0PGVwdCBpZD1cInAxXCI+Kio8L2VwdD4uIiwic291cmNlIjoiVGhlIHRhc2sgcGFuZSB3aWxsIG9wZW4gYW5kIHlvdSB3aWxsIGJlIGFibGUgdG8gYXV0aGVudGljYXRlIHdpdGggT2ZmaWNlIDM2NSBjcmVkZW50aWFscyBvbmNlIHlvdSBjbGljayAqKlNpZ24gaW4gd2l0aCBNaWNyb3NvZnQqKi4ifSx7ImNvbnRlbnQiOiJTZWxlY3QgZnJvbSB0aGUgbGlzdCBvZiB0ZW1wbGF0ZXMuIiwicG9zIjpbMjI4NywyMzIxXX0seyJjb250ZW50IjoiU2VsZWN0IGEgdGVtcGxhdGUiLCJwb3MiOlsyMzI1LDIzNDJdfSx7ImNvbnRlbnQiOiJSZXZpZXcgYW5kIGVkaXQgdGhlIGxpc3Qgb2YgcmVjaXBpZW50cy4iLCJwb3MiOlsyMzgzLDI0MjJdfSx7ImNvbnRlbnQiOiJFZGl0IHJlY2lwaWVudHMiLCJwb3MiOlsyNDI2LDI0NDFdfSx7ImNvbnRlbnQiOiJQcmV2aWV3IGFuZCBzZW5kIHRoZSBlbWFpbC4iLCJwb3MiOlsyNDgyLDI1MDldfSx7ImNvbnRlbnQiOiJQcmV2aWV3IGFuZCBzZW5kIGVtYWlscyIsInBvcyI6WzI1MTMsMjUzNl19LHsicG9zIjpbMjU3NCwyNTk2XSwiY29udGVudCI6IlF1ZXN0aW9ucyBhbmQgY29tbWVudHMiLCJsaW5raWZ5IjoiUXVlc3Rpb25zIGFuZCBjb21tZW50cyIsIm5vZGVzIjpbeyJjb250ZW50IjoiUXVlc3Rpb25zIGFuZCBjb21tZW50cyIsInBvcyI6WzAsMjJdfV19LHsicG9zIjpbMjU5OCwyODEyXSwiY29udGVudCI6IldlJ2QgbG92ZSB0byBnZXQgeW91ciBmZWVkYmFjayBhYm91dCB0aGlzIHNhbXBsZS4gWW91IGNhbiBzZW5kIHlvdXIgcXVlc3Rpb25zIGFuZCBzdWdnZXN0aW9ucyB0byB1cyBpbiB0aGUgPGJwdCBpZD1cInAxXCI+WzwvYnB0Pklzc3VlczxlcHQgaWQ9XCJwMVwiPl0oaHR0cHM6Ly9naXRodWIuY29tL09mZmljZURldi9FeGNlbC1BZGQtaW4tVHlwZVNjcmlwdC1NYWlsTWVyZ2UvaXNzdWVzKTwvZXB0PiBzZWN0aW9uIG9mIHRoaXMgcmVwb3NpdG9yeS4iLCJub2RlcyI6W3siY29udGVudCI6IldlJ2QgbG92ZSB0byBnZXQgeW91ciBmZWVkYmFjayBhYm91dCB0aGlzIHNhbXBsZS4iLCJwb3MiOlswLDQ5XX0seyJjb250ZW50IjoiWW91IGNhbiBzZW5kIHlvdXIgcXVlc3Rpb25zIGFuZCBzdWdnZXN0aW9ucyB0byB1cyBpbiB0aGUgPGJwdCBpZD1cInAxXCI+WzwvYnB0Pklzc3VlczxlcHQgaWQ9XCJwMVwiPl0oaHR0cHM6Ly9naXRodWIuY29tL09mZmljZURldi9FeGNlbC1BZGQtaW4tVHlwZVNjcmlwdC1NYWlsTWVyZ2UvaXNzdWVzKTwvZXB0PiBzZWN0aW9uIG9mIHRoaXMgcmVwb3NpdG9yeS4iLCJwb3MiOls1MCwyMTRdLCJzb3VyY2UiOiIgWW91IGNhbiBzZW5kIHlvdXIgcXVlc3Rpb25zIGFuZCBzdWdnZXN0aW9ucyB0byB1cyBpbiB0aGUgW0lzc3Vlc10oaHR0cHM6Ly9naXRodWIuY29tL09mZmljZURldi9FeGNlbC1BZGQtaW4tVHlwZVNjcmlwdC1NYWlsTWVyZ2UvaXNzdWVzKSBzZWN0aW9uIG9mIHRoaXMgcmVwb3NpdG9yeS4ifV0sImlzUGFyYWdyYXBoIjp0cnVlLCJzb3VyY2UiOiJXZSdkIGxvdmUgdG8gZ2V0IHlvdXIgZmVlZGJhY2sgYWJvdXQgdGhpcyBzYW1wbGUuIFlvdSBjYW4gc2VuZCB5b3VyIHF1ZXN0aW9ucyBhbmQgc3VnZ2VzdGlvbnMgdG8gdXMgaW4gdGhlIFtJc3N1ZXNdKGh0dHBzOi8vZ2l0aHViLmNvbS9PZmZpY2VEZXYvRXhjZWwtQWRkLWluLVR5cGVTY3JpcHQtTWFpbE1lcmdlL2lzc3Vlcykgc2VjdGlvbiBvZiB0aGlzIHJlcG9zaXRvcnkuIn0seyJwb3MiOlsyODE0LDMwMzNdLCJjb250ZW50IjoiUXVlc3Rpb25zIGFib3V0IE9mZmljZSAzNjUgZGV2ZWxvcG1lbnQgaW4gZ2VuZXJhbCBzaG91bGQgYmUgcG9zdGVkIHRvIDxicHQgaWQ9XCJwMVwiPls8L2JwdD5TdGFjayBPdmVyZmxvdzxlcHQgaWQ9XCJwMVwiPl0oaHR0cDovL3N0YWNrb3ZlcmZsb3cuY29tL3F1ZXN0aW9ucy90YWdnZWQvb2ZmaWNlLWFkZGlucyk8L2VwdD4uIE1ha2Ugc3VyZSB0aGF0IHlvdXIgcXVlc3Rpb25zIG9yIGNvbW1lbnRzIGFyZSB0YWdnZWQgd2l0aCBbb2ZmaWNlLWFkZGluc10uIiwibm9kZXMiOlt7ImNvbnRlbnQiOiJRdWVzdGlvbnMgYWJvdXQgT2ZmaWNlIDM2NSBkZXZlbG9wbWVudCBpbiBnZW5lcmFsIHNob3VsZCBiZSBwb3N0ZWQgdG8gPGJwdCBpZD1cInAxXCI+WzwvYnB0PlN0YWNrIE92ZXJmbG93PGVwdCBpZD1cInAxXCI+XShodHRwOi8vc3RhY2tvdmVyZmxvdy5jb20vcXVlc3Rpb25zL3RhZ2dlZC9vZmZpY2UtYWRkaW5zKTwvZXB0Pi4iLCJwb3MiOlswLDE0NF0sInNvdXJjZSI6IlF1ZXN0aW9ucyBhYm91dCBPZmZpY2UgMzY1IGRldmVsb3BtZW50IGluIGdlbmVyYWwgc2hvdWxkIGJlIHBvc3RlZCB0byBbU3RhY2sgT3ZlcmZsb3ddKGh0dHA6Ly9zdGFja292ZXJmbG93LmNvbS9xdWVzdGlvbnMvdGFnZ2VkL29mZmljZS1hZGRpbnMpLiJ9LHsiY29udGVudCI6Ik1ha2Ugc3VyZSB0aGF0IHlvdXIgcXVlc3Rpb25zIG9yIGNvbW1lbnRzIGFyZSB0YWdnZWQgd2l0aCBbb2ZmaWNlLWFkZGluc10uIiwicG9zIjpbMTQ1LDIxOV19XSwiaXNQYXJhZ3JhcGgiOnRydWUsInNvdXJjZSI6IlF1ZXN0aW9ucyBhYm91dCBPZmZpY2UgMzY1IGRldmVsb3BtZW50IGluIGdlbmVyYWwgc2hvdWxkIGJlIHBvc3RlZCB0byBbU3RhY2sgT3ZlcmZsb3ddKGh0dHA6Ly9zdGFja292ZXJmbG93LmNvbS9xdWVzdGlvbnMvdGFnZ2VkL29mZmljZS1hZGRpbnMpLiBNYWtlIHN1cmUgdGhhdCB5b3VyIHF1ZXN0aW9ucyBvciBjb21tZW50cyBhcmUgdGFnZ2VkIHdpdGggW29mZmljZS1hZGRpbnNdLiJ9LHsicG9zIjpbMzAzOCwzMDU4XSwiY29udGVudCI6IkFkZGl0aW9uYWwgcmVzb3VyY2VzIiwibGlua2lmeSI6IkFkZGl0aW9uYWwgcmVzb3VyY2VzIiwibm9kZXMiOlt7ImNvbnRlbnQiOiJBZGRpdGlvbmFsIHJlc291cmNlcyIsInBvcyI6WzAsMjBdfV19LHsicG9zIjpbMzA2MiwzMTQ0XSwiY29udGVudCI6IjxicHQgaWQ9XCJwMVwiPls8L2JwdD5PZmZpY2UgQWRkLWluIHNhbXBsZXM8ZXB0IGlkPVwicDFcIj5dKGh0dHBzOi8vZ2l0aHViLmNvbS9PZmZpY2VEZXY/dXRmOD0lRTIlOUMlOTMmYW1wO3F1ZXJ5PS1hZGQtaW4pPC9lcHQ+Iiwic291cmNlIjoiW09mZmljZSBBZGQtaW4gc2FtcGxlc10oaHR0cHM6Ly9naXRodWIuY29tL09mZmljZURldj91dGY4PSVFMiU5QyU5MyZxdWVyeT0tYWRkLWluKSJ9LHsicG9zIjpbMzE0NywzMjQxXSwiY29udGVudCI6IjxicHQgaWQ9XCJwMVwiPls8L2JwdD5PZmZpY2UgQWRkLWlucyBwbGF0Zm9ybSBvdmVydmlldzxlcHQgaWQ9XCJwMVwiPl0oaHR0cDovL2Rldi5vZmZpY2UuY29tL2RvY3MvYWRkLWlucy9vdmVydmlldy9vZmZpY2UtYWRkLWlucyk8L2VwdD4iLCJzb3VyY2UiOiJbT2ZmaWNlIEFkZC1pbnMgcGxhdGZvcm0gb3ZlcnZpZXddKGh0dHA6Ly9kZXYub2ZmaWNlLmNvbS9kb2NzL2FkZC1pbnMvb3ZlcnZpZXcvb2ZmaWNlLWFkZC1pbnMpIn0seyJwb3MiOlszMjQ0LDMzMjNdLCJjb250ZW50IjoiPGJwdCBpZD1cInAxXCI+WzwvYnB0PkdldCBzdGFydGVkIHdpdGggT2ZmaWNlIEFkZC1pbnM8ZXB0IGlkPVwicDFcIj5dKGh0dHA6Ly9kZXYub2ZmaWNlLmNvbS9nZXR0aW5nLXN0YXJ0ZWQvYWRkaW5zKTwvZXB0PiIsInNvdXJjZSI6IltHZXQgc3RhcnRlZCB3aXRoIE9mZmljZSBBZGQtaW5zXShodHRwOi8vZGV2Lm9mZmljZS5jb20vZ2V0dGluZy1zdGFydGVkL2FkZGlucykifSx7InBvcyI6WzMzMjYsMzQwNV0sImNvbnRlbnQiOiI8YnB0IGlkPVwicDFcIj5bPC9icHQ+T2ZmaWNlIEphdmFTY3JpcHQgQVBJIEhlbHBlcnM8ZXB0IGlkPVwicDFcIj5dKGh0dHBzOi8vZ2l0aHViLmNvbS9PZmZpY2VEZXYvb2ZmaWNlLWpzLWhlbHBlcnMpPC9lcHQ+Iiwic291cmNlIjoiW09mZmljZSBKYXZhU2NyaXB0IEFQSSBIZWxwZXJzXShodHRwczovL2dpdGh1Yi5jb20vT2ZmaWNlRGV2L29mZmljZS1qcy1oZWxwZXJzKSJ9LHsicG9zIjpbMzQxMCwzNDE5XSwiY29udGVudCI6IkNvcHlyaWdodCIsImxpbmtpZnkiOiJDb3B5cmlnaHQiLCJub2RlcyI6W3siY29udGVudCI6IkNvcHlyaWdodCIsInBvcyI6WzAsOV19XX0seyJjb250ZW50IjoiQ29weXJpZ2h0IChjKSAyMDE2IE1pY3Jvc29mdCBDb3Jwb3JhdGlvbi4gQWxsIHJpZ2h0cyByZXNlcnZlZC4iLCJwb3MiOlszNDIxLDM0ODNdLCJub2RlcyI6W3siY29udGVudCI6IkNvcHlyaWdodCAoYykgMjAxNiBNaWNyb3NvZnQgQ29ycG9yYXRpb24uIiwicG9zIjpbMCw0MV19LHsiY29udGVudCI6IkFsbCByaWdodHMgcmVzZXJ2ZWQuIiwicG9zIjpbNDIsNjJdfV0sImlzUGFyYWdyYXBoIjp0cnVlfV0sImNvbnRlbnQiOiIjIEV4Y2VsIEFkZC1pbiBUeXBlU2NyaXB0IE1haWxNZXJnZVxuXG5UaGUgRXhjZWwgTWFpbCBNZXJnZSBBZGQtaW4gZm9yIFR5cGVTY3JpcHQgY29ubmVjdHMgdG8gTWljcm9zb2Z0IEdyYXBoLCBnZXRzIGVtYWlsIHRlbXBsYXRlcyBmcm9tIGEgdGVtcGxhdGUgZm9sZGVyIGluIE91dGxvb2ssIGFuZCBzZW5kcyBtYWlsIGZyb20gYSBsaXN0IG9mIHJlY2lwaWVudHMgaW4gYW4gRXhjZWwgdGFibGUuXG5cbiFbU3RhcnQgcGFnZV0ocmVhZG1lLWltYWdlcy9maXJzdF9ydW4uUE5HKVxuXG4jIyBQcmVyZXF1aXNpdGVzXG5cblRvIHJ1biB0aGUgc2FtcGxlLCB5b3Ugd2lsbCBuZWVkOlxuXG4qIFZpc3VhbCBTdHVkaW8gMjAxNVxuKiBUeXBlU2NyaXB0IGZvciBNaWNyb3NvZnQgVmlzdWFsIFN0dWRpbyBtaW4gdmVyc2lvbiAyLjAuNi4wXG4qIFtOb2RlLmpzXShodHRwczovL25vZGVqcy5vcmcvKVxuKiBBbiBPZmZpY2UgMzY1IGRldmVsb3BlciBhY2NvdW50LiBJZiB5b3UgZG9uJ3QgaGF2ZSBvbmUsIFtqb2luIHRoZSBPZmZpY2UgMzY1IERldmVsb3BlciBQcm9ncmFtIGFuZCBnZXQgYSBmcmVlIDEgeWVhciBzdWJzY3JpcHRpb24gdG8gT2ZmaWNlIDM2NV0oaHR0cHM6Ly9ha2EubXMvZGV2cHJvZ3JhbXNpZ251cCkuXG5cbiMjIFJ1biB0aGUgYWRkLWluXG5cbiMjIyBSZWdpc3RlciB5b3VyIGFwcCBpbiBNaWNyb3NvZnQgQXp1cmVcblxuUmVnaXN0ZXIgYSB3ZWIgYXBwbGljYXRpb24gaW4gdGhlIFthcHAgcmVnaXN0cmF0aW9uIHBvcnRhbF0oaHR0cHM6Ly9hcHBzLmRldi5taWNyb3NvZnQuY29tKSB3aXRoIHRoZSBmb2xsb3dpbmcgY29uZmlndXJhdGlvbjpcblxuUGFyYW1ldGVyIHwgVmFsdWVcbi0tLS0tLS0tLXwtLS0tLS0tLVxuTmFtZSB8IEV4Y2VsLUFkZC1pbi1NaWNyb3NvZnQtR3JhcGgtTWFpbE1lcmdlXG5UeXBlIHwgV2ViIGFwcGxpY2F0aW9uIGFuZC9vciB3ZWIgQVBJXG5TaWduLW9uIFVSTCB8IGh0dHBzOi8vbG9jYWxob3N0OjQ0MzkwL2luZGV4Lmh0bWxcbkFwcCBJRCBVUkkgfCBodHRwczovL1t5b3VyIGF6dXJlIGFkIHRlbmFudCBuYW1lXS5vbm1pY3Jvc29mdC5jb20vRXhjZWwtQWRkLWluLU1pY3Jvc29mdC1HcmFwaC1NYWlsTWVyZ2VcblJlcGx5IFVSTCB8IGh0dHBzOi8vbG9jYWxob3N0OjQ0MzkwL2luZGV4Lmh0bWxcblxuQWRkIHRoZSBmb2xsb3dpbmcgcGVybWlzc2lvbnM6XG5cbkFwcGxpY2F0aW9uIHwgRGVsZWdhdGVkIFBlcm1pc3Npb25zXG4tLS0tLS0tLS18LS0tLS0tLS1cbk1pY3Jvc29mdCBHcmFwaCB8IFJlYWQvV3JpdGUgTWFpbFxuTWljcm9zb2Z0IEF6dXJlIEFjdGl2ZSBEaXJlY3RvcnkgfCBTaWduIGluIGFuZCByZWFkIHVzZXIgcHJvZmlsZVxuXG5TYXZlIHRoZSBhcHBsaWNhdGlvbiBhbmQgbWFrZSBub3RlIG9mIHRoZSAqY2xpZW50IElEKi5cblxuIyMjIFNldCB1cCB5b3VyIGVudmlyb25tZW50XG5cbjEuIENsb25lIHRoZSBHaXRIdWIgcmVwb3NpdG9yeS5cbjMuIEluIFZpc3VhbCBTdHVkaW8sIG9wZW4gdGhlIHNvbHV0aW9uIGZpbGUgRXhjZWwtQWRkLWluLU1pY3Jvc29mdC1HcmFwaC1NYWlsTWVyZ2Uuc2xuLlxuXG4jIyMgVXBkYXRlIHRoZSBjbGllbnQgaWRcblxuKiBJbiB5b3VyIFZpc3VhbCBTdHVkaW8gcHJvamVjdCwgb3BlbiBFeGNlbC1BZGQtaW4tTWljcm9zb2Z0LUdyYXBoLU1haWxNZXJnZVdlYi9zcmMvaG9tZS9ob21lLnRzLlxuKiBVcGRhdGUgJ1tFbnRlciB5b3VyIGNsaWVudElkIGhlcmVdJ2Agd2l0aCB0aGUgdmFsdWUgZnJvbSB5b3VyIEF6dXJlIEFEIGFwcGxpY2F0aW9uLlxuKiBVcGRhdGUgdGhlICdbcmVkaXJlY3QgVXJsXScgd2l0aCB5b3VyIHJlZGlyZWN0IFVybC5cblxuIyMjIFJ1biB0aGUgYWRkLWluXG5cbjEuIE9wZW4gYSBjb21tYW5kIHByb21wdCB0byBcXDxzYW1wbGUgZGlyZWN0b3J5XFw+XFxFeGNlbC1BZGQtaW4tTWljcm9zb2Z0LUdyYXBoLU1haWxNZXJnZVdlYiBhbmQgcnVuIGBucG0gaW5zdGFsbGAgYW5kIHdoZW4gdGhhdCBpcyBmaW5pc2hlZCwgcnVuIGBucG0gc3RhcnRgLlxuMi4gSW4gVmlzdWFsIFN0dWRpbywgcHJlc3MgRjUgdG8gcnVuIHRoZSBzYW1wbGUuXG4zLiBXaGVuIEV4Y2VsIG9wZW5zLCBzZWxlY3QgdGhlICoqTWFpbCBNZXJnZSoqIGNvbW1hbmQgYnV0dG9uIGZyb20gdGhlIEhvbWUgdGFiLlxuXG4hW0NvbW1hbmQgYnV0dG9uXShyZWFkbWUtaW1hZ2VzL2NvbW1hbmRfYnV0dG9uLlBORylcblxuNC4gVGhlIHRhc2sgcGFuZSB3aWxsIG9wZW4gYW5kIHlvdSB3aWxsIGJlIGFibGUgdG8gYXV0aGVudGljYXRlIHdpdGggT2ZmaWNlIDM2NSBjcmVkZW50aWFscyBvbmNlIHlvdSBjbGljayAqKlNpZ24gaW4gd2l0aCBNaWNyb3NvZnQqKi5cbjUuIFNlbGVjdCBmcm9tIHRoZSBsaXN0IG9mIHRlbXBsYXRlcy5cblxuIVtTZWxlY3QgYSB0ZW1wbGF0ZV0ocmVhZG1lLWltYWdlcy9zZWxlY3RfdGVtcGxhdGUuUE5HKVxuXG42LiBSZXZpZXcgYW5kIGVkaXQgdGhlIGxpc3Qgb2YgcmVjaXBpZW50cy5cblxuIVtFZGl0IHJlY2lwaWVudHNdKHJlYWRtZS1pbWFnZXMvbWFpbG1lcmdlX3RhYmxlLlBORylcblxuNy4gUHJldmlldyBhbmQgc2VuZCB0aGUgZW1haWwuXG5cbiFbUHJldmlldyBhbmQgc2VuZCBlbWFpbHNdKHJlYWRtZS1pbWFnZXMvcHJldmlld19zZW5kLlBORylcblxuIyMgUXVlc3Rpb25zIGFuZCBjb21tZW50c1xuXG5XZSdkIGxvdmUgdG8gZ2V0IHlvdXIgZmVlZGJhY2sgYWJvdXQgdGhpcyBzYW1wbGUuIFlvdSBjYW4gc2VuZCB5b3VyIHF1ZXN0aW9ucyBhbmQgc3VnZ2VzdGlvbnMgdG8gdXMgaW4gdGhlIFtJc3N1ZXNdKGh0dHBzOi8vZ2l0aHViLmNvbS9PZmZpY2VEZXYvRXhjZWwtQWRkLWluLVR5cGVTY3JpcHQtTWFpbE1lcmdlL2lzc3Vlcykgc2VjdGlvbiBvZiB0aGlzIHJlcG9zaXRvcnkuXG5cblF1ZXN0aW9ucyBhYm91dCBPZmZpY2UgMzY1IGRldmVsb3BtZW50IGluIGdlbmVyYWwgc2hvdWxkIGJlIHBvc3RlZCB0byBbU3RhY2sgT3ZlcmZsb3ddKGh0dHA6Ly9zdGFja292ZXJmbG93LmNvbS9xdWVzdGlvbnMvdGFnZ2VkL29mZmljZS1hZGRpbnMpLiBNYWtlIHN1cmUgdGhhdCB5b3VyIHF1ZXN0aW9ucyBvciBjb21tZW50cyBhcmUgdGFnZ2VkIHdpdGggW29mZmljZS1hZGRpbnNdLlxuXG4jIyBBZGRpdGlvbmFsIHJlc291cmNlc1xuXG4qIFtPZmZpY2UgQWRkLWluIHNhbXBsZXNdKGh0dHBzOi8vZ2l0aHViLmNvbS9PZmZpY2VEZXY/dXRmOD0lRTIlOUMlOTMmcXVlcnk9LWFkZC1pbilcbiogW09mZmljZSBBZGQtaW5zIHBsYXRmb3JtIG92ZXJ2aWV3XShodHRwOi8vZGV2Lm9mZmljZS5jb20vZG9jcy9hZGQtaW5zL292ZXJ2aWV3L29mZmljZS1hZGQtaW5zKVxuKiBbR2V0IHN0YXJ0ZWQgd2l0aCBPZmZpY2UgQWRkLWluc10oaHR0cDovL2Rldi5vZmZpY2UuY29tL2dldHRpbmctc3RhcnRlZC9hZGRpbnMpXG4qIFtPZmZpY2UgSmF2YVNjcmlwdCBBUEkgSGVscGVyc10oaHR0cHM6Ly9naXRodWIuY29tL09mZmljZURldi9vZmZpY2UtanMtaGVscGVycylcblxuIyMgQ29weXJpZ2h0XG5cbkNvcHlyaWdodCAoYykgMjAxNiBNaWNyb3NvZnQgQ29ycG9yYXRpb24uIEFsbCByaWdodHMgcmVzZXJ2ZWQuXG5cblxuXG5cblxuIn0=]]></internal-file>
+      </skl>
+      <count-group name="BlackBox wordcount">
+        <count count-type="x-wordCount">376</count>
+        <count count-type="x-adjWordCount">283.75</count>
+        <count count-type="x-curAdjWordCount">283.75</count>
+        <count count-type="x-repeatAdjWordCount">0.75</count>
+        <count count-type="x-termWordCount">0</count>
+      </count-group>
+      <count-group name="BlackBox wordcount analysis">
+        <count count-type="x-match102%">0</count>
+        <count count-type="x-match101%">8</count>
+        <count count-type="x-match100%">38</count>
+        <count count-type="x-match99-90%">60</count>
+        <count count-type="x-match89-75%">35</count>
+        <count count-type="repetition">3</count>
+      </count-group>
+    </header>
+    <body>
+      <group id="content" extype="content">
+        <trans-unit id="101" translate="yes" xml:space="preserve">
+          <source>Excel Add-in TypeScript MailMerge</source>
+          <target state="final">Excel 增益集 TypeScript 合併列印</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="4" adjWordcount="4" curWordcount="4"</note></trans-unit>
+        <trans-unit id="102" translate="yes" xml:space="preserve">
+          <source>The Excel Mail Merge Add-in for TypeScript connects to Microsoft Graph, gets email templates from a template folder in Outlook, and sends mail from a list of recipients in an Excel table.</source>
+          <target state="final">適用於 TypeScript 的 Excel 合併列印增益集，會連線到 Microsoft Graph，從 Outlook 中的範本資料夾取得電子郵件範本，並以來自 Excel 表格中的收件者清單傳送郵件。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="32" adjWordcount="32" curWordcount="32"</note></trans-unit>
+        <trans-unit id="103" translate="yes" xml:space="preserve">
+          <source>Start page</source>
+          <target state="final">開始頁面</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+        <trans-unit id="104" translate="yes" xml:space="preserve">
+          <source>Prerequisites</source>
+          <target state="final">必要條件</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">必要條件</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="105" translate="yes" xml:space="preserve">
+          <source>To run the sample, you will need:</source>
+          <target state="final">若要執行範例，您會需要︰</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="7" adjWordcount="7" curWordcount="7"</note></trans-unit>
+        <trans-unit id="106" translate="yes" xml:space="preserve">
+          <source>Visual Studio 2015</source>
+          <target state="final">Visual Studio 2015</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">Visual Studio 2015</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="3" adjWordcount="0.75" curWordcount="0.75" tmLabel="ADDIN_REMAINING_BATCH_2_CHT"</note></trans-unit>
+        <trans-unit id="107" translate="yes" xml:space="preserve">
+          <source>TypeScript for Microsoft Visual Studio min version 2.0.6.0</source>
+          <target state="final">Microsoft Visual Studio 的 TypeScript (最小版本 2.0.6.0)</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="8" adjWordcount="8" curWordcount="8"</note></trans-unit>
+        <trans-unit id="108" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Node.js<ept id="p1">](https://nodejs.org/)</ept></source>
+          <target state="final" state-qualifier="leveraged-tm"><bpt id="p1">[</bpt>Node.js<ept id="p1">](https://nodejs.org/)</ept></target><alt-trans match-quality="0%" tool="BlackBox/MSR MT"><source /><target state-qualifier="tm-suggestion"><bpt id="p1">[</bpt>Node.js<ept id="p1">](https://nodejs.org/)</ept></target></alt-trans><note from="bb-metadata">fuzzyMatch="0" wordcount="0" adjWordcount="0" curWordcount="0"</note></trans-unit>
+        <group id="paragraph-101" merged-trans="yes">
+          <trans-unit id="p101" translate="yes" xml:space="preserve">
+            <source>An Office 365 developer account. If you don't have one, <bpt id="p1">[</bpt>join the Office 365 Developer Program and get a free 1 year subscription to Office 365<ept id="p1">](https://aka.ms/devprogramsignup)</ept>.</source>
+            <target state="final">Office 365 開發人員帳戶。如果沒有的話，<bpt id="p1">[</bpt>參加 Office 365 開發人員計劃，並取得 Office 365 的免費 1 年訂用帳戶<ept id="p1">](https://aka.ms/devprogramsignup)</ept>。</target>
+          <alt-trans match-quality="84%" tool="BlackBox/MSR MT"><source>A computer running Exchange 2013 with at least one email account, or an Office 365 account. If you don't have one, <bpt id="p1">[</bpt>join the Office 365 Developer Program and get a free 1 year subscription to Office 365<ept id="p1">](https://aka.ms/devprogramsignup)</ept>.</source><target state-qualifier="tm-suggestion">執行 Exchange 2013 的電腦且具有至少一個電子郵件帳戶，或 Office 365 帳戶。如果沒有的話，<bpt id="p1">[</bpt>參加 Office 365 開發人員計劃，並取得 Office 365 的免費 1 年訂用帳戶<ept id="p1">](https://aka.ms/devprogramsignup)</ept>。</target></alt-trans><note from="bb-metadata">fuzzyMatch="84" wordcount="26" adjWordcount="13" curWordcount="13" tmLabel="20161012_GRAPH_CODE_SAMPLES"</note></trans-unit>
+          <group id="sentence-101">
+            <trans-unit id="109" translate="no" xml:space="preserve">
+              <source>An Office 365 developer account.</source>
+              <target state="final">An Office 365 developer account.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="5" adjWordcount="5" curWordcount="5"</note></trans-unit>
+            <trans-unit id="110" translate="no" xml:space="preserve">
+              <source>If you don't have one, <bpt id="p1">[</bpt>join the Office 365 Developer Program and get a free 1 year subscription to Office 365<ept id="p1">](https://aka.ms/devprogramsignup)</ept>.</source>
+              <target state="final">If you don't have one, <bpt id="p1">[</bpt>join the Office 365 Developer Program and get a free 1 year subscription to Office 365<ept id="p1">](https://aka.ms/devprogramsignup)</ept>.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="21" adjWordcount="21" curWordcount="21"</note></trans-unit>
+          </group>
+        </group>
+        <trans-unit id="111" translate="yes" xml:space="preserve">
+          <source>Run the add-in</source>
+          <target state="final">執行增益集</target>
+        <alt-trans match-quality="93%" tool="BlackBox/MSR MT"><source>Run the sample add-in</source><target state-qualifier="tm-suggestion">執行範例增益集。</target></alt-trans><note from="bb-metadata">fuzzyMatch="93" wordcount="3" adjWordcount="1.2" curWordcount="1.2" tmLabel="20160712_ADD-IN_CODE_SAMPLES"</note></trans-unit>
+        <trans-unit id="112" translate="yes" xml:space="preserve">
+          <source>Register your app in Microsoft Azure</source>
+          <target state="final">在 Microsoft Azure 中註冊您的應用程式</target>
+        <alt-trans match-quality="84%" tool="BlackBox/MSR MT"><source>Register your app with Microsoft Azure</source><target state-qualifier="tm-suggestion">向 Microsoft Azure 註冊您的應用程式</target></alt-trans><note from="bb-metadata">fuzzyMatch="84" wordcount="6" adjWordcount="3" curWordcount="3" tmLabel="20160824_GRAPH_CODE_SAMPLES"</note></trans-unit>
+        <trans-unit id="113" translate="yes" xml:space="preserve">
+          <source>Register a web application in the <bpt id="p1">[</bpt>app registration portal<ept id="p1">](https://apps.dev.microsoft.com)</ept> with the following configuration:</source>
+          <target state="final">在 <bpt id="p1">[</bpt>應用程式註冊入口網站<ept id="p1">](https://apps.dev.microsoft.com)</ept> 中，以下列設定註冊 Web 應用程式︰</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="13" adjWordcount="13" curWordcount="13"</note></trans-unit>
+        <trans-unit id="114" translate="yes" xml:space="preserve">
+          <source>Parameter</source>
+          <target state="final">參數</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">參數</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="115" translate="yes" xml:space="preserve">
+          <source>Value</source>
+          <target state="final">值</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">值</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="116" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="final">名稱</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">名稱</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="117" translate="yes" xml:space="preserve">
+          <source>Excel-Add-in-Microsoft-Graph-MailMerge</source>
+          <target state="final" state-qualifier="leveraged-tm">Excel-Add-in-Microsoft-Graph-MailMerge</target><alt-trans match-quality="0%" tool="BlackBox/MSR MT"><source /><target state-qualifier="tm-suggestion">Excel-Add-in-Microsoft-Graph-MailMerge</target></alt-trans><note from="bb-metadata">fuzzyMatch="0" wordcount="0" adjWordcount="0" curWordcount="0"</note></trans-unit>
+        <trans-unit id="118" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <target state="final">類型</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">類型</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="119" translate="yes" xml:space="preserve">
+          <source>Web application and/or web API</source>
+          <target state="final">Web 應用程式和/或 Web API</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="5" adjWordcount="5" curWordcount="5"</note></trans-unit>
+        <trans-unit id="120" translate="yes" xml:space="preserve">
+          <source>Sign-on URL</source>
+          <target state="final">登入 URL</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+        <trans-unit id="121" translate="yes" xml:space="preserve">
+          <source>https://localhost:44390/index.html</source>
+          <target state="final" state-qualifier="leveraged-tm">https://localhost:44390/index.html</target><alt-trans match-quality="0%" tool="BlackBox/MSR MT"><source /><target state-qualifier="tm-suggestion">https://localhost:44390/index.html</target></alt-trans><note from="bb-metadata">fuzzyMatch="0" wordcount="0" adjWordcount="0" curWordcount="0"</note></trans-unit>
+        <trans-unit id="122" translate="yes" xml:space="preserve">
+          <source>App ID URI</source>
+          <target state="final">應用程式 ID URI</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="3" adjWordcount="3" curWordcount="3"</note></trans-unit>
+        <trans-unit id="123" translate="yes" xml:space="preserve">
+          <source>https://[your azure ad tenant name].onmicrosoft.com/Excel-Add-in-Microsoft-Graph-MailMerge</source>
+          <target state="final">https://[your azure ad tenant name].onmicrosoft.com/Excel-Add-in-Microsoft-Graph-MailMerge</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="5" adjWordcount="5" curWordcount="5"</note></trans-unit>
+        <trans-unit id="124" translate="yes" xml:space="preserve">
+          <source>Reply URL</source>
+          <target state="final">回覆 URL</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+        <trans-unit id="125" translate="yes" xml:space="preserve">
+          <source>https://localhost:44390/index.html</source>
+          <target state="final" state-qualifier="leveraged-tm">https://localhost:44390/index.html</target><alt-trans match-quality="0%" tool="BlackBox/MSR MT"><source /><target state-qualifier="tm-suggestion">https://localhost:44390/index.html</target></alt-trans><note from="bb-metadata">fuzzyMatch="0" wordcount="0" adjWordcount="0" curWordcount="0"</note></trans-unit>
+        <trans-unit id="126" translate="yes" xml:space="preserve">
+          <source>Add the following permissions:</source>
+          <target state="final">新增下列權限︰</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="4" adjWordcount="4" curWordcount="4"</note></trans-unit>
+        <trans-unit id="127" translate="yes" xml:space="preserve">
+          <source>Application</source>
+          <target state="final">應用程式</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">應用程式</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="128" translate="yes" xml:space="preserve">
+          <source>Delegated Permissions</source>
+          <target state="final">委派的權限</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+        <trans-unit id="129" translate="yes" xml:space="preserve">
+          <source>Microsoft Graph</source>
+          <target state="final">Microsoft Graph</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">Microsoft Graph</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="2" adjWordcount="0.5" curWordcount="0.5" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="130" translate="yes" xml:space="preserve">
+          <source>Read/Write Mail</source>
+          <target state="final">讀取/寫入郵件</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+        <trans-unit id="131" translate="yes" xml:space="preserve">
+          <source>Microsoft Azure Active Directory</source>
+          <target state="final">Microsoft Azure Active Directory</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">Microsoft Azure Active Directory</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="4" adjWordcount="1" curWordcount="1" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="132" translate="yes" xml:space="preserve">
+          <source>Sign in and read user profile</source>
+          <target state="final">登入並讀取使用者設定檔</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">登入並讀取使用者設定檔</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="6" adjWordcount="1.5" curWordcount="1.5" tmLabel="20160824_GRAPH_CODE_SAMPLES"</note></trans-unit>
+        <trans-unit id="133" translate="yes" xml:space="preserve">
+          <source>Save the application and make note of the <bpt id="p1">*</bpt>client ID<ept id="p1">*</ept>.</source>
+          <target state="final">儲存應用程式，並記下 [用戶端 ID]<bpt id="p1">*</bpt><ept id="p1">*</ept>。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="10" adjWordcount="10" curWordcount="10"</note></trans-unit>
+        <trans-unit id="134" translate="yes" xml:space="preserve">
+          <source>Set up your environment</source>
+          <target state="final">設立您的環境</target>
+        <alt-trans match-quality="95%" tool="BlackBox/MSR MT"><source>Set up your development environment</source><target state-qualifier="tm-suggestion">設定開發環境</target></alt-trans><note from="bb-metadata">fuzzyMatch="95" wordcount="4" adjWordcount="1.6" curWordcount="1.6" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="135" translate="yes" xml:space="preserve">
+          <source>Clone the GitHub repository.</source>
+          <target state="final">複製 GitHub 儲存機制。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="4" adjWordcount="4" curWordcount="4"</note></trans-unit>
+        <trans-unit id="136" translate="yes" xml:space="preserve">
+          <source>In Visual Studio, open the solution file Excel-Add-in-Microsoft-Graph-MailMerge.sln.</source>
+          <target state="final">在 Visual Studio 中，開啟方案檔 Excel-Add-in-Microsoft-Graph-MailMerge.sln。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="8" adjWordcount="8" curWordcount="8"</note></trans-unit>
+        <trans-unit id="137" translate="yes" xml:space="preserve">
+          <source>Update the client id</source>
+          <target state="final">更新用戶端 ID</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="4" adjWordcount="4" curWordcount="4"</note></trans-unit>
+        <trans-unit id="138" translate="yes" xml:space="preserve">
+          <source>In your Visual Studio project, open Excel-Add-in-Microsoft-Graph-MailMergeWeb/src/home/home.ts.</source>
+          <target state="final">在 Visual Studio 專案中，開啟 [Excel-Add-in-Microsoft-Graph-MailMergeWeb/src/home/home.ts]。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="7" adjWordcount="7" curWordcount="7"</note></trans-unit>
+        <trans-unit id="139" translate="yes" xml:space="preserve">
+          <source>Update '[Enter your clientId here]'` with the value from your Azure AD application.</source>
+          <target state="final">以您 Azure AD 應用程式中的值，更新 '[Enter your clientId here]'`。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="13" adjWordcount="13" curWordcount="13"</note></trans-unit>
+        <trans-unit id="140" translate="yes" xml:space="preserve">
+          <source>Update the '[redirect Url]' with your redirect Url.</source>
+          <target state="final">以您的重新導向 URL，更新 '[redirect Url]'。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="8" adjWordcount="8" curWordcount="8"</note></trans-unit>
+        <trans-unit id="141" translate="yes" xml:space="preserve">
+          <source>Run the add-in</source>
+          <target state="final">執行增益集</target>
+        <alt-trans match-quality="93%" tool="BlackBox/MSR MT"><source>Run the sample add-in</source><target state-qualifier="tm-suggestion">執行範例增益集。</target></alt-trans><note from="bb-metadata">fuzzyMatch="93" wordcount="3" adjWordcount="0.75" curWordcount="0.75" tmLabel="20160712_ADD-IN_CODE_SAMPLES"</note></trans-unit>
+        <trans-unit id="142" translate="yes" xml:space="preserve">
+          <source>Open a command prompt to <ph id="ph1">\&lt;</ph>sample directory<ph id="ph2">\&gt;</ph>\Excel-Add-in-Microsoft-Graph-MailMergeWeb and run <ph id="ph3">`npm install`</ph> and when that is finished, run <ph id="ph4">`npm start`</ph>.</source>
+          <target state="final">開啟 [範例目錄]<ph id="ph1">\&lt;</ph><ph id="ph2">\&gt;</ph>\Excel-Add-in-Microsoft-Graph-MailMergeWeb 的命令提示字元，並執行 <ph id="ph3">`npm install`</ph>，完成後執行 <ph id="ph4">`npm start`</ph>。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="15" adjWordcount="15" curWordcount="15"</note></trans-unit>
+        <trans-unit id="143" translate="yes" xml:space="preserve">
+          <source>In Visual Studio, press F5 to run the sample.</source>
+          <target state="final">在 Visual Studio 中，請按 F5 以執行範例。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="9" adjWordcount="9" curWordcount="9"</note></trans-unit>
+        <trans-unit id="144" translate="yes" xml:space="preserve">
+          <source>When Excel opens, select the <bpt id="p1">**</bpt>Mail Merge<ept id="p1">**</ept> command button from the Home tab.</source>
+          <target state="final">當 Excel 開啟時，從 [常用] 索引標籤，選取 [合併列印]<bpt id="p1">**</bpt><ept id="p1">**</ept> 命令按鈕。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="13" adjWordcount="13" curWordcount="13"</note></trans-unit>
+        <trans-unit id="145" translate="yes" xml:space="preserve">
+          <source>Command button</source>
+          <target state="final">命令按鈕</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">命令按鈕</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="2" adjWordcount="0.5" curWordcount="0.5" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="146" translate="yes" xml:space="preserve">
+          <source>The task pane will open and you will be able to authenticate with Office 365 credentials once you click <bpt id="p1">**</bpt>Sign in with Microsoft<ept id="p1">**</ept>.</source>
+          <target state="final">工作窗格隨即開啟，一旦您按一下 [登入 Microsoft]<bpt id="p1">**</bpt><ept id="p1">**</ept>，就可以使用 Office 365 認證進行驗證。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="23" adjWordcount="23" curWordcount="23"</note></trans-unit>
+        <trans-unit id="147" translate="yes" xml:space="preserve">
+          <source>Select from the list of templates.</source>
+          <target state="final">從範本清單中選取。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="6" adjWordcount="6" curWordcount="6"</note></trans-unit>
+        <trans-unit id="148" translate="yes" xml:space="preserve">
+          <source>Select a template</source>
+          <target state="final">選取範本</target>
+        <alt-trans match-quality="80%" tool="BlackBox/MSR MT"><source>Select a Visual Web Part template</source><target state-qualifier="tm-suggestion">選取視覺化網頁組件範本</target></alt-trans><note from="bb-metadata">fuzzyMatch="80" wordcount="3" adjWordcount="1.5" curWordcount="1.5" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="149" translate="yes" xml:space="preserve">
+          <source>Review and edit the list of recipients.</source>
+          <target state="final">檢閱及編輯收件者清單。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="7" adjWordcount="7" curWordcount="7"</note></trans-unit>
+        <trans-unit id="150" translate="yes" xml:space="preserve">
+          <source>Edit recipients</source>
+          <target state="final">編輯收件者</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="2" adjWordcount="2" curWordcount="2"</note></trans-unit>
+        <trans-unit id="151" translate="yes" xml:space="preserve">
+          <source>Preview and send the email.</source>
+          <target state="final">預覽並傳送電子郵件。</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="5" adjWordcount="5" curWordcount="5"</note></trans-unit>
+        <trans-unit id="152" translate="yes" xml:space="preserve">
+          <source>Preview and send emails</source>
+          <target state="final">預覽並傳送電子郵件</target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="4" adjWordcount="4" curWordcount="4"</note></trans-unit>
+        <trans-unit id="153" translate="yes" xml:space="preserve">
+          <source>Questions and comments</source>
+          <target state="final">問題和建議</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">問題和建議</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="3" adjWordcount="0.75" curWordcount="0.75" tmLabel="GITHUB CODE SAMPLES README_UPD"</note></trans-unit>
+        <group id="paragraph-102" merged-trans="yes">
+          <trans-unit id="p102" translate="yes" xml:space="preserve">
+            <source>We'd love to get your feedback about this sample. You can send your questions and suggestions to us in the <bpt id="p1">[</bpt>Issues<ept id="p1">](https://github.com/OfficeDev/Excel-Add-in-TypeScript-MailMerge/issues)</ept> section of this repository.</source>
+            <target state="final">我們很樂於收到您對於此範例的意見反應。您可以在此儲存機制的 <bpt id="p1">[</bpt>問題<ept id="p1">](https://github.com/OfficeDev/Excel-Add-in-TypeScript-MailMerge/issues)</ept> 區段中，將您的問題及建議傳送給我們。</target>
+          <alt-trans match-quality="96%" tool="BlackBox/MSR MT"><source>We'd love to get your feedback about the Connect sample. You can send your questions and suggestions to us in the <bpt id="p1">[</bpt>Issues<ept id="p1">](https://github.com/OfficeDev/Excel-Add-in-TypeScript-MailMerge/issues)</ept> section of this repository.</source><target state-qualifier="tm-suggestion">我們很樂於收到您對於 Connect 範例的意見反應。您可以在此儲存機制的<bpt id="p1">[</bpt>問題<ept id="p1">](https://github.com/OfficeDev/Excel-Add-in-TypeScript-MailMerge/issues)</ept>區段中，將您的問題及建議傳送給我們。</target></alt-trans><note from="bb-metadata">fuzzyMatch="96" wordcount="25" adjWordcount="10" curWordcount="10" tmLabel="20160930_GRAPH_CODE_SAMPLES"</note></trans-unit>
+          <group id="sentence-102">
+            <trans-unit id="154" translate="no" xml:space="preserve">
+              <source>We'd love to get your feedback about this sample.</source>
+              <target state="final">We'd love to get your feedback about this sample.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="9" adjWordcount="9" curWordcount="9"</note></trans-unit>
+            <trans-unit id="155" translate="no" xml:space="preserve">
+              <source>You can send your questions and suggestions to us in the <bpt id="p1">[</bpt>Issues<ept id="p1">](https://github.com/OfficeDev/Excel-Add-in-TypeScript-MailMerge/issues)</ept> section of this repository.</source>
+              <target state="final">You can send your questions and suggestions to us in the <bpt id="p1">[</bpt>Issues<ept id="p1">](https://github.com/OfficeDev/Excel-Add-in-TypeScript-MailMerge/issues)</ept> section of this repository.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="16" adjWordcount="16" curWordcount="16"</note></trans-unit>
+          </group>
+        </group>
+        <group id="paragraph-103" merged-trans="yes">
+          <trans-unit id="p103" translate="yes" xml:space="preserve">
+            <source>Questions about Office 365 development in general should be posted to <bpt id="p1">[</bpt>Stack Overflow<ept id="p1">](http://stackoverflow.com/questions/tagged/office-addins)</ept>. Make sure that your questions or comments are tagged with [office-addins].</source>
+            <target state="final">請在 <bpt id="p1">[</bpt>Stack Overflow<ept id="p1">](http://stackoverflow.com/questions/tagged/office-addins)</ept> 提出有關 Office 365 開發的一般問題。請務必以 [office-addins] 標記您的問題和建議。</target>
+          <alt-trans match-quality="96%" tool="BlackBox/MSR MT"><source>Questions about Office Add-ins development in general should be posted to <bpt id="p1">[</bpt>Stack Overflow<ept id="p1">](http://stackoverflow.com/questions/tagged/office-addins)</ept>. Make sure that your questions or comments are tagged with [office-addins].</source><target state-qualifier="tm-suggestion">請在 <bpt id="p1">[</bpt>Stack Overflow<ept id="p1">](http://stackoverflow.com/questions/tagged/office-addins)</ept> 提出有關 Office 增益集開發的一般問題。務必以 [office-addins] 標記您的問題或意見。</target></alt-trans><note from="bb-metadata">fuzzyMatch="96" wordcount="24" adjWordcount="9.6" curWordcount="9.6" tmLabel="TM-MIGRATION"</note></trans-unit>
+          <group id="sentence-103">
+            <trans-unit id="156" translate="no" xml:space="preserve">
+              <source>Questions about Office 365 development in general should be posted to <bpt id="p1">[</bpt>Stack Overflow<ept id="p1">](http://stackoverflow.com/questions/tagged/office-addins)</ept>.</source>
+              <target state="final">Questions about Office 365 development in general should be posted to <bpt id="p1">[</bpt>Stack Overflow<ept id="p1">](http://stackoverflow.com/questions/tagged/office-addins)</ept>.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="13" adjWordcount="13" curWordcount="13"</note></trans-unit>
+            <trans-unit id="157" translate="no" xml:space="preserve">
+              <source>Make sure that your questions or comments are tagged with [office-addins].</source>
+              <target state="final">Make sure that your questions or comments are tagged with [office-addins].</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="11" adjWordcount="11" curWordcount="11"</note></trans-unit>
+          </group>
+        </group>
+        <trans-unit id="158" translate="yes" xml:space="preserve">
+          <source>Additional resources</source>
+          <target state="final">其他資源</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">其他資源</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="2" adjWordcount="0.5" curWordcount="0.5" tmLabel="SEED"</note></trans-unit>
+        <trans-unit id="159" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Office Add-in samples<ept id="p1">](https://github.com/OfficeDev?utf8=%E2%9C%93&amp;query=-add-in)</ept></source>
+          <target state="final"><bpt id="p1">[</bpt>Office 增益集範例<ept id="p1">](https://github.com/OfficeDev?utf8=%E2%9C%93&amp;query=-add-in)</ept></target>
+        <note from="bb-metadata">fuzzyMatch="0" wordcount="3" adjWordcount="3" curWordcount="3"</note></trans-unit>
+        <trans-unit id="160" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Office Add-ins platform overview<ept id="p1">](http://dev.office.com/docs/add-ins/overview/office-add-ins)</ept></source>
+          <target state="final"><bpt id="p1">[</bpt>Office 增益集平台概觀<ept id="p1">](http://dev.office.com/docs/add-ins/overview/office-add-ins)</ept></target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion"><bpt id="p1">[</bpt>Office 增益集平台概觀<ept id="p1">](http://dev.office.com/docs/add-ins/overview/office-add-ins)</ept></target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="4" adjWordcount="1" curWordcount="1" tmLabel="20160930_ADDIN_LIVE_01"</note></trans-unit>
+        <trans-unit id="161" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Get started with Office Add-ins<ept id="p1">](http://dev.office.com/getting-started/addins)</ept></source>
+          <target state="final"><bpt id="p1">[</bpt>Office 增益集入門<ept id="p1">](http://dev.office.com/getting-started/addins)</ept></target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion"><bpt id="p1">[</bpt>Office 增益集入門<ept id="p1">](http://dev.office.com/getting-started/addins)</ept></target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="5" adjWordcount="1.25" curWordcount="1.25" tmLabel="20160930_ADDIN_LIVE_01"</note></trans-unit>
+        <trans-unit id="162" translate="yes" xml:space="preserve">
+          <source><bpt id="p1">[</bpt>Office JavaScript API Helpers<ept id="p1">](https://github.com/OfficeDev/office-js-helpers)</ept></source>
+          <target state="final"><bpt id="p1">[</bpt>Office JavaScript API 協助程式<ept id="p1">](https://github.com/OfficeDev/office-js-helpers)</ept></target>
+        <alt-trans match-quality="95%" tool="BlackBox/MSR MT"><source><bpt id="p1">[</bpt>Office JavaScript API Helpers library<ept id="p1">](https://github.com/OfficeDev/office-js-helpers)</ept></source><target state-qualifier="tm-suggestion"><bpt id="p1">[</bpt>Office JavaScript API 協助程式庫<ept id="p1">](https://github.com/OfficeDev/office-js-helpers)</ept></target></alt-trans><note from="bb-metadata">fuzzyMatch="95" wordcount="4" adjWordcount="1.6" curWordcount="1.6" tmLabel="20161121_ADDIN_LIVE"</note></trans-unit>
+        <trans-unit id="163" translate="yes" xml:space="preserve">
+          <source>Copyright</source>
+          <target state="final">著作權</target>
+        <alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="tm-suggestion">著作權</target></alt-trans><note from="bb-metadata">fuzzyMatch="100" wordcount="1" adjWordcount="0.25" curWordcount="0.25" tmLabel="GRAPH_CODESAMPLEREADMES_02"</note></trans-unit>
+        <group id="paragraph-104" merged-trans="yes">
+          <trans-unit id="p104" translate="yes" xml:space="preserve">
+            <source>Copyright (c) 2016 Microsoft Corporation. All rights reserved.</source>
+            <target state="final" state-qualifier="leveraged-tm">Copyright (c) 2016 Microsoft Corporation 著作權所有，並保留一切權利。</target><alt-trans match-quality="100%" tool="BlackBox/MSR MT"><target state-qualifier="leveraged-tm">Copyright (c) 2016 Microsoft Corporation 著作權所有，並保留一切權利。</target></alt-trans><note from="bb-metadata">fuzzyMatch="101" wordcount="8" adjWordcount="0" curWordcount="0" tmLabel="20160712_ADD-IN_CODE_SAMPLES"</note></trans-unit>
+          <group id="sentence-104">
+            <trans-unit id="164" translate="no" xml:space="preserve">
+              <source>Copyright (c) 2016 Microsoft Corporation.</source>
+              <target state="final">Copyright (c) 2016 Microsoft Corporation.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="5" adjWordcount="5" curWordcount="5"</note></trans-unit>
+            <trans-unit id="165" translate="no" xml:space="preserve">
+              <source>All rights reserved.</source>
+              <target state="final">All rights reserved.</target>
+            <note from="bb-metadata">fuzzyMatch="0" wordcount="3" adjWordcount="3" curWordcount="3"</note></trans-unit>
+          </group>
+        </group>
+      </group>
+    </body>
+  </file>
+</xliff>
