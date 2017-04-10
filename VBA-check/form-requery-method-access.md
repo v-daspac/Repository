@@ -69,7 +69,7 @@ If you specify any other type of control for the object specified by expression,
  
 
  
-If the object specified by expression isn't bound to a field in a table or query, the  **Requery** method forces a recalculation of the control.
+TESTSTESTSTEYSSGAD
  
 
  
